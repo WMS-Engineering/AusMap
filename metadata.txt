@@ -1,0 +1,45 @@
+# This file contains metadata for your plugin. Since
+# version 2.0 of QGIS this is the proper way to supply
+# information about a plugin. The old method of
+# embedding metadata in __init__.py will
+# is no longer supported since version 2.0.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=ausmap
+qgisMinimumVersion=2.0
+description= Easy acccess to Services from ausmap (Danish Map supply) in QGIS Desktop.
+
+version= 1.1
+author= Danish Agency for Data Supply and Efficiency
+email= ausmap@gmail.com
+
+about= This plugin makes it easy to use the services from Danish Map supply aka ausmap. A new menu is added to QGIS which contains services ordered by category. The plugin is developed by Danish Map supply (Agency for Data Supply and Efficiency). In order to use the plugin, a user at ausmap.dk is required.  Enter your username and password in the plugin setting dialogue.  If you do not have a Kortforsyning user please create one using the link in the plugin setting dialogue. The plugin is developed by the Agency for Data Supply and Efficiency (fka Danish Geodata Agency)(www.ausmap.dk, ausmap@gmail.com)
+
+
+
+# End of mandatory metadata
+
+# Recommended items:
+
+# Uncomment the following line and add your changelog:
+changelog=
+2017-06-28: version 1.1, Adding alternative about dialog without QtWebKit and other small fixes
+2017-05-29: version 1.0, Changed configuration to qlr-file, possibility to add own qlr-fil, fixed different formats of urls in datasource,  improved error handlings and GUI improvements (icons,scaling issues etc.)
+2016-10-31: version 0.2, Minor text changes and logo change
+2016-05-31: version 0.1, First release
+
+# Tags are comma separated with spaces allowed
+tags=Agency for Data Supply and Efficiency, Danish Map supply, Open data,  Styrelsen for Dataforsyning og Effektivisering, Danish, Danmark, Denmark, INSPIRE, SDFE, WMS, dansk, ausmap
+
+homepage=https://github.com/ausmap/Qgis_plugin_ausmap
+tracker=https://github.com/ausmap/Qgis_plugin_ausmap/issues
+repository=https://github.com/ausmap/Qgis_plugin_ausmap
+category=Plugins
+icon=icon.png
+# experimental flag
+experimental=False
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
