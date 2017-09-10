@@ -14,7 +14,7 @@ version=0.1
 author=Daniel Knott
 email=daniel.knott@watermodelling.com.au
 
-about=AusMap gives quick access to a variety of feature sets and basemap layers provided by Geoscience Australia and other government agencies. There are also some additional layers provided such as Open Street Map. From the AusMap menu, simply select a desired layer and it will be added to the project with styling and labelling applied. The layers are provided via WMS, WFS, WCS and Tile Server which all require an active internet connection.
+about=AusMap gives quick access to a variety of feature sets and basemap layers provided by Geoscience Australia and other government agencies. There are also some additional layers provided such as Open Street Map. From the AusMap menu, simply select a desired layer and it will be added to the project with styling and labelling applied. The layers are provided via WMS, WFS, WCS and Tile Server which all require an active internet connection. This plugin is based on the Kortforsyningen plugin by Septima.
 
 tracker=https://github.com/Dan-Knott/AusMap/issues
 repository=https://github.com/Dan-Knott/AusMap
