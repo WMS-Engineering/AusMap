@@ -144,7 +144,7 @@ class KfConfig(QtCore.QObject):
         config = None
         load_remote_config = True
 
-        ##local_file_exists = os.path.exists(self.cached_kf_qlr_filename)
+        local_file_exists = os.path.exists(self.cached_kf_qlr_filename)
         ##if local_file_exists:
         ##    config = self.read_cached_kf_qlr()
         ##    local_file_time = datetime.datetime.fromtimestamp(
@@ -165,7 +165,7 @@ class KfConfig(QtCore.QObject):
                 return
             self.write_cached_kf_qlr(config)
         if config:
-            config = self.read_cached_kf_qlr()
+            ##config = self.read_cached_kf_qlr()
             return QlrFile(config)
         else:
             return None
