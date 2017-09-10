@@ -22,7 +22,7 @@ class MySeptimaSearchProvider(QtCore.QObject):
             layer['actionindex'] = i
             i = i+1
             self.make_searchable(layer)
-            layer['title'] += ' (' + layer['category'] + ', ausmap)'
+            layer['title'] += ' (' + layer['category'] + ', Kortforsyningen)'
             
     def make_searchable(self, layer):
         search_string = layer['category'] + ' ' + layer['title']
@@ -68,8 +68,8 @@ class MySeptimaSearchProvider(QtCore.QObject):
         # iconURI is any valid URI, including a data URL:
         # eg.: {'singular': 'school', 'plural': 'school' [, 'iconURI': iconurl]} 
         return    {
-            'singular': 'ausmap, lag',
-            'plural': 'ausmap, lag',
+            'singular': 'Kortforsyningen, lag',
+            'plural': 'Kortforsyningen, lag',
             'iconURI': "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTEyLDE2TDE5LjM2LDEwLjI3TDIxLDlMMTIsMkwzLDlMNC42MywxMC4yN00xMiwxOC41NEw0LjYyLDEyLjgxTDMsMTQuMDdMMTIsMjEuMDdMMjEsMTQuMDdMMTkuMzcsMTIuOEwxMiwxOC41NFoiIC8+PC9zdmc+"
         }
     

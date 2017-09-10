@@ -1,45 +1,39 @@
-# This file contains metadata for your plugin. Since
-# version 2.0 of QGIS this is the proper way to supply
-# information about a plugin. The old method of
-# embedding metadata in __init__.py will
+# This file contains metadata for your plugin. Since 
+# version 2.0 of QGIS this is the proper way to supply 
+# information about a plugin. The old method of 
+# embedding metadata in __init__.py will 
 # is no longer supported since version 2.0.
 
 # This file should be included when you package your plugin.# Mandatory items:
 
 [general]
-name=ausmap
+name=AusMap
 qgisMinimumVersion=2.0
-description= Easy acccess to Services from ausmap (Danish Map supply) in QGIS Desktop.
+description=AusMap is the essential plugin for Australian QGIS users, providing easy access to free Government Datasets and other web services.
+version=0.1
+author=Daniel Knott
+email=daniel.knott@watermodelling.com.au
 
-version= 1.1
-author= Danish Agency for Data Supply and Efficiency
-email= ausmap@gmail.com
+about=AusMap gives quick access to a variety of feature sets and basemap layers provided by Geoscience Australia and other government agencies. There are also some additional layers provided such as Open Street Map. From the AusMap menu, simply select a desired layer and it will be added to the project with styling and labelling applied. The layers are provided via WMS, WFS, WCS and Tile Server which all require an active internet connection.
 
-about= This plugin makes it easy to use the services from Danish Map supply aka ausmap. A new menu is added to QGIS which contains services ordered by category. The plugin is developed by Danish Map supply (Agency for Data Supply and Efficiency). In order to use the plugin, a user at ausmap.dk is required.  Enter your username and password in the plugin setting dialogue.  If you do not have a Kortforsyning user please create one using the link in the plugin setting dialogue. The plugin is developed by the Agency for Data Supply and Efficiency (fka Danish Geodata Agency)(www.ausmap.dk, ausmap@gmail.com)
-
-
-
+tracker=https://github.com/Dan-Knott/AusMap/issues
+repository=https://github.com/Dan-Knott/AusMap
 # End of mandatory metadata
 
 # Recommended items:
 
 # Uncomment the following line and add your changelog:
-changelog=
-2017-06-28: version 1.1, Adding alternative about dialog without QtWebKit and other small fixes
-2017-05-29: version 1.0, Changed configuration to qlr-file, possibility to add own qlr-fil, fixed different formats of urls in datasource,  improved error handlings and GUI improvements (icons,scaling issues etc.)
-2016-10-31: version 0.2, Minor text changes and logo change
-2016-05-31: version 0.1, First release
+# changelog=
 
 # Tags are comma separated with spaces allowed
-tags=Agency for Data Supply and Efficiency, Danish Map supply, Open data,  Styrelsen for Dataforsyning og Effektivisering, Danish, Danmark, Denmark, INSPIRE, SDFE, WMS, dansk, ausmap
+tags=dem, flood, google, hydraulics, land cover, layers, vector, web, webservice, wfs, wms
 
-homepage=https://github.com/ausmap/Qgis_plugin_ausmap
-tracker=https://github.com/ausmap/Qgis_plugin_ausmap/issues
-repository=https://github.com/ausmap/Qgis_plugin_ausmap
-category=Plugins
+homepage=www.watermodelling.com.au/tools
+category=Web
 icon=icon.png
 # experimental flag
 experimental=False
 
 # deprecated flag (applies to the whole plugin, not just a single version)
 deprecated=False
+

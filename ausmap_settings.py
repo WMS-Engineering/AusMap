@@ -1,26 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-/***************************************************************************
- ausmapSettingsDialog
-                                 A QGIS plugin
- Easy access to WMS from ausmap
-                             -------------------
-        begin                : 2015-05-01
-        git sha              : $Format:%H$
-        copyright            : (C) 2015 Agency for Data supply and Efficiency
-        email                : ausmap@gmail.com
- ***************************************************************************/
-
-/***************************************************************************
- *                                                                         *
- *   This program is free software; you can redistribute it and/or modify  *
- *   it under the terms of the GNU General Public License as published by  *
- *   the Free Software Foundation; either version 2 of the License, or     *
- *   (at your option) any later version.                                   *
- *                                                                         *
- ***************************************************************************/
-"""
-
 import os
 from PyQt4 import QtGui, uic
 from qgissettingmanager import SettingManager, SettingDialog
@@ -32,7 +9,7 @@ FORM_CLASS, _ = uic.loadUiType(
 
 class KFSettings(SettingManager):
     def __init__(self):
-        SettingManager.__init__(self, 'ausmap')
+        SettingManager.__init__(self, 'AusMap')
         self.addSetting('username', 'string', 'global', '')
         self.addSetting('password', 'string', 'global', '')
         self.addSetting('use_custom_qlr_file', 'bool', 'global', False)

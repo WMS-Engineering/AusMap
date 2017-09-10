@@ -34,17 +34,17 @@ from PyQt4 import (
 import json
 
 # Initialize Qt resources from file resources.py
-from ausmap_settings import(
+from kortforsyningen_settings import(
     KFSettings
 )
 import resources_rc
 from qlr_file import QlrFile
 
 FILE_MAX_AGE = datetime.timedelta(hours=12)
-KF_SERVICES_URL = 'http://services.ausmap.dk/service?request=GetServices&login={{kf_username}}&password={{kf_password}}'
+KF_SERVICES_URL = 'http://services.kortforsyningen.dk/service?request=GetServices&login={{kf_username}}&password={{kf_password}}'
 
 def log_message(message):
-    QgsMessageLog.logMessage(message, 'ausmap plugin')
+    QgsMessageLog.logMessage(message, 'Kortforsyningen plugin')
 
 class KfConfig(QtCore.QObject):
     
@@ -156,7 +156,7 @@ class KfConfig(QtCore.QObject):
                 log_message(u'No contact to the configuration at ' + self.settings.value('kf_qlr_url') + '. Exception: ' + str(e))
                 if not local_file_exists:
                     self.error_menu = QAction(
-                        self.tr('No contact to ausmap'),
+                        self.tr('No contact to Kortforsyningen'),
                         self.iface.mainWindow()
                     )
                 return

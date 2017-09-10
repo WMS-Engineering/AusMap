@@ -1,14 +1,14 @@
 # -*- coding: utf-8 -*-
 """
 /***************************************************************************
- ausmap
+ AusMap
                                  A QGIS plugin
- Easy access to WMS from ausmap (A service by The Danish geodataservice. Styrelsen for Dataforsyning og Effektivisering)
+ AusMap is the essential plugin for Australian QGIS users, providing easy access to free Government Datasets and other web services.
                               -------------------
-        begin                : 2015-05-01
+        begin                : 2017-09-10
         git sha              : $Format:%H$
-        copyright            : (C) 2015 Agency for Data supply and Efficiency
-        email                : ausmap@gmail.com
+        copyright            : (C) 2017 by Daniel Knott
+        email                : daniel.knott@watermodelling.com.au
  ***************************************************************************/
 
 /***************************************************************************
@@ -64,21 +64,15 @@ from config import Config
 
 from myseptimasearchprovider import MySeptimaSearchProvider
 #Real URL"
-#CONFIG_FILE_URL = 'http://apps2.ausmap.dk/qgis_knap_config/ausmap/qgis_plugin.qlr'
+CONFIG_FILE_URL = 'http://apps2.kortforsyningen.dk/qgis_knap_config/Kortforsyningen/kf/kortforsyning_data.qlr'
 
-#Develop
-#CONFIG_FILE_URL = 'http://labs.septima.dk/qgis-kf-knap/kortforsyning_data.qlr'
-#CONFIG_FILE_URL = 'http://labs.septima.dk/qgis-kf-knap/kortforsyning_data_SDFE.qlr'
-##test version: 'http://labs.septima.dk/qgis-kf-knap/kortforsyning_data_inkl_restricteddata.qlr'
-CONFIG_FILE_URL = 'http://apps2.ausmap.dk/qgis_knap_config/ausmap/kf/kortforsyning_data.qlr'
-
-ABOUT_FILE_URL = 'http://apps2.ausmap.dk/qgis_knap_config/ausmap/kf/about.html'
+ABOUT_FILE_URL = 'http://apps2.kortforsyningen.dk/qgis_knap_config/Kortforsyningen/kf/about.html'
 FILE_MAX_AGE = datetime.timedelta(hours=12)
 
 def log_message(message):
-    QgsMessageLog.logMessage(message, 'ausmap plugin')
+    QgsMessageLog.logMessage(message, 'AusMap plugin')
 
-class ausmap:
+class AusMap:
     """QGIS Plugin Implementation."""
 
     def __init__(self, iface):
@@ -146,7 +140,7 @@ class ausmap:
                 log_message('No contact to the configuration at ' + ABOUT_FILE_URL + '. Exception: ' + str(e))
                 if not local_file_exists:
                     self.error_menu = QAction(
-                        self.tr('No contact to Kortforsyning'),
+                        self.tr('No internet connection'),
                         self.iface.mainWindow()
                     )
                 return
@@ -163,12 +157,12 @@ class ausmap:
         self.createMenu()
         
     def show_kf_error(self):
-        message = u'Check connection and click menu ausmap->Settings->OK'
-        self.iface.messageBar().pushMessage("No contact to ausmap", message, level=QgsMessageBar.WARNING, duration=5)
+        message = u'Check connection and click menu AusMap->Settings->OK'
+        self.iface.messageBar().pushMessage("No internet connection", message, level=QgsMessageBar.WARNING, duration=5)
 
     def show_kf_settings_warning(self):
             widget = self.iface.messageBar().createMessage(
-                self.tr('ausmap'), self.tr(u'Username/Password not set or wrong. Click menu ausmap->Settings')
+                self.tr('AusMap'), self.tr(u'Username/Password not set or wrong. Click menu AusMap->Settings')
             )
             settings_btn = QPushButton(widget)
             settings_btn.setText(self.tr("Settings"))
@@ -185,13 +179,13 @@ class ausmap:
         self.category_lists = self.config.get_category_lists()
         """Create the menu entries and toolbar icons inside the QGIS GUI."""
 
-        #icon_path = ':/plugins/ausmap/icon.png'
-        icon_path = ':/plugins/ausmap/settings-cog.png'
-        icon_path_info = ':/plugins/ausmap/icon_about.png'
+        #icon_path = ':/plugins/AusMap/icon.png'
+        icon_path = ':/plugins/AusMap/settings-cog.png'
+        icon_path_info = ':/plugins/AusMap/icon_about.png'
 
         self.menu = QMenu(self.iface.mainWindow().menuBar())
-        self.menu.setObjectName(self.tr('ausmap'))
-        self.menu.setTitle(self.tr('ausmap'))
+        self.menu.setObjectName(self.tr('AusMap'))
+        self.menu.setTitle(self.tr('AusMap'))
         
         searchable_layers = []
 
@@ -292,7 +286,7 @@ class ausmap:
         :rtype: QString
         """
         # noinspection PyTypeChecker,PyArgumentList,PyCallByClass
-        return QCoreApplication.translate('ausmap', message)
+        return QCoreApplication.translate('AusMap', message)
 
     # Taken directly from menu_from_project
     def getFirstChildByTagNameValue(self, elt, tagName, key, value):

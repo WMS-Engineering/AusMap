@@ -1,12 +1,11 @@
 #/***************************************************************************
-# ausmap
+# AusMap
 #
-# Nem adgang til ausmaps wms
+# AusMap is the essential plugin for Australian QGIS users, providing easy access to free Government Datasets and other web services.
 #							 -------------------
-#		begin				: 2015-05-01
+#		begin				: 2017-09-10
 #		git sha				: $Format:%H$
-#		copyright			: (C) 2015 by Septima P/S
-#		email				: kontakt@septima.dk
+#		copyright			: (C) 2017 by Daniel Knott
 # ***************************************************************************/
 #
 #/***************************************************************************
@@ -26,44 +25,35 @@
 #Add iso code for any locales you want to support here (space separated)
 # default is no locales
 # LOCALES = af
-LOCALES = da
+LOCALES =
 
 # If locales are enabled, set the name of the lrelease binary on your system. If
 # you have trouble compiling the translations, you may have to specify the full path to
 # lrelease
-LRELEASE = lrelease
+#LRELEASE = lrelease
 #LRELEASE = lrelease-qt4
 
 
 # translation
 SOURCES = \
 	__init__.py \
-	ausmap.py \
-	ausmap_settings.py \
-	ausmap_about.py \
-	project.py
+	aus_map.py aus_map_dialog.py
 
-
-PLUGINNAME = ausmap
+PLUGINNAME = AusMap
 
 PY_FILES = \
-	ausmap.py \
-	ausmap_settings.py \
-	ausmap_about.py \
-	project.py \
-	__init__.py
+	__init__.py \
+	aus_map.py aus_map_dialog.py
 
-UI_FILES = \
-	kf_settings.ui \
-	aboutausmap.ui
+UI_FILES = aus_map_dialog_base.ui
 
-EXTRAS = icon.png metadata.txt
+EXTRAS = metadata.txt icon.png
 
-PLUGIN = qgissettingmanager
+EXTRA_DIRS =
 
-COMPILED_RESOURCE_FILES = resources_rc.py
+COMPILED_RESOURCE_FILES = resources.py
 
-PEP8EXCLUDE=pydev,resources_rc.py,conf.py,third_party,ui
+PEP8EXCLUDE=pydev,resources.py,conf.py,third_party,ui
 
 
 #################################################
@@ -82,8 +72,8 @@ default: compile
 
 compile: $(COMPILED_RESOURCE_FILES)
 
-%_rc.py : %.qrc $(RESOURCES_SRC)
-	pyrcc4 -o $*_rc.py  $<
+%.py : %.qrc $(RESOURCES_SRC)
+	pyrcc4 -o $*.py  $<
 
 %.qm : %.ts
 	$(LRELEASE) $<
@@ -121,7 +111,9 @@ deploy: compile doc transcompile
 	cp -vf $(EXTRAS) $(HOME)/$(QGISDIR)/python/plugins/$(PLUGINNAME)
 	cp -vfr i18n $(HOME)/$(QGISDIR)/python/plugins/$(PLUGINNAME)
 	cp -vfr $(HELP) $(HOME)/$(QGISDIR)/python/plugins/$(PLUGINNAME)/help
-	cp -vfr $(PLUGIN) $(HOME)/$(QGISDIR)/python/plugins/$(PLUGINNAME)/$(PLUGIN)
+	# Copy extra directories if any
+  # (temporarily removed)
+
 
 # The dclean target removes compiled python files from plugin directory
 # also deletes any .git entry

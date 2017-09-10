@@ -1,13 +1,13 @@
 # -*- coding: utf-8 -*-
 """
 /***************************************************************************
- ausmap
+ AusMap
                                  A QGIS plugin
- Easy access to WMS from ausmap
+ AusMap is the essential plugin for Australian QGIS users, providing easy access to free Government Datasets and other web services.
                              -------------------
-        begin                : 2015-05-01
-        copyright            : (C) 2016 by Septima P/S
-        email                : kontakt@septima.dk
+        begin                : 2017-09-10
+        copyright            : (C) 2017 by Daniel Knott
+        email                : daniel.knott@watermodelling.com.au
         git sha              : $Format:%H$
  ***************************************************************************/
 
@@ -25,11 +25,11 @@
 
 # noinspection PyPep8Naming
 def classFactory(iface):  # pylint: disable=invalid-name
-    """Load ausmap class from file ausmap.
+    """Load AusMap class from file AusMap.
 
     :param iface: A QGIS interface instance.
     :type iface: QgsInterface
     """
     #
-    from .ausmap import ausmap
-    return ausmap(iface)
+    from .aus_map import AusMap
+    return AusMap(iface)
