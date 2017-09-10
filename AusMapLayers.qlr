@@ -6,76 +6,85 @@
       <customproperties/>
       <layer-tree-group expanded="1" checked="Qt::Unchecked" name="DEM">
         <customproperties/>
-        <layer-tree-group expanded="0" checked="Qt::Unchecked" name="SRTM">
+        <layer-tree-layer expanded="0" providerKey="wcs" checked="Qt::Unchecked" id="DEM_LiDAR_5m_12017091020522348831407" source="identifier=1&amp;url=http://services.ga.gov.au/gis/services/DEM_LiDAR_5m/MapServer/WCSServer?" name="LiDAR Derived 5m">
           <customproperties/>
-          <layer-tree-layer expanded="0" providerKey="wcs" checked="Qt::Unchecked" id="DEM_SRTM_1Second_Slope20170824165119667" source="identifier=1&amp;url=http://services.ga.gov.au/gis/services/DEM_SRTM_1Second_Slope/MapServer/WCSServer?" name="DEM SRTM 1Second Slope">
-            <customproperties/>
-          </layer-tree-layer>
-          <layer-tree-layer expanded="0" providerKey="wcs" checked="Qt::Unchecked" id="DEM_SRTM_1_Second20170824164814353" source="identifier=1&amp;url=http://services.ga.gov.au/gis/services/DEM_SRTM_1Second/MapServer/WCSServer?" name="DEM SRTM 1 Second">
-            <customproperties/>
-          </layer-tree-layer>
-          <layer-tree-layer expanded="0" providerKey="wcs" checked="Qt::Unchecked" id="DEM_SRTM_1_Second_Hydro_Enforced20170824164541706" source="identifier=1&amp;url=http://services.ga.gov.au/site_9/services/DEM_SRTM_1Second_Hydro_Enforced/MapServer/WCSServer?" name="DEM SRTM 1 Second Hydro Enforced">
-            <customproperties/>
-          </layer-tree-layer>
-        </layer-tree-group>
-        <layer-tree-group expanded="0" checked="Qt::Unchecked" name="LiDAR Derived">
+        </layer-tree-layer>
+        <layer-tree-layer expanded="0" providerKey="wcs" checked="Qt::Unchecked" id="DEM_LiDAR_25m2017091020522348813784" source="identifier=1&amp;url=http://services.ga.gov.au/gis/services/DEM_LiDAR_25m/MapServer/WCSServer?" name="LiDAR Derived 25m">
           <customproperties/>
-          <layer-tree-layer expanded="0" providerKey="wcs" checked="Qt::Unchecked" id="DEM_LiDAR_5m_120170824165358945" source="identifier=1&amp;url=http://services.ga.gov.au/gis/services/DEM_LiDAR_5m/MapServer/WCSServer?" name="DEM LiDAR 5m">
-            <customproperties/>
-          </layer-tree-layer>
-          <layer-tree-layer expanded="0" providerKey="wcs" checked="Qt::Unchecked" id="DEM_LiDAR_25m20170824165603409" source="identifier=1&amp;url=http://services.ga.gov.au/gis/services/DEM_LiDAR_25m/MapServer/WCSServer?" name="DEM LiDAR 25m">
-            <customproperties/>
-          </layer-tree-layer>
-        </layer-tree-group>
+        </layer-tree-layer>
+        <layer-tree-layer expanded="0" providerKey="wcs" checked="Qt::Unchecked" id="DEM_SRTM_1Second_Slope2017091020522348824732" source="identifier=1&amp;url=http://services.ga.gov.au/gis/services/DEM_SRTM_1Second_Slope/MapServer/WCSServer?" name="SRTM 1Second Slope">
+          <customproperties/>
+        </layer-tree-layer>
+        <layer-tree-layer expanded="0" providerKey="wcs" checked="Qt::Unchecked" id="DEM_SRTM_1_Second2017091020522348823140" source="identifier=1&amp;url=http://services.ga.gov.au/gis/services/DEM_SRTM_1Second/MapServer/WCSServer?" name="SRTM 1 Second">
+          <customproperties/>
+        </layer-tree-layer>
+        <layer-tree-layer expanded="0" providerKey="wcs" checked="Qt::Unchecked" id="DEM_SRTM_1_Second_Hydro_Enforced201709102052234888721" source="identifier=1&amp;url=http://services.ga.gov.au/site_9/services/DEM_SRTM_1Second_Hydro_Enforced/MapServer/WCSServer?" name="SRTM 1 Second Hydro Enforced">
+          <customproperties/>
+        </layer-tree-layer>
+      </layer-tree-group>
+      <layer-tree-group expanded="1" checked="Qt::Unchecked" name="Australian Surface Hydrology">
+        <customproperties/>
+        <layer-tree-layer expanded="0" providerKey="WFS" checked="Qt::Unchecked" id="Basins2017091020522348828633" source=" restrictToRequestBBOX='1' srsname='EPSG:4283' typename='Surface_Hydrology_WM:Basins' url='http://services.ga.gov.au/gis/services/Surface_Hydrology_WM/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Basins">
+          <customproperties/>
+        </layer-tree-layer>
+        <layer-tree-layer expanded="0" providerKey="WFS" checked="Qt::Unchecked" id="Catchments2017091020522348819370" source=" restrictToRequestBBOX='1' srsname='EPSG:4283' typename='Surface_Hydrology_WM:Catchments' url='http://services.ga.gov.au/gis/services/Surface_Hydrology_WM/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Catchments">
+          <customproperties/>
+        </layer-tree-layer>
+        <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Unchecked" id="Surface_HydroPolys_Regional2017091020522348823565" source=" restrictToRequestBBOX='1' srsname='EPSG:4283' typename='Surface_Hydrology_WM:Surface_HydroPolys_Regional' url='http://services.ga.gov.au/gis/services/Surface_Hydrology_WM/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Surface HydroPolys Regional">
+          <customproperties/>
+        </layer-tree-layer>
+        <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Unchecked" id="Surface_HydroPolys_National2017091020522348825364" source=" restrictToRequestBBOX='1' srsname='EPSG:4283' typename='Surface_Hydrology_WM:Surface_HydroPolys_National' url='http://services.ga.gov.au/gis/services/Surface_Hydrology_WM/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Surface HydroPolys National">
+          <customproperties/>
+        </layer-tree-layer>
+        <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Unchecked" id="Surface_HydroPoints_Regional2017091020522348831324" source=" restrictToRequestBBOX='1' srsname='EPSG:4283' typename='Surface_Hydrology_WM:Surface_HydroPoints_Regional' url='http://services.ga.gov.au/gis/services/Surface_Hydrology_WM/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Surface HydroPoints Regional">
+          <customproperties/>
+        </layer-tree-layer>
+        <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Unchecked" id="Surface_HydroPoints_National2017091020522348828825" source=" restrictToRequestBBOX='1' srsname='EPSG:4283' typename='Surface_Hydrology_WM:Surface_HydroPoints_National' url='http://services.ga.gov.au/gis/services/Surface_Hydrology_WM/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Surface HydroPoints National">
+          <customproperties/>
+        </layer-tree-layer>
+        <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Unchecked" id="Surface_HydroLines_Regional2017091020522348822038" source=" restrictToRequestBBOX='1' srsname='EPSG:4283' typename='Surface_Hydrology_WM:Surface_HydroLines_Regional' url='http://services.ga.gov.au/gis/services/Surface_Hydrology_WM/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Surface HydroLines Regional">
+          <customproperties/>
+        </layer-tree-layer>
+        <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Unchecked" id="Surface_HydroLines_National201709102052234886071" source=" restrictToRequestBBOX='1' srsname='EPSG:4283' typename='Surface_Hydrology_WM:Surface_HydroLines_National' url='http://services.ga.gov.au/gis/services/Surface_Hydrology_WM/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Surface HydroLines National">
+          <customproperties/>
+        </layer-tree-layer>
+      </layer-tree-group>
+      <layer-tree-group expanded="1" checked="Qt::Checked" name="National Infrastructure">
+        <customproperties/>
+        <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Checked" id="National_Major_Aviation_Terminals20170910211221297" source=" restrictToRequestBBOX='1' srsname='EPSG:4283' typename='Aviation_Facilities:National_Major_Aviation_Terminals' url='http://services.ga.gov.au/gis/services/Aviation_Facilities/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Major Aviation Terminals">
+          <customproperties/>
+        </layer-tree-layer>
+        <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Checked" id="National_Major_Power_Stations20170910210032344" source=" restrictToRequestBBOX='1' srsname='EPSG:4283' typename='Electricity_Infrastructure:National_Major_Power_Stations' url='http://services.ga.gov.au/site_3/services/Electricity_Infrastructure/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Major Power Stations">
+          <customproperties/>
+        </layer-tree-layer>
+        <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Checked" id="National_Electricity_Transmission_Substations20170910205539699" source=" restrictToRequestBBOX='1' srsname='EPSG:4283' typename='Electricity_Infrastructure:National_Electricity_Transmission_Substations' url='http://services.ga.gov.au/site_3/services/Electricity_Infrastructure/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Electricity Transmission Substations">
+          <customproperties/>
+        </layer-tree-layer>
+        <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Checked" id="National_Electricity_Transmission_Lines20170910205530287" source=" restrictToRequestBBOX='1' srsname='EPSG:4283' typename='Electricity_Infrastructure:National_Electricity_Transmission_Lines' url='http://services.ga.gov.au/site_3/services/Electricity_Infrastructure/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Electricity Transmission Lines">
+          <customproperties/>
+        </layer-tree-layer>
       </layer-tree-group>
       <layer-tree-group expanded="1" checked="Qt::Unchecked" name="Google Basemaps">
         <customproperties/>
-        <layer-tree-layer expanded="1" providerKey="wms" checked="Qt::Unchecked" id="Google_Satelite20170824164032899" source="crs=EPSG:3857&amp;format=&amp;type=xyz&amp;url=https://mt1.google.com/vt/lyrs%3Ds%26x%3D%7Bx%7D%26y%3D%7By%7D%26z%3D%7Bz%7D" name="Google Satelite">
+        <layer-tree-layer expanded="1" providerKey="wms" checked="Qt::Unchecked" id="Google_Satelite2017091020522348831106" source="crs=EPSG:3857&amp;format=&amp;type=xyz&amp;url=https://mt1.google.com/vt/lyrs%3Ds%26x%3D%7Bx%7D%26y%3D%7By%7D%26z%3D%7Bz%7D" name="Google Satelite">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" providerKey="wms" checked="Qt::Unchecked" id="Google_Hybrid20170824164113824" source="crs=EPSG:3857&amp;format=&amp;type=xyz&amp;url=https://mt1.google.com/vt/lyrs%3Dy%26x%3D%7Bx%7D%26y%3D%7By%7D%26z%3D%7Bz%7D" name="Google Hybrid Satelite">
+        <layer-tree-layer expanded="1" providerKey="wms" checked="Qt::Unchecked" id="Google_Hybrid2017091020522348817027" source="crs=EPSG:3857&amp;format=&amp;type=xyz&amp;url=https://mt1.google.com/vt/lyrs%3Dy%26x%3D%7Bx%7D%26y%3D%7By%7D%26z%3D%7Bz%7D" name="Google Hybrid Satelite">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" providerKey="wms" checked="Qt::Unchecked" id="Google_Terrain_Only20170824164100783" source="crs=EPSG:3857&amp;format=&amp;type=xyz&amp;url=https://mt1.google.com/vt/lyrs%3Dt%26x%3D%7Bx%7D%26y%3D%7By%7D%26z%3D%7Bz%7D" name="Google Terrain">
+        <layer-tree-layer expanded="1" providerKey="wms" checked="Qt::Unchecked" id="Google_Terrain_Only201709102052234884408" source="crs=EPSG:3857&amp;format=&amp;type=xyz&amp;url=https://mt1.google.com/vt/lyrs%3Dt%26x%3D%7Bx%7D%26y%3D%7By%7D%26z%3D%7Bz%7D" name="Google Terrain">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" providerKey="wms" checked="Qt::Unchecked" id="Google_Terrain20170824164004275" source="crs=EPSG:3857&amp;format=&amp;type=xyz&amp;url=https://mt1.google.com/vt/lyrs%3Dp%26x%3D%7Bx%7D%26y%3D%7By%7D%26z%3D%7Bz%7D" name="Google Hybrid Terrain">
+        <layer-tree-layer expanded="1" providerKey="wms" checked="Qt::Unchecked" id="Google_Terrain2017091020522348814052" source="crs=EPSG:3857&amp;format=&amp;type=xyz&amp;url=https://mt1.google.com/vt/lyrs%3Dp%26x%3D%7Bx%7D%26y%3D%7By%7D%26z%3D%7Bz%7D" name="Google Hybrid Terrain">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" providerKey="wms" checked="Qt::Unchecked" id="Google_Alt__Roads20170824164007626" source="crs=EPSG:3857&amp;format=&amp;type=xyz&amp;url=https://mt1.google.com/vt/lyrs%3Dr%26x%3D%7Bx%7D%26y%3D%7By%7D%26z%3D%7Bz%7D" name="Google Maps Green">
+        <layer-tree-layer expanded="1" providerKey="wms" checked="Qt::Unchecked" id="Google_Alt__Roads201709102052234889134" source="crs=EPSG:3857&amp;format=&amp;type=xyz&amp;url=https://mt1.google.com/vt/lyrs%3Dr%26x%3D%7Bx%7D%26y%3D%7By%7D%26z%3D%7Bz%7D" name="Google Maps Green">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" providerKey="wms" checked="Qt::Unchecked" id="Google_Standard_Roadmap20170824163921345" source="crs=EPSG:3857&amp;format=&amp;type=xyz&amp;url=https://mt1.google.com/vt/lyrs%3Dm%26x%3D%7Bx%7D%26y%3D%7By%7D%26z%3D%7Bz%7D" name="Google Maps Grey">
+        <layer-tree-layer expanded="1" providerKey="wms" checked="Qt::Unchecked" id="Google_Standard_Roadmap2017091020522348819026" source="crs=EPSG:3857&amp;format=&amp;type=xyz&amp;url=https://mt1.google.com/vt/lyrs%3Dm%26x%3D%7Bx%7D%26y%3D%7By%7D%26z%3D%7Bz%7D" name="Google Maps Grey">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" providerKey="wms" checked="Qt::Unchecked" id="Google_Roads_Only20170824163859383" source="crs=EPSG:3857&amp;format=&amp;type=xyz&amp;url=https://mt1.google.com/vt/lyrs%3Dh%26x%3D%7Bx%7D%26y%3D%7By%7D%26z%3D%7Bz%7D" name="Google Roads Overlay">
-          <customproperties/>
-        </layer-tree-layer>
-      </layer-tree-group>
-      <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="Australian Surface Hydrology">
-        <customproperties/>
-        <layer-tree-layer expanded="0" providerKey="WFS" checked="Qt::Checked" id="Basins20170824170035777" source=" restrictToRequestBBOX='1' srsname='EPSG:4283' typename='Surface_Hydrology_WM:Basins' url='http://services.ga.gov.au/gis/services/Surface_Hydrology_WM/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Basins">
-          <customproperties/>
-        </layer-tree-layer>
-        <layer-tree-layer expanded="0" providerKey="WFS" checked="Qt::Checked" id="Catchments20170824170050938" source=" restrictToRequestBBOX='1' srsname='EPSG:4283' typename='Surface_Hydrology_WM:Catchments' url='http://services.ga.gov.au/gis/services/Surface_Hydrology_WM/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Catchments">
-          <customproperties/>
-        </layer-tree-layer>
-        <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Unchecked" id="Surface_HydroPolys_Regional20170824170140726" source=" restrictToRequestBBOX='1' srsname='EPSG:4283' typename='Surface_Hydrology_WM:Surface_HydroPolys_Regional' url='http://services.ga.gov.au/gis/services/Surface_Hydrology_WM/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Surface HydroPolys Regional">
-          <customproperties/>
-        </layer-tree-layer>
-        <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Unchecked" id="Surface_HydroPolys_National20170824170134388" source=" restrictToRequestBBOX='1' srsname='EPSG:4283' typename='Surface_Hydrology_WM:Surface_HydroPolys_National' url='http://services.ga.gov.au/gis/services/Surface_Hydrology_WM/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Surface HydroPolys National">
-          <customproperties/>
-        </layer-tree-layer>
-        <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Unchecked" id="Surface_HydroPoints_Regional20170824170128257" source=" restrictToRequestBBOX='1' srsname='EPSG:4283' typename='Surface_Hydrology_WM:Surface_HydroPoints_Regional' url='http://services.ga.gov.au/gis/services/Surface_Hydrology_WM/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Surface HydroPoints Regional">
-          <customproperties/>
-        </layer-tree-layer>
-        <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Unchecked" id="Surface_HydroPoints_National20170824170123658" source=" restrictToRequestBBOX='1' srsname='EPSG:4283' typename='Surface_Hydrology_WM:Surface_HydroPoints_National' url='http://services.ga.gov.au/gis/services/Surface_Hydrology_WM/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Surface HydroPoints National">
-          <customproperties/>
-        </layer-tree-layer>
-        <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Unchecked" id="Surface_HydroLines_Regional20170824170111433" source=" restrictToRequestBBOX='1' srsname='EPSG:4283' typename='Surface_Hydrology_WM:Surface_HydroLines_Regional' url='http://services.ga.gov.au/gis/services/Surface_Hydrology_WM/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Surface HydroLines Regional">
-          <customproperties/>
-        </layer-tree-layer>
-        <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Unchecked" id="Surface_HydroLines_National20170824170105279" source=" restrictToRequestBBOX='1' srsname='EPSG:4283' typename='Surface_Hydrology_WM:Surface_HydroLines_National' url='http://services.ga.gov.au/gis/services/Surface_Hydrology_WM/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Surface HydroLines National">
+        <layer-tree-layer expanded="1" providerKey="wms" checked="Qt::Unchecked" id="Google_Roads_Only2017091020522348815373" source="crs=EPSG:3857&amp;format=&amp;type=xyz&amp;url=https://mt1.google.com/vt/lyrs%3Dh%26x%3D%7Bx%7D%26y%3D%7By%7D%26z%3D%7Bz%7D" name="Google Roads Overlay">
           <customproperties/>
         </layer-tree-layer>
       </layer-tree-group>
@@ -84,329 +93,17 @@
   <maplayers>
     <maplayer minimumScale="inf" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
       <extent>
-        <xmin>112.99958333329999505</xmin>
-        <ymin>-44.00041666702515641</ymin>
-        <xmax>154.00013888951744434</xmax>
-        <ymax>-9.99986111092071184</ymax>
-      </extent>
-      <id>DEM_SRTM_1Second_Slope20170824165119667</id>
-      <datasource>identifier=1&amp;url=http://services.ga.gov.au/gis/services/DEM_SRTM_1Second_Slope/MapServer/WCSServer?</datasource>
-      <keywordList>
-        <value></value>
-      </keywordList>
-      <layername>DEM SRTM 1Second Slope</layername>
-      <srs>
-        <spatialrefsys>
-          <proj4>+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs</proj4>
-          <srsid>3415</srsid>
-          <srid>4283</srid>
-          <authid>EPSG:4283</authid>
-          <description>GDA94</description>
-          <projectionacronym>longlat</projectionacronym>
-          <ellipsoidacronym>GRS80</ellipsoidacronym>
-          <geographicflag>true</geographicflag>
-        </spatialrefsys>
-      </srs>
-      <customproperties>
-        <property key="embeddedWidgets/count" value="0"/>
-        <property key="identify/format" value="Value"/>
-      </customproperties>
-      <provider>wcs</provider>
-      <noData>
-        <noDataList bandNo="1" useSrcNoData="0"/>
-      </noData>
-      <map-layer-style-manager current="">
-        <map-layer-style name=""/>
-      </map-layer-style-manager>
-      <pipe>
-        <rasterrenderer gradient="BlackToWhite" opacity="1" alphaBand="0" type="singlebandgray" grayBand="1">
-          <rasterTransparency/>
-          <contrastEnhancement>
-            <minValue>0</minValue>
-            <maxValue>6944.22</maxValue>
-            <algorithm>StretchToMinimumMaximum</algorithm>
-          </contrastEnhancement>
-        </rasterrenderer>
-        <brightnesscontrast brightness="0" contrast="0"/>
-        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
-        <rasterresampler maxOversampling="2"/>
-      </pipe>
-      <blendMode>0</blendMode>
-    </maplayer>
-    <maplayer minimumScale="inf" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
-      <extent>
-        <xmin>112.99986111400005484</xmin>
-        <ymin>-44.00013890046169962</ymin>
-        <xmax>153.99986111335098826</xmax>
-        <ymax>-10.00013890099994995</ymax>
-      </extent>
-      <id>DEM_SRTM_1_Second20170824164814353</id>
-      <datasource>identifier=1&amp;url=http://services.ga.gov.au/gis/services/DEM_SRTM_1Second/MapServer/WCSServer?</datasource>
-      <keywordList>
-        <value></value>
-      </keywordList>
-      <layername>DEM SRTM 1 Second</layername>
-      <srs>
-        <spatialrefsys>
-          <proj4>+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs</proj4>
-          <srsid>3415</srsid>
-          <srid>4283</srid>
-          <authid>EPSG:4283</authid>
-          <description>GDA94</description>
-          <projectionacronym>longlat</projectionacronym>
-          <ellipsoidacronym>GRS80</ellipsoidacronym>
-          <geographicflag>true</geographicflag>
-        </spatialrefsys>
-      </srs>
-      <customproperties>
-        <property key="identify/format" value="Value"/>
-      </customproperties>
-      <provider>wcs</provider>
-      <noData>
-        <noDataList bandNo="1" useSrcNoData="0"/>
-      </noData>
-      <map-layer-style-manager current="">
-        <map-layer-style name=""/>
-      </map-layer-style-manager>
-      <pipe>
-        <rasterrenderer opacity="1" alphaBand="0" classificationMax="800" classificationMinMaxOrigin="User" band="1" classificationMin="0" type="singlebandpseudocolor">
-          <rasterTransparency/>
-          <rastershader>
-            <colorrampshader colorRampType="INTERPOLATED" clip="0">
-              <item alpha="255" value="0" label="0" color="#aeefd5"/>
-              <item alpha="255" value="10" label="10" color="#b0f2d1"/>
-              <item alpha="255" value="20" label="20" color="#b1f2c6"/>
-              <item alpha="255" value="30" label="30" color="#b0f4bc"/>
-              <item alpha="255" value="40" label="40" color="#b4f6b4"/>
-              <item alpha="255" value="50" label="50" color="#bcf7b2"/>
-              <item alpha="255" value="60" label="60" color="#c8f9b2"/>
-              <item alpha="255" value="70" label="70" color="#d3fab1"/>
-              <item alpha="255" value="80" label="80" color="#e0fbb2"/>
-              <item alpha="255" value="90" label="90" color="#eefcb3"/>
-              <item alpha="255" value="100" label="100" color="#f9fcb2"/>
-              <item alpha="255" value="110" label="110" color="#f2f6a6"/>
-              <item alpha="255" value="120" label="120" color="#dcee92"/>
-              <item alpha="255" value="130" label="130" color="#c1e27c"/>
-              <item alpha="255" value="140" label="140" color="#a6d769"/>
-              <item alpha="255" value="150" label="150" color="#8acd58"/>
-              <item alpha="255" value="160" label="160" color="#6ec24a"/>
-              <item alpha="255" value="170" label="170" color="#4fb73a"/>
-              <item alpha="255" value="180" label="180" color="#34ac2d"/>
-              <item alpha="255" value="190" label="190" color="#21a22a"/>
-              <item alpha="255" value="200" label="200" color="#15972f"/>
-              <item alpha="255" value="210" label="210" color="#0c8c35"/>
-              <item alpha="255" value="220" label="220" color="#08843d"/>
-              <item alpha="255" value="230" label="230" color="#1a823f"/>
-              <item alpha="255" value="240" label="240" color="#34883c"/>
-              <item alpha="255" value="250" label="250" color="#4a8e3b"/>
-              <item alpha="255" value="260" label="260" color="#609436"/>
-              <item alpha="255" value="270" label="270" color="#749932"/>
-              <item alpha="255" value="280" label="280" color="#859e2f"/>
-              <item alpha="255" value="290" label="290" color="#96a32a"/>
-              <item alpha="255" value="300" label="300" color="#a9a726"/>
-              <item alpha="255" value="310" label="310" color="#bcae21"/>
-              <item alpha="255" value="320" label="320" color="#cfb11c"/>
-              <item alpha="255" value="330" label="330" color="#e3b414"/>
-              <item alpha="255" value="340" label="340" color="#f4b609"/>
-              <item alpha="255" value="350" label="350" color="#f6aa02"/>
-              <item alpha="255" value="360" label="360" color="#eb9602"/>
-              <item alpha="255" value="370" label="370" color="#e08002"/>
-              <item alpha="255" value="380" label="380" color="#d76d02"/>
-              <item alpha="255" value="390" label="390" color="#ce5b02"/>
-              <item alpha="255" value="400" label="400" color="#c04a02"/>
-              <item alpha="255" value="410" label="410" color="#b53b02"/>
-              <item alpha="255" value="420" label="420" color="#aa2b02"/>
-              <item alpha="255" value="430" label="430" color="#9f2002"/>
-              <item alpha="255" value="440" label="440" color="#951401"/>
-              <item alpha="255" value="450" label="450" color="#8b0b00"/>
-              <item alpha="255" value="460" label="460" color="#810400"/>
-              <item alpha="255" value="470" label="470" color="#7a0802"/>
-              <item alpha="255" value="480" label="480" color="#761002"/>
-              <item alpha="255" value="490" label="490" color="#751304"/>
-              <item alpha="255" value="500" label="500" color="#741504"/>
-              <item alpha="255" value="510" label="510" color="#731905"/>
-              <item alpha="255" value="520" label="520" color="#711e06"/>
-              <item alpha="255" value="530" label="530" color="#6f2108"/>
-              <item alpha="255" value="540" label="540" color="#6e2408"/>
-              <item alpha="255" value="550" label="550" color="#6c280a"/>
-              <item alpha="255" value="560" label="560" color="#6c2a0a"/>
-              <item alpha="255" value="570" label="570" color="#6a2c0b"/>
-              <item alpha="255" value="580" label="580" color="#6b2f0d"/>
-              <item alpha="255" value="590" label="590" color="#703715"/>
-              <item alpha="255" value="600" label="600" color="#75401e"/>
-              <item alpha="255" value="610" label="610" color="#7a4727"/>
-              <item alpha="255" value="620" label="620" color="#815033"/>
-              <item alpha="255" value="630" label="630" color="#875b3f"/>
-              <item alpha="255" value="640" label="640" color="#8c654c"/>
-              <item alpha="255" value="650" label="650" color="#936e59"/>
-              <item alpha="255" value="660" label="660" color="#987866"/>
-              <item alpha="255" value="670" label="670" color="#9d8575"/>
-              <item alpha="255" value="680" label="680" color="#a29087"/>
-              <item alpha="255" value="690" label="690" color="#a79c96"/>
-              <item alpha="255" value="700" label="700" color="#aba8a6"/>
-              <item alpha="255" value="710" label="710" color="#afafaf"/>
-              <item alpha="255" value="720" label="720" color="#b5b5b5"/>
-              <item alpha="255" value="730" label="730" color="#bcbcbc"/>
-              <item alpha="255" value="740" label="740" color="#c3c3c3"/>
-              <item alpha="255" value="750" label="750" color="#cbcbcb"/>
-              <item alpha="255" value="760" label="760" color="#d2d0d2"/>
-              <item alpha="255" value="770" label="770" color="#d9d7d9"/>
-              <item alpha="255" value="780" label="780" color="#dedcde"/>
-              <item alpha="255" value="790" label="790" color="#e6e4e6"/>
-              <item alpha="255" value="800" label="800" color="#ebe9eb"/>
-            </colorrampshader>
-          </rastershader>
-        </rasterrenderer>
-        <brightnesscontrast brightness="0" contrast="0"/>
-        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
-        <rasterresampler maxOversampling="2"/>
-      </pipe>
-      <blendMode>0</blendMode>
-    </maplayer>
-    <maplayer minimumScale="inf" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
-      <extent>
-        <xmin>112.99986111100008657</xmin>
-        <ymin>-44.00013888954830321</ymin>
-        <xmax>153.9998611116614029</xmax>
-        <ymax>-10.00013888899990633</ymax>
-      </extent>
-      <id>DEM_SRTM_1_Second_Hydro_Enforced20170824164541706</id>
-      <datasource>identifier=1&amp;url=http://services.ga.gov.au/site_9/services/DEM_SRTM_1Second_Hydro_Enforced/MapServer/WCSServer?</datasource>
-      <keywordList>
-        <value></value>
-      </keywordList>
-      <layername>DEM SRTM 1 Second Hydro Enforced</layername>
-      <srs>
-        <spatialrefsys>
-          <proj4>+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs</proj4>
-          <srsid>3415</srsid>
-          <srid>4283</srid>
-          <authid>EPSG:4283</authid>
-          <description>GDA94</description>
-          <projectionacronym>longlat</projectionacronym>
-          <ellipsoidacronym>GRS80</ellipsoidacronym>
-          <geographicflag>true</geographicflag>
-        </spatialrefsys>
-      </srs>
-      <customproperties>
-        <property key="embeddedWidgets/count" value="0"/>
-        <property key="identify/format" value="Value"/>
-      </customproperties>
-      <provider>wcs</provider>
-      <noData>
-        <noDataList bandNo="1" useSrcNoData="0"/>
-      </noData>
-      <map-layer-style-manager current="">
-        <map-layer-style name=""/>
-      </map-layer-style-manager>
-      <pipe>
-        <rasterrenderer opacity="1" alphaBand="0" classificationMax="800" classificationMinMaxOrigin="User" band="1" classificationMin="0" type="singlebandpseudocolor">
-          <rasterTransparency/>
-          <rastershader>
-            <colorrampshader colorRampType="INTERPOLATED" clip="0">
-              <item alpha="255" value="0" label="0" color="#aeefd5"/>
-              <item alpha="255" value="10" label="10" color="#b0f2d1"/>
-              <item alpha="255" value="20" label="20" color="#b1f2c6"/>
-              <item alpha="255" value="30" label="30" color="#b0f4bc"/>
-              <item alpha="255" value="40" label="40" color="#b4f6b4"/>
-              <item alpha="255" value="50" label="50" color="#bcf7b2"/>
-              <item alpha="255" value="60" label="60" color="#c8f9b2"/>
-              <item alpha="255" value="70" label="70" color="#d3fab1"/>
-              <item alpha="255" value="80" label="80" color="#e0fbb2"/>
-              <item alpha="255" value="90" label="90" color="#eefcb3"/>
-              <item alpha="255" value="100" label="100" color="#f9fcb2"/>
-              <item alpha="255" value="110" label="110" color="#f2f6a6"/>
-              <item alpha="255" value="120" label="120" color="#dcee92"/>
-              <item alpha="255" value="130" label="130" color="#c1e27c"/>
-              <item alpha="255" value="140" label="140" color="#a6d769"/>
-              <item alpha="255" value="150" label="150" color="#8acd58"/>
-              <item alpha="255" value="160" label="160" color="#6ec24a"/>
-              <item alpha="255" value="170" label="170" color="#4fb73a"/>
-              <item alpha="255" value="180" label="180" color="#34ac2d"/>
-              <item alpha="255" value="190" label="190" color="#21a22a"/>
-              <item alpha="255" value="200" label="200" color="#15972f"/>
-              <item alpha="255" value="210" label="210" color="#0c8c35"/>
-              <item alpha="255" value="220" label="220" color="#08843d"/>
-              <item alpha="255" value="230" label="230" color="#1a823f"/>
-              <item alpha="255" value="240" label="240" color="#34883c"/>
-              <item alpha="255" value="250" label="250" color="#4a8e3b"/>
-              <item alpha="255" value="260" label="260" color="#609436"/>
-              <item alpha="255" value="270" label="270" color="#749932"/>
-              <item alpha="255" value="280" label="280" color="#859e2f"/>
-              <item alpha="255" value="290" label="290" color="#96a32a"/>
-              <item alpha="255" value="300" label="300" color="#a9a726"/>
-              <item alpha="255" value="310" label="310" color="#bcae21"/>
-              <item alpha="255" value="320" label="320" color="#cfb11c"/>
-              <item alpha="255" value="330" label="330" color="#e3b414"/>
-              <item alpha="255" value="340" label="340" color="#f4b609"/>
-              <item alpha="255" value="350" label="350" color="#f6aa02"/>
-              <item alpha="255" value="360" label="360" color="#eb9602"/>
-              <item alpha="255" value="370" label="370" color="#e08002"/>
-              <item alpha="255" value="380" label="380" color="#d76d02"/>
-              <item alpha="255" value="390" label="390" color="#ce5b02"/>
-              <item alpha="255" value="400" label="400" color="#c04a02"/>
-              <item alpha="255" value="410" label="410" color="#b53b02"/>
-              <item alpha="255" value="420" label="420" color="#aa2b02"/>
-              <item alpha="255" value="430" label="430" color="#9f2002"/>
-              <item alpha="255" value="440" label="440" color="#951401"/>
-              <item alpha="255" value="450" label="450" color="#8b0b00"/>
-              <item alpha="255" value="460" label="460" color="#810400"/>
-              <item alpha="255" value="470" label="470" color="#7a0802"/>
-              <item alpha="255" value="480" label="480" color="#761002"/>
-              <item alpha="255" value="490" label="490" color="#751304"/>
-              <item alpha="255" value="500" label="500" color="#741504"/>
-              <item alpha="255" value="510" label="510" color="#731905"/>
-              <item alpha="255" value="520" label="520" color="#711e06"/>
-              <item alpha="255" value="530" label="530" color="#6f2108"/>
-              <item alpha="255" value="540" label="540" color="#6e2408"/>
-              <item alpha="255" value="550" label="550" color="#6c280a"/>
-              <item alpha="255" value="560" label="560" color="#6c2a0a"/>
-              <item alpha="255" value="570" label="570" color="#6a2c0b"/>
-              <item alpha="255" value="580" label="580" color="#6b2f0d"/>
-              <item alpha="255" value="590" label="590" color="#703715"/>
-              <item alpha="255" value="600" label="600" color="#75401e"/>
-              <item alpha="255" value="610" label="610" color="#7a4727"/>
-              <item alpha="255" value="620" label="620" color="#815033"/>
-              <item alpha="255" value="630" label="630" color="#875b3f"/>
-              <item alpha="255" value="640" label="640" color="#8c654c"/>
-              <item alpha="255" value="650" label="650" color="#936e59"/>
-              <item alpha="255" value="660" label="660" color="#987866"/>
-              <item alpha="255" value="670" label="670" color="#9d8575"/>
-              <item alpha="255" value="680" label="680" color="#a29087"/>
-              <item alpha="255" value="690" label="690" color="#a79c96"/>
-              <item alpha="255" value="700" label="700" color="#aba8a6"/>
-              <item alpha="255" value="710" label="710" color="#afafaf"/>
-              <item alpha="255" value="720" label="720" color="#b5b5b5"/>
-              <item alpha="255" value="730" label="730" color="#bcbcbc"/>
-              <item alpha="255" value="740" label="740" color="#c3c3c3"/>
-              <item alpha="255" value="750" label="750" color="#cbcbcb"/>
-              <item alpha="255" value="760" label="760" color="#d2d0d2"/>
-              <item alpha="255" value="770" label="770" color="#d9d7d9"/>
-              <item alpha="255" value="780" label="780" color="#dedcde"/>
-              <item alpha="255" value="790" label="790" color="#e6e4e6"/>
-              <item alpha="255" value="800" label="800" color="#ebe9eb"/>
-            </colorrampshader>
-          </rastershader>
-        </rasterrenderer>
-        <brightnesscontrast brightness="0" contrast="0"/>
-        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
-        <rasterresampler maxOversampling="2"/>
-      </pipe>
-      <blendMode>0</blendMode>
-    </maplayer>
-    <maplayer minimumScale="inf" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
-      <extent>
         <xmin>113.7602329250000821</xmin>
         <ymin>-45.94985245374700611</ymin>
         <xmax>162.00003317680361192</xmax>
         <ymax>-9.20556831399995446</ymax>
       </extent>
-      <id>DEM_LiDAR_5m_120170824165358945</id>
+      <id>DEM_LiDAR_5m_12017091020522348831407</id>
       <datasource>identifier=1&amp;url=http://services.ga.gov.au/gis/services/DEM_LiDAR_5m/MapServer/WCSServer?</datasource>
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>DEM LiDAR 5m</layername>
+      <layername>LiDAR Derived 5m</layername>
       <srs>
         <spatialrefsys>
           <proj4>+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs</proj4>
@@ -534,12 +231,12 @@
         <xmax>156.78060372007360002</xmax>
         <ymax>-9.20559123385652178</ymax>
       </extent>
-      <id>DEM_LiDAR_25m20170824165603409</id>
+      <id>DEM_LiDAR_25m2017091020522348813784</id>
       <datasource>identifier=1&amp;url=http://services.ga.gov.au/gis/services/DEM_LiDAR_25m/MapServer/WCSServer?</datasource>
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>DEM LiDAR 25m</layername>
+      <layername>LiDAR Derived 25m</layername>
       <srs>
         <spatialrefsys>
           <proj4>+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs</proj4>
@@ -660,35 +357,36 @@
       </pipe>
       <blendMode>0</blendMode>
     </maplayer>
-    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+    <maplayer minimumScale="inf" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
       <extent>
-        <xmin>-20037508.34278924390673637</xmin>
-        <ymin>-20037508.34278925508260727</ymin>
-        <xmax>20037508.34278924390673637</xmax>
-        <ymax>20037508.34278924390673637</ymax>
+        <xmin>112.99958333329999505</xmin>
+        <ymin>-44.00041666702515641</ymin>
+        <xmax>154.00013888951744434</xmax>
+        <ymax>-9.99986111092071184</ymax>
       </extent>
-      <id>Google_Satelite20170824164032899</id>
-      <datasource>crs=EPSG:3857&amp;format=&amp;type=xyz&amp;url=https://mt1.google.com/vt/lyrs%3Ds%26x%3D%7Bx%7D%26y%3D%7By%7D%26z%3D%7Bz%7D</datasource>
+      <id>DEM_SRTM_1Second_Slope2017091020522348824732</id>
+      <datasource>identifier=1&amp;url=http://services.ga.gov.au/gis/services/DEM_SRTM_1Second_Slope/MapServer/WCSServer?</datasource>
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>Google Satelite</layername>
+      <layername>SRTM 1Second Slope</layername>
       <srs>
         <spatialrefsys>
-          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs</proj4>
-          <srsid>3857</srsid>
-          <srid>3857</srid>
-          <authid>EPSG:3857</authid>
-          <description>WGS 84 / Pseudo Mercator</description>
-          <projectionacronym>merc</projectionacronym>
-          <ellipsoidacronym>WGS84</ellipsoidacronym>
-          <geographicflag>false</geographicflag>
+          <proj4>+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs</proj4>
+          <srsid>3415</srsid>
+          <srid>4283</srid>
+          <authid>EPSG:4283</authid>
+          <description>GDA94</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
         </spatialrefsys>
       </srs>
       <customproperties>
-        <property key="identify/format" value="Undefined"/>
+        <property key="embeddedWidgets/count" value="0"/>
+        <property key="identify/format" value="Value"/>
       </customproperties>
-      <provider>wms</provider>
+      <provider>wcs</provider>
       <noData>
         <noDataList bandNo="1" useSrcNoData="0"/>
       </noData>
@@ -696,8 +394,13 @@
         <map-layer-style name=""/>
       </map-layer-style-manager>
       <pipe>
-        <rasterrenderer opacity="1" alphaBand="-1" band="1" type="singlebandcolordata">
+        <rasterrenderer gradient="BlackToWhite" opacity="1" alphaBand="0" type="singlebandgray" grayBand="1">
           <rasterTransparency/>
+          <contrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>6944.22</maxValue>
+            <algorithm>StretchToMinimumMaximum</algorithm>
+          </contrastEnhancement>
         </rasterrenderer>
         <brightnesscontrast brightness="0" contrast="0"/>
         <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
@@ -705,35 +408,35 @@
       </pipe>
       <blendMode>0</blendMode>
     </maplayer>
-    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+    <maplayer minimumScale="inf" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
       <extent>
-        <xmin>-20037508.34278924390673637</xmin>
-        <ymin>-20037508.34278925508260727</ymin>
-        <xmax>20037508.34278924390673637</xmax>
-        <ymax>20037508.34278924390673637</ymax>
+        <xmin>112.99986111400005484</xmin>
+        <ymin>-44.00013890046169962</ymin>
+        <xmax>153.99986111335098826</xmax>
+        <ymax>-10.00013890099994995</ymax>
       </extent>
-      <id>Google_Hybrid20170824164113824</id>
-      <datasource>crs=EPSG:3857&amp;format=&amp;type=xyz&amp;url=https://mt1.google.com/vt/lyrs%3Dy%26x%3D%7Bx%7D%26y%3D%7By%7D%26z%3D%7Bz%7D</datasource>
+      <id>DEM_SRTM_1_Second2017091020522348823140</id>
+      <datasource>identifier=1&amp;url=http://services.ga.gov.au/gis/services/DEM_SRTM_1Second/MapServer/WCSServer?</datasource>
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>Google Hybrid Satelite</layername>
+      <layername>SRTM 1 Second</layername>
       <srs>
         <spatialrefsys>
-          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs</proj4>
-          <srsid>3857</srsid>
-          <srid>3857</srid>
-          <authid>EPSG:3857</authid>
-          <description>WGS 84 / Pseudo Mercator</description>
-          <projectionacronym>merc</projectionacronym>
-          <ellipsoidacronym>WGS84</ellipsoidacronym>
-          <geographicflag>false</geographicflag>
+          <proj4>+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs</proj4>
+          <srsid>3415</srsid>
+          <srid>4283</srid>
+          <authid>EPSG:4283</authid>
+          <description>GDA94</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
         </spatialrefsys>
       </srs>
       <customproperties>
-        <property key="identify/format" value="Undefined"/>
+        <property key="identify/format" value="Value"/>
       </customproperties>
-      <provider>wms</provider>
+      <provider>wcs</provider>
       <noData>
         <noDataList bandNo="1" useSrcNoData="0"/>
       </noData>
@@ -741,8 +444,93 @@
         <map-layer-style name=""/>
       </map-layer-style-manager>
       <pipe>
-        <rasterrenderer opacity="1" alphaBand="-1" band="1" type="singlebandcolordata">
+        <rasterrenderer opacity="1" alphaBand="0" classificationMax="800" classificationMinMaxOrigin="User" band="1" classificationMin="0" type="singlebandpseudocolor">
           <rasterTransparency/>
+          <rastershader>
+            <colorrampshader colorRampType="INTERPOLATED" clip="0">
+              <item alpha="255" value="0" label="0" color="#aeefd5"/>
+              <item alpha="255" value="10" label="10" color="#b0f2d1"/>
+              <item alpha="255" value="20" label="20" color="#b1f2c6"/>
+              <item alpha="255" value="30" label="30" color="#b0f4bc"/>
+              <item alpha="255" value="40" label="40" color="#b4f6b4"/>
+              <item alpha="255" value="50" label="50" color="#bcf7b2"/>
+              <item alpha="255" value="60" label="60" color="#c8f9b2"/>
+              <item alpha="255" value="70" label="70" color="#d3fab1"/>
+              <item alpha="255" value="80" label="80" color="#e0fbb2"/>
+              <item alpha="255" value="90" label="90" color="#eefcb3"/>
+              <item alpha="255" value="100" label="100" color="#f9fcb2"/>
+              <item alpha="255" value="110" label="110" color="#f2f6a6"/>
+              <item alpha="255" value="120" label="120" color="#dcee92"/>
+              <item alpha="255" value="130" label="130" color="#c1e27c"/>
+              <item alpha="255" value="140" label="140" color="#a6d769"/>
+              <item alpha="255" value="150" label="150" color="#8acd58"/>
+              <item alpha="255" value="160" label="160" color="#6ec24a"/>
+              <item alpha="255" value="170" label="170" color="#4fb73a"/>
+              <item alpha="255" value="180" label="180" color="#34ac2d"/>
+              <item alpha="255" value="190" label="190" color="#21a22a"/>
+              <item alpha="255" value="200" label="200" color="#15972f"/>
+              <item alpha="255" value="210" label="210" color="#0c8c35"/>
+              <item alpha="255" value="220" label="220" color="#08843d"/>
+              <item alpha="255" value="230" label="230" color="#1a823f"/>
+              <item alpha="255" value="240" label="240" color="#34883c"/>
+              <item alpha="255" value="250" label="250" color="#4a8e3b"/>
+              <item alpha="255" value="260" label="260" color="#609436"/>
+              <item alpha="255" value="270" label="270" color="#749932"/>
+              <item alpha="255" value="280" label="280" color="#859e2f"/>
+              <item alpha="255" value="290" label="290" color="#96a32a"/>
+              <item alpha="255" value="300" label="300" color="#a9a726"/>
+              <item alpha="255" value="310" label="310" color="#bcae21"/>
+              <item alpha="255" value="320" label="320" color="#cfb11c"/>
+              <item alpha="255" value="330" label="330" color="#e3b414"/>
+              <item alpha="255" value="340" label="340" color="#f4b609"/>
+              <item alpha="255" value="350" label="350" color="#f6aa02"/>
+              <item alpha="255" value="360" label="360" color="#eb9602"/>
+              <item alpha="255" value="370" label="370" color="#e08002"/>
+              <item alpha="255" value="380" label="380" color="#d76d02"/>
+              <item alpha="255" value="390" label="390" color="#ce5b02"/>
+              <item alpha="255" value="400" label="400" color="#c04a02"/>
+              <item alpha="255" value="410" label="410" color="#b53b02"/>
+              <item alpha="255" value="420" label="420" color="#aa2b02"/>
+              <item alpha="255" value="430" label="430" color="#9f2002"/>
+              <item alpha="255" value="440" label="440" color="#951401"/>
+              <item alpha="255" value="450" label="450" color="#8b0b00"/>
+              <item alpha="255" value="460" label="460" color="#810400"/>
+              <item alpha="255" value="470" label="470" color="#7a0802"/>
+              <item alpha="255" value="480" label="480" color="#761002"/>
+              <item alpha="255" value="490" label="490" color="#751304"/>
+              <item alpha="255" value="500" label="500" color="#741504"/>
+              <item alpha="255" value="510" label="510" color="#731905"/>
+              <item alpha="255" value="520" label="520" color="#711e06"/>
+              <item alpha="255" value="530" label="530" color="#6f2108"/>
+              <item alpha="255" value="540" label="540" color="#6e2408"/>
+              <item alpha="255" value="550" label="550" color="#6c280a"/>
+              <item alpha="255" value="560" label="560" color="#6c2a0a"/>
+              <item alpha="255" value="570" label="570" color="#6a2c0b"/>
+              <item alpha="255" value="580" label="580" color="#6b2f0d"/>
+              <item alpha="255" value="590" label="590" color="#703715"/>
+              <item alpha="255" value="600" label="600" color="#75401e"/>
+              <item alpha="255" value="610" label="610" color="#7a4727"/>
+              <item alpha="255" value="620" label="620" color="#815033"/>
+              <item alpha="255" value="630" label="630" color="#875b3f"/>
+              <item alpha="255" value="640" label="640" color="#8c654c"/>
+              <item alpha="255" value="650" label="650" color="#936e59"/>
+              <item alpha="255" value="660" label="660" color="#987866"/>
+              <item alpha="255" value="670" label="670" color="#9d8575"/>
+              <item alpha="255" value="680" label="680" color="#a29087"/>
+              <item alpha="255" value="690" label="690" color="#a79c96"/>
+              <item alpha="255" value="700" label="700" color="#aba8a6"/>
+              <item alpha="255" value="710" label="710" color="#afafaf"/>
+              <item alpha="255" value="720" label="720" color="#b5b5b5"/>
+              <item alpha="255" value="730" label="730" color="#bcbcbc"/>
+              <item alpha="255" value="740" label="740" color="#c3c3c3"/>
+              <item alpha="255" value="750" label="750" color="#cbcbcb"/>
+              <item alpha="255" value="760" label="760" color="#d2d0d2"/>
+              <item alpha="255" value="770" label="770" color="#d9d7d9"/>
+              <item alpha="255" value="780" label="780" color="#dedcde"/>
+              <item alpha="255" value="790" label="790" color="#e6e4e6"/>
+              <item alpha="255" value="800" label="800" color="#ebe9eb"/>
+            </colorrampshader>
+          </rastershader>
         </rasterrenderer>
         <brightnesscontrast brightness="0" contrast="0"/>
         <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
@@ -750,35 +538,36 @@
       </pipe>
       <blendMode>0</blendMode>
     </maplayer>
-    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+    <maplayer minimumScale="inf" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
       <extent>
-        <xmin>-20037508.34278924390673637</xmin>
-        <ymin>-20037508.34278925508260727</ymin>
-        <xmax>20037508.34278924390673637</xmax>
-        <ymax>20037508.34278924390673637</ymax>
+        <xmin>112.99986111100008657</xmin>
+        <ymin>-44.00013888954830321</ymin>
+        <xmax>153.9998611116614029</xmax>
+        <ymax>-10.00013888899990633</ymax>
       </extent>
-      <id>Google_Terrain_Only20170824164100783</id>
-      <datasource>crs=EPSG:3857&amp;format=&amp;type=xyz&amp;url=https://mt1.google.com/vt/lyrs%3Dt%26x%3D%7Bx%7D%26y%3D%7By%7D%26z%3D%7Bz%7D</datasource>
+      <id>DEM_SRTM_1_Second_Hydro_Enforced201709102052234888721</id>
+      <datasource>identifier=1&amp;url=http://services.ga.gov.au/site_9/services/DEM_SRTM_1Second_Hydro_Enforced/MapServer/WCSServer?</datasource>
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>Google Terrain</layername>
+      <layername>SRTM 1 Second Hydro Enforced</layername>
       <srs>
         <spatialrefsys>
-          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs</proj4>
-          <srsid>3857</srsid>
-          <srid>3857</srid>
-          <authid>EPSG:3857</authid>
-          <description>WGS 84 / Pseudo Mercator</description>
-          <projectionacronym>merc</projectionacronym>
-          <ellipsoidacronym>WGS84</ellipsoidacronym>
-          <geographicflag>false</geographicflag>
+          <proj4>+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs</proj4>
+          <srsid>3415</srsid>
+          <srid>4283</srid>
+          <authid>EPSG:4283</authid>
+          <description>GDA94</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
         </spatialrefsys>
       </srs>
       <customproperties>
-        <property key="identify/format" value="Undefined"/>
+        <property key="embeddedWidgets/count" value="0"/>
+        <property key="identify/format" value="Value"/>
       </customproperties>
-      <provider>wms</provider>
+      <provider>wcs</provider>
       <noData>
         <noDataList bandNo="1" useSrcNoData="0"/>
       </noData>
@@ -786,188 +575,93 @@
         <map-layer-style name=""/>
       </map-layer-style-manager>
       <pipe>
-        <rasterrenderer opacity="1" alphaBand="-1" band="1" type="singlebandcolordata">
+        <rasterrenderer opacity="1" alphaBand="0" classificationMax="800" classificationMinMaxOrigin="User" band="1" classificationMin="0" type="singlebandpseudocolor">
           <rasterTransparency/>
-        </rasterrenderer>
-        <brightnesscontrast brightness="0" contrast="0"/>
-        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
-        <rasterresampler maxOversampling="2"/>
-      </pipe>
-      <blendMode>0</blendMode>
-    </maplayer>
-    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
-      <extent>
-        <xmin>-20037508.34278924390673637</xmin>
-        <ymin>-20037508.34278925508260727</ymin>
-        <xmax>20037508.34278924390673637</xmax>
-        <ymax>20037508.34278924390673637</ymax>
-      </extent>
-      <id>Google_Terrain20170824164004275</id>
-      <datasource>crs=EPSG:3857&amp;format=&amp;type=xyz&amp;url=https://mt1.google.com/vt/lyrs%3Dp%26x%3D%7Bx%7D%26y%3D%7By%7D%26z%3D%7Bz%7D</datasource>
-      <keywordList>
-        <value></value>
-      </keywordList>
-      <layername>Google Hybrid Terrain</layername>
-      <srs>
-        <spatialrefsys>
-          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs</proj4>
-          <srsid>3857</srsid>
-          <srid>3857</srid>
-          <authid>EPSG:3857</authid>
-          <description>WGS 84 / Pseudo Mercator</description>
-          <projectionacronym>merc</projectionacronym>
-          <ellipsoidacronym>WGS84</ellipsoidacronym>
-          <geographicflag>false</geographicflag>
-        </spatialrefsys>
-      </srs>
-      <customproperties>
-        <property key="identify/format" value="Undefined"/>
-      </customproperties>
-      <provider>wms</provider>
-      <noData>
-        <noDataList bandNo="1" useSrcNoData="0"/>
-      </noData>
-      <map-layer-style-manager current="">
-        <map-layer-style name=""/>
-      </map-layer-style-manager>
-      <pipe>
-        <rasterrenderer opacity="1" alphaBand="-1" band="1" type="singlebandcolordata">
-          <rasterTransparency/>
-        </rasterrenderer>
-        <brightnesscontrast brightness="0" contrast="0"/>
-        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
-        <rasterresampler maxOversampling="2"/>
-      </pipe>
-      <blendMode>0</blendMode>
-    </maplayer>
-    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
-      <extent>
-        <xmin>-20037508.34278924390673637</xmin>
-        <ymin>-20037508.34278925508260727</ymin>
-        <xmax>20037508.34278924390673637</xmax>
-        <ymax>20037508.34278924390673637</ymax>
-      </extent>
-      <id>Google_Alt__Roads20170824164007626</id>
-      <datasource>crs=EPSG:3857&amp;format=&amp;type=xyz&amp;url=https://mt1.google.com/vt/lyrs%3Dr%26x%3D%7Bx%7D%26y%3D%7By%7D%26z%3D%7Bz%7D</datasource>
-      <keywordList>
-        <value></value>
-      </keywordList>
-      <layername>Google Maps Green</layername>
-      <srs>
-        <spatialrefsys>
-          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs</proj4>
-          <srsid>3857</srsid>
-          <srid>3857</srid>
-          <authid>EPSG:3857</authid>
-          <description>WGS 84 / Pseudo Mercator</description>
-          <projectionacronym>merc</projectionacronym>
-          <ellipsoidacronym>WGS84</ellipsoidacronym>
-          <geographicflag>false</geographicflag>
-        </spatialrefsys>
-      </srs>
-      <customproperties>
-        <property key="identify/format" value="Undefined"/>
-      </customproperties>
-      <provider>wms</provider>
-      <noData>
-        <noDataList bandNo="1" useSrcNoData="0"/>
-      </noData>
-      <map-layer-style-manager current="">
-        <map-layer-style name=""/>
-      </map-layer-style-manager>
-      <pipe>
-        <rasterrenderer opacity="1" alphaBand="-1" band="1" type="singlebandcolordata">
-          <rasterTransparency/>
-        </rasterrenderer>
-        <brightnesscontrast brightness="0" contrast="0"/>
-        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
-        <rasterresampler maxOversampling="2"/>
-      </pipe>
-      <blendMode>0</blendMode>
-    </maplayer>
-    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
-      <extent>
-        <xmin>-20037508.34278924390673637</xmin>
-        <ymin>-20037508.34278925508260727</ymin>
-        <xmax>20037508.34278924390673637</xmax>
-        <ymax>20037508.34278924390673637</ymax>
-      </extent>
-      <id>Google_Standard_Roadmap20170824163921345</id>
-      <datasource>crs=EPSG:3857&amp;format=&amp;type=xyz&amp;url=https://mt1.google.com/vt/lyrs%3Dm%26x%3D%7Bx%7D%26y%3D%7By%7D%26z%3D%7Bz%7D</datasource>
-      <keywordList>
-        <value></value>
-      </keywordList>
-      <layername>Google Maps Grey</layername>
-      <srs>
-        <spatialrefsys>
-          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs</proj4>
-          <srsid>3857</srsid>
-          <srid>3857</srid>
-          <authid>EPSG:3857</authid>
-          <description>WGS 84 / Pseudo Mercator</description>
-          <projectionacronym>merc</projectionacronym>
-          <ellipsoidacronym>WGS84</ellipsoidacronym>
-          <geographicflag>false</geographicflag>
-        </spatialrefsys>
-      </srs>
-      <customproperties>
-        <property key="identify/format" value="Undefined"/>
-      </customproperties>
-      <provider>wms</provider>
-      <noData>
-        <noDataList bandNo="1" useSrcNoData="0"/>
-      </noData>
-      <map-layer-style-manager current="">
-        <map-layer-style name=""/>
-      </map-layer-style-manager>
-      <pipe>
-        <rasterrenderer opacity="1" alphaBand="-1" band="1" type="singlebandcolordata">
-          <rasterTransparency/>
-        </rasterrenderer>
-        <brightnesscontrast brightness="0" contrast="0"/>
-        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
-        <rasterresampler maxOversampling="2"/>
-      </pipe>
-      <blendMode>0</blendMode>
-    </maplayer>
-    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
-      <extent>
-        <xmin>-20037508.34278924390673637</xmin>
-        <ymin>-20037508.34278925508260727</ymin>
-        <xmax>20037508.34278924390673637</xmax>
-        <ymax>20037508.34278924390673637</ymax>
-      </extent>
-      <id>Google_Roads_Only20170824163859383</id>
-      <datasource>crs=EPSG:3857&amp;format=&amp;type=xyz&amp;url=https://mt1.google.com/vt/lyrs%3Dh%26x%3D%7Bx%7D%26y%3D%7By%7D%26z%3D%7Bz%7D</datasource>
-      <keywordList>
-        <value></value>
-      </keywordList>
-      <layername>Google Roads Overlay</layername>
-      <srs>
-        <spatialrefsys>
-          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs</proj4>
-          <srsid>3857</srsid>
-          <srid>3857</srid>
-          <authid>EPSG:3857</authid>
-          <description>WGS 84 / Pseudo Mercator</description>
-          <projectionacronym>merc</projectionacronym>
-          <ellipsoidacronym>WGS84</ellipsoidacronym>
-          <geographicflag>false</geographicflag>
-        </spatialrefsys>
-      </srs>
-      <customproperties>
-        <property key="identify/format" value="Undefined"/>
-      </customproperties>
-      <provider>wms</provider>
-      <noData>
-        <noDataList bandNo="1" useSrcNoData="0"/>
-      </noData>
-      <map-layer-style-manager current="">
-        <map-layer-style name=""/>
-      </map-layer-style-manager>
-      <pipe>
-        <rasterrenderer opacity="1" alphaBand="-1" band="1" type="singlebandcolordata">
-          <rasterTransparency/>
+          <rastershader>
+            <colorrampshader colorRampType="INTERPOLATED" clip="0">
+              <item alpha="255" value="0" label="0" color="#aeefd5"/>
+              <item alpha="255" value="10" label="10" color="#b0f2d1"/>
+              <item alpha="255" value="20" label="20" color="#b1f2c6"/>
+              <item alpha="255" value="30" label="30" color="#b0f4bc"/>
+              <item alpha="255" value="40" label="40" color="#b4f6b4"/>
+              <item alpha="255" value="50" label="50" color="#bcf7b2"/>
+              <item alpha="255" value="60" label="60" color="#c8f9b2"/>
+              <item alpha="255" value="70" label="70" color="#d3fab1"/>
+              <item alpha="255" value="80" label="80" color="#e0fbb2"/>
+              <item alpha="255" value="90" label="90" color="#eefcb3"/>
+              <item alpha="255" value="100" label="100" color="#f9fcb2"/>
+              <item alpha="255" value="110" label="110" color="#f2f6a6"/>
+              <item alpha="255" value="120" label="120" color="#dcee92"/>
+              <item alpha="255" value="130" label="130" color="#c1e27c"/>
+              <item alpha="255" value="140" label="140" color="#a6d769"/>
+              <item alpha="255" value="150" label="150" color="#8acd58"/>
+              <item alpha="255" value="160" label="160" color="#6ec24a"/>
+              <item alpha="255" value="170" label="170" color="#4fb73a"/>
+              <item alpha="255" value="180" label="180" color="#34ac2d"/>
+              <item alpha="255" value="190" label="190" color="#21a22a"/>
+              <item alpha="255" value="200" label="200" color="#15972f"/>
+              <item alpha="255" value="210" label="210" color="#0c8c35"/>
+              <item alpha="255" value="220" label="220" color="#08843d"/>
+              <item alpha="255" value="230" label="230" color="#1a823f"/>
+              <item alpha="255" value="240" label="240" color="#34883c"/>
+              <item alpha="255" value="250" label="250" color="#4a8e3b"/>
+              <item alpha="255" value="260" label="260" color="#609436"/>
+              <item alpha="255" value="270" label="270" color="#749932"/>
+              <item alpha="255" value="280" label="280" color="#859e2f"/>
+              <item alpha="255" value="290" label="290" color="#96a32a"/>
+              <item alpha="255" value="300" label="300" color="#a9a726"/>
+              <item alpha="255" value="310" label="310" color="#bcae21"/>
+              <item alpha="255" value="320" label="320" color="#cfb11c"/>
+              <item alpha="255" value="330" label="330" color="#e3b414"/>
+              <item alpha="255" value="340" label="340" color="#f4b609"/>
+              <item alpha="255" value="350" label="350" color="#f6aa02"/>
+              <item alpha="255" value="360" label="360" color="#eb9602"/>
+              <item alpha="255" value="370" label="370" color="#e08002"/>
+              <item alpha="255" value="380" label="380" color="#d76d02"/>
+              <item alpha="255" value="390" label="390" color="#ce5b02"/>
+              <item alpha="255" value="400" label="400" color="#c04a02"/>
+              <item alpha="255" value="410" label="410" color="#b53b02"/>
+              <item alpha="255" value="420" label="420" color="#aa2b02"/>
+              <item alpha="255" value="430" label="430" color="#9f2002"/>
+              <item alpha="255" value="440" label="440" color="#951401"/>
+              <item alpha="255" value="450" label="450" color="#8b0b00"/>
+              <item alpha="255" value="460" label="460" color="#810400"/>
+              <item alpha="255" value="470" label="470" color="#7a0802"/>
+              <item alpha="255" value="480" label="480" color="#761002"/>
+              <item alpha="255" value="490" label="490" color="#751304"/>
+              <item alpha="255" value="500" label="500" color="#741504"/>
+              <item alpha="255" value="510" label="510" color="#731905"/>
+              <item alpha="255" value="520" label="520" color="#711e06"/>
+              <item alpha="255" value="530" label="530" color="#6f2108"/>
+              <item alpha="255" value="540" label="540" color="#6e2408"/>
+              <item alpha="255" value="550" label="550" color="#6c280a"/>
+              <item alpha="255" value="560" label="560" color="#6c2a0a"/>
+              <item alpha="255" value="570" label="570" color="#6a2c0b"/>
+              <item alpha="255" value="580" label="580" color="#6b2f0d"/>
+              <item alpha="255" value="590" label="590" color="#703715"/>
+              <item alpha="255" value="600" label="600" color="#75401e"/>
+              <item alpha="255" value="610" label="610" color="#7a4727"/>
+              <item alpha="255" value="620" label="620" color="#815033"/>
+              <item alpha="255" value="630" label="630" color="#875b3f"/>
+              <item alpha="255" value="640" label="640" color="#8c654c"/>
+              <item alpha="255" value="650" label="650" color="#936e59"/>
+              <item alpha="255" value="660" label="660" color="#987866"/>
+              <item alpha="255" value="670" label="670" color="#9d8575"/>
+              <item alpha="255" value="680" label="680" color="#a29087"/>
+              <item alpha="255" value="690" label="690" color="#a79c96"/>
+              <item alpha="255" value="700" label="700" color="#aba8a6"/>
+              <item alpha="255" value="710" label="710" color="#afafaf"/>
+              <item alpha="255" value="720" label="720" color="#b5b5b5"/>
+              <item alpha="255" value="730" label="730" color="#bcbcbc"/>
+              <item alpha="255" value="740" label="740" color="#c3c3c3"/>
+              <item alpha="255" value="750" label="750" color="#cbcbcb"/>
+              <item alpha="255" value="760" label="760" color="#d2d0d2"/>
+              <item alpha="255" value="770" label="770" color="#d9d7d9"/>
+              <item alpha="255" value="780" label="780" color="#dedcde"/>
+              <item alpha="255" value="790" label="790" color="#e6e4e6"/>
+              <item alpha="255" value="800" label="800" color="#ebe9eb"/>
+            </colorrampshader>
+          </rastershader>
         </rasterrenderer>
         <brightnesscontrast brightness="0" contrast="0"/>
         <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
@@ -982,7 +676,7 @@
         <xmax>153.63749999999987494</xmax>
         <ymax>-9.19749999999995893</ymax>
       </extent>
-      <id>Basins20170824170035777</id>
+      <id>Basins2017091020522348828633</id>
       <datasource> restrictToRequestBBOX='1' srsname='EPSG:4283' typename='Surface_Hydrology_WM:Basins' url='http://services.ga.gov.au/gis/services/Surface_Hydrology_WM/MapServer/WFSServer?' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
@@ -1503,7 +1197,7 @@
           <column width="-1" hidden="0" type="field" name="OBJECTID"/>
           <column width="-1" hidden="0" type="field" name="HydroID"/>
           <column width="-1" hidden="0" type="field" name="DivisionNumber"/>
-          <column width="31" hidden="0" type="field" name="SourceFeatureClassName"/>
+          <column width="86" hidden="0" type="field" name="SourceFeatureClassName"/>
           <column width="31" hidden="0" type="field" name="SourceFeatureType"/>
           <column width="31" hidden="0" type="field" name="SourceType"/>
           <column width="31" hidden="0" type="field" name="SourceID"/>
@@ -1570,7 +1264,13 @@ def my_form_open(dialog, layer, feature):
       <previewExpression>COALESCE( "Level2Name", '&lt;NULL>' )</previewExpression>
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>Catchments20170824170050938</id>
+      <extent>
+        <xmin>112.92250000000001364</xmin>
+        <ymin>-43.73999999999995225</ymin>
+        <xmax>153.63749999999987494</xmax>
+        <ymax>-9.19749999999995893</ymax>
+      </extent>
+      <id>Catchments2017091020522348819370</id>
       <datasource> restrictToRequestBBOX='1' srsname='EPSG:4283' typename='Surface_Hydrology_WM:Catchments' url='http://services.ga.gov.au/gis/services/Surface_Hydrology_WM/MapServer/WFSServer?' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
@@ -2163,7 +1863,7 @@ def my_form_open(dialog, layer, feature):
       <previewExpression>COALESCE( "Level2Name", '&lt;NULL>' )</previewExpression>
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="0" scaleBasedLabelVisibilityFlag="0">
-      <id>Surface_HydroPolys_Regional20170824170140726</id>
+      <id>Surface_HydroPolys_Regional2017091020522348823565</id>
       <datasource> restrictToRequestBBOX='1' srsname='EPSG:4283' typename='Surface_Hydrology_WM:Surface_HydroPolys_Regional' url='http://services.ga.gov.au/gis/services/Surface_Hydrology_WM/MapServer/WFSServer?' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
@@ -2364,7 +2064,7 @@ def my_form_open(dialog, layer, feature):
       <previewExpression></previewExpression>
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="0" scaleBasedLabelVisibilityFlag="0">
-      <id>Surface_HydroPolys_National20170824170134388</id>
+      <id>Surface_HydroPolys_National2017091020522348825364</id>
       <datasource> restrictToRequestBBOX='1' srsname='EPSG:4283' typename='Surface_Hydrology_WM:Surface_HydroPolys_National' url='http://services.ga.gov.au/gis/services/Surface_Hydrology_WM/MapServer/WFSServer?' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
@@ -2565,7 +2265,7 @@ def my_form_open(dialog, layer, feature):
       <previewExpression></previewExpression>
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="0" scaleBasedLabelVisibilityFlag="0">
-      <id>Surface_HydroPoints_Regional20170824170128257</id>
+      <id>Surface_HydroPoints_Regional2017091020522348831324</id>
       <datasource> restrictToRequestBBOX='1' srsname='EPSG:4283' typename='Surface_Hydrology_WM:Surface_HydroPoints_Regional' url='http://services.ga.gov.au/gis/services/Surface_Hydrology_WM/MapServer/WFSServer?' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
@@ -2753,7 +2453,7 @@ def my_form_open(dialog, layer, feature):
       <previewExpression></previewExpression>
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="0" scaleBasedLabelVisibilityFlag="0">
-      <id>Surface_HydroPoints_National20170824170123658</id>
+      <id>Surface_HydroPoints_National2017091020522348828825</id>
       <datasource> restrictToRequestBBOX='1' srsname='EPSG:4283' typename='Surface_Hydrology_WM:Surface_HydroPoints_National' url='http://services.ga.gov.au/gis/services/Surface_Hydrology_WM/MapServer/WFSServer?' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
@@ -2941,7 +2641,7 @@ def my_form_open(dialog, layer, feature):
       <previewExpression></previewExpression>
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="0" scaleBasedLabelVisibilityFlag="0">
-      <id>Surface_HydroLines_Regional20170824170111433</id>
+      <id>Surface_HydroLines_Regional2017091020522348822038</id>
       <datasource> restrictToRequestBBOX='1' srsname='EPSG:4283' typename='Surface_Hydrology_WM:Surface_HydroLines_Regional' url='http://services.ga.gov.au/gis/services/Surface_Hydrology_WM/MapServer/WFSServer?' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
@@ -3151,7 +2851,7 @@ def my_form_open(dialog, layer, feature):
       <previewExpression></previewExpression>
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="0" scaleBasedLabelVisibilityFlag="0">
-      <id>Surface_HydroLines_National20170824170105279</id>
+      <id>Surface_HydroLines_National201709102052234886071</id>
       <datasource> restrictToRequestBBOX='1' srsname='EPSG:4283' typename='Surface_Hydrology_WM:Surface_HydroLines_National' url='http://services.ga.gov.au/gis/services/Surface_Hydrology_WM/MapServer/WFSServer?' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
@@ -3349,6 +3049,1876 @@ def my_form_open(dialog, layer, feature):
         <default field="RESTRICTIONS" expression=""/>
       </defaults>
       <previewExpression></previewExpression>
+    </maplayer>
+    <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <extent>
+        <xmin>96.82919900000007374</xmin>
+        <ymin>-42.83693899999997257</ymin>
+        <xmax>167.94348700000011831</xmax>
+        <ymax>-10.45103399999993599</ymax>
+      </extent>
+      <id>National_Major_Aviation_Terminals20170910211221297</id>
+      <datasource> restrictToRequestBBOX='1' srsname='EPSG:4283' typename='Aviation_Facilities:National_Major_Aviation_Terminals' url='http://services.ga.gov.au/gis/services/Aviation_Facilities/MapServer/WFSServer?' version='auto' table="" sql=</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Major Aviation Terminals</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs</proj4>
+          <srsid>3415</srsid>
+          <srid>4283</srid>
+          <authid>EPSG:4283</authid>
+          <description>GDA94</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="System">WFS</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="OBJECTID">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="FEATURETYPE">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="DESCRIPTION">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="CLASS">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="FID">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="NAME">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="STRUCTURETYPE">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="AIRPORTCODE">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="ADDRESS">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="SUBURB">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="STATE">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="SPATIALCONFIDENCE">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="REVISED">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="COMMENT">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+      </edittypes>
+      <renderer-v2 forceraster="0" symbollevels="0" type="RuleRenderer" enableorderby="0">
+        <rules key="{b194dbff-589d-418a-9c21-5836310661a5}">
+          <rule checkstate="0" filter="&quot;CLASS&quot; = 'Domestic' OR  &quot;CLASS&quot; = 'Domestic and International' " key="{b1f1fc5d-f5a0-456c-8051-55a3af280d21}" symbol="0" label="Domestic"/>
+          <rule filter="&quot;CLASS&quot; = 'International' OR  &quot;CLASS&quot; = 'Domestic and International' " key="{c4928180-c2fd-44fa-984f-fc9b42076631}" symbol="1" label="International"/>
+        </rules>
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="marker" name="0">
+            <layer pass="0" class="SvgMarker" locked="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="216,120,152,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="name" v="transport/amenity=airport.svg"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="8"/>
+              <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="marker" name="1">
+            <layer pass="0" class="SvgMarker" locked="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="183,204,74,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="name" v="transport/amenity=airport.svg"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="8"/>
+              <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+            </layer>
+          </symbol>
+        </symbols>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties>
+        <property key="embeddedWidgets/count" value="0"/>
+        <property key="labeling" value="pal"/>
+        <property key="labeling/addDirectionSymbol" value="false"/>
+        <property key="labeling/angleOffset" value="0"/>
+        <property key="labeling/blendMode" value="0"/>
+        <property key="labeling/bufferBlendMode" value="0"/>
+        <property key="labeling/bufferColorA" value="255"/>
+        <property key="labeling/bufferColorB" value="255"/>
+        <property key="labeling/bufferColorG" value="255"/>
+        <property key="labeling/bufferColorR" value="255"/>
+        <property key="labeling/bufferDraw" value="true"/>
+        <property key="labeling/bufferJoinStyle" value="128"/>
+        <property key="labeling/bufferNoFill" value="false"/>
+        <property key="labeling/bufferSize" value="1"/>
+        <property key="labeling/bufferSizeInMapUnits" value="false"/>
+        <property key="labeling/bufferSizeMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/bufferTransp" value="0"/>
+        <property key="labeling/centroidInside" value="false"/>
+        <property key="labeling/centroidWhole" value="false"/>
+        <property key="labeling/decimals" value="3"/>
+        <property key="labeling/displayAll" value="false"/>
+        <property key="labeling/dist" value="0"/>
+        <property key="labeling/distInMapUnits" value="false"/>
+        <property key="labeling/distMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/drawLabels" value="true"/>
+        <property key="labeling/enabled" value="true"/>
+        <property key="labeling/fieldName" value="NAME"/>
+        <property key="labeling/fitInPolygonOnly" value="false"/>
+        <property key="labeling/fontCapitals" value="0"/>
+        <property key="labeling/fontFamily" value="MS Shell Dlg 2"/>
+        <property key="labeling/fontItalic" value="false"/>
+        <property key="labeling/fontLetterSpacing" value="0"/>
+        <property key="labeling/fontLimitPixelSize" value="false"/>
+        <property key="labeling/fontMaxPixelSize" value="10000"/>
+        <property key="labeling/fontMinPixelSize" value="3"/>
+        <property key="labeling/fontSize" value="8.25"/>
+        <property key="labeling/fontSizeInMapUnits" value="false"/>
+        <property key="labeling/fontSizeMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/fontStrikeout" value="false"/>
+        <property key="labeling/fontUnderline" value="false"/>
+        <property key="labeling/fontWeight" value="50"/>
+        <property key="labeling/fontWordSpacing" value="0"/>
+        <property key="labeling/formatNumbers" value="false"/>
+        <property key="labeling/isExpression" value="false"/>
+        <property key="labeling/labelOffsetInMapUnits" value="true"/>
+        <property key="labeling/labelOffsetMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/labelPerPart" value="false"/>
+        <property key="labeling/leftDirectionSymbol" value="&lt;"/>
+        <property key="labeling/limitNumLabels" value="false"/>
+        <property key="labeling/maxCurvedCharAngleIn" value="25"/>
+        <property key="labeling/maxCurvedCharAngleOut" value="-25"/>
+        <property key="labeling/maxNumLabels" value="2000"/>
+        <property key="labeling/mergeLines" value="false"/>
+        <property key="labeling/minFeatureSize" value="0"/>
+        <property key="labeling/multilineAlign" value="3"/>
+        <property key="labeling/multilineHeight" value="1"/>
+        <property key="labeling/namedStyle" value="Normal"/>
+        <property key="labeling/obstacle" value="true"/>
+        <property key="labeling/obstacleFactor" value="1"/>
+        <property key="labeling/obstacleType" value="0"/>
+        <property key="labeling/offsetType" value="0"/>
+        <property key="labeling/placeDirectionSymbol" value="0"/>
+        <property key="labeling/placement" value="6"/>
+        <property key="labeling/placementFlags" value="10"/>
+        <property key="labeling/plussign" value="false"/>
+        <property key="labeling/predefinedPositionOrder" value="TR,TL,BR,BL,R,L,TSR,BSR"/>
+        <property key="labeling/preserveRotation" value="true"/>
+        <property key="labeling/previewBkgrdColor" value="#ffffff"/>
+        <property key="labeling/priority" value="5"/>
+        <property key="labeling/quadOffset" value="4"/>
+        <property key="labeling/repeatDistance" value="0"/>
+        <property key="labeling/repeatDistanceMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/repeatDistanceUnit" value="1"/>
+        <property key="labeling/reverseDirectionSymbol" value="false"/>
+        <property key="labeling/rightDirectionSymbol" value=">"/>
+        <property key="labeling/scaleMax" value="10000000"/>
+        <property key="labeling/scaleMin" value="1"/>
+        <property key="labeling/scaleVisibility" value="false"/>
+        <property key="labeling/shadowBlendMode" value="6"/>
+        <property key="labeling/shadowColorB" value="0"/>
+        <property key="labeling/shadowColorG" value="0"/>
+        <property key="labeling/shadowColorR" value="0"/>
+        <property key="labeling/shadowDraw" value="false"/>
+        <property key="labeling/shadowOffsetAngle" value="135"/>
+        <property key="labeling/shadowOffsetDist" value="1"/>
+        <property key="labeling/shadowOffsetGlobal" value="true"/>
+        <property key="labeling/shadowOffsetMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shadowOffsetUnits" value="1"/>
+        <property key="labeling/shadowRadius" value="1.5"/>
+        <property key="labeling/shadowRadiusAlphaOnly" value="false"/>
+        <property key="labeling/shadowRadiusMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shadowRadiusUnits" value="1"/>
+        <property key="labeling/shadowScale" value="100"/>
+        <property key="labeling/shadowTransparency" value="30"/>
+        <property key="labeling/shadowUnder" value="0"/>
+        <property key="labeling/shapeBlendMode" value="0"/>
+        <property key="labeling/shapeBorderColorA" value="255"/>
+        <property key="labeling/shapeBorderColorB" value="128"/>
+        <property key="labeling/shapeBorderColorG" value="128"/>
+        <property key="labeling/shapeBorderColorR" value="128"/>
+        <property key="labeling/shapeBorderWidth" value="0"/>
+        <property key="labeling/shapeBorderWidthMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shapeBorderWidthUnits" value="1"/>
+        <property key="labeling/shapeDraw" value="false"/>
+        <property key="labeling/shapeFillColorA" value="255"/>
+        <property key="labeling/shapeFillColorB" value="255"/>
+        <property key="labeling/shapeFillColorG" value="255"/>
+        <property key="labeling/shapeFillColorR" value="255"/>
+        <property key="labeling/shapeJoinStyle" value="64"/>
+        <property key="labeling/shapeOffsetMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shapeOffsetUnits" value="1"/>
+        <property key="labeling/shapeOffsetX" value="0"/>
+        <property key="labeling/shapeOffsetY" value="0"/>
+        <property key="labeling/shapeRadiiMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shapeRadiiUnits" value="1"/>
+        <property key="labeling/shapeRadiiX" value="0"/>
+        <property key="labeling/shapeRadiiY" value="0"/>
+        <property key="labeling/shapeRotation" value="0"/>
+        <property key="labeling/shapeRotationType" value="0"/>
+        <property key="labeling/shapeSVGFile" value=""/>
+        <property key="labeling/shapeSizeMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shapeSizeType" value="0"/>
+        <property key="labeling/shapeSizeUnits" value="1"/>
+        <property key="labeling/shapeSizeX" value="0"/>
+        <property key="labeling/shapeSizeY" value="0"/>
+        <property key="labeling/shapeTransparency" value="0"/>
+        <property key="labeling/shapeType" value="0"/>
+        <property key="labeling/substitutions" value="&lt;substitutions/>"/>
+        <property key="labeling/textColorA" value="255"/>
+        <property key="labeling/textColorB" value="0"/>
+        <property key="labeling/textColorG" value="0"/>
+        <property key="labeling/textColorR" value="0"/>
+        <property key="labeling/textTransp" value="0"/>
+        <property key="labeling/upsidedownLabels" value="0"/>
+        <property key="labeling/useSubstitutions" value="false"/>
+        <property key="labeling/wrapChar" value=""/>
+        <property key="labeling/xOffset" value="0"/>
+        <property key="labeling/yOffset" value="0"/>
+        <property key="labeling/zIndex" value="0"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <displayfield>DESCRIPTION</displayfield>
+      <label>0</label>
+      <labelattributes>
+        <label fieldname="" text="Label"/>
+        <family fieldname="" name="MS Shell Dlg 2"/>
+        <size fieldname="" units="pt" value="12"/>
+        <bold fieldname="" on="0"/>
+        <italic fieldname="" on="0"/>
+        <underline fieldname="" on="0"/>
+        <strikeout fieldname="" on="0"/>
+        <color fieldname="" red="0" blue="0" green="0"/>
+        <x fieldname=""/>
+        <y fieldname=""/>
+        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+        <angle fieldname="" value="0" auto="0"/>
+        <alignment fieldname="" value="center"/>
+        <buffercolor fieldname="" red="255" blue="255" green="255"/>
+        <buffersize fieldname="" units="pt" value="1"/>
+        <bufferenabled fieldname="" on=""/>
+        <multilineenabled fieldname="" on=""/>
+        <selectedonly on=""/>
+      </labelattributes>
+      <SingleCategoryDiagramRenderer diagramType="Histogram" sizeLegend="0" attributeLegend="1">
+        <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" sizeScale="0,0,0,0,0,0" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" lineSizeScale="0,0,0,0,0,0" sizeType="MM" lineSizeType="MM" minScaleDenominator="inf">
+          <fontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
+        </DiagramCategory>
+        <symbol alpha="1" clip_to_extent="1" type="marker" name="sizeSymbol">
+          <layer pass="0" class="SimpleMarker" locked="0">
+            <prop k="angle" v="0"/>
+            <prop k="color" v="255,0,0,255"/>
+            <prop k="horizontal_anchor_point" v="1"/>
+            <prop k="joinstyle" v="bevel"/>
+            <prop k="name" v="circle"/>
+            <prop k="offset" v="0,0"/>
+            <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="outline_color" v="0,0,0,255"/>
+            <prop k="outline_style" v="solid"/>
+            <prop k="outline_width" v="0"/>
+            <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+            <prop k="outline_width_unit" v="MM"/>
+            <prop k="scale_method" v="diameter"/>
+            <prop k="size" v="2"/>
+            <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+            <prop k="size_unit" v="MM"/>
+            <prop k="vertical_anchor_point" v="1"/>
+          </layer>
+        </symbol>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings yPosColumn="-1" showColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
+      <annotationform></annotationform>
+      <aliases>
+        <alias field="OBJECTID" index="0" name=""/>
+        <alias field="FEATURETYPE" index="1" name=""/>
+        <alias field="DESCRIPTION" index="2" name=""/>
+        <alias field="CLASS" index="3" name=""/>
+        <alias field="FID" index="4" name=""/>
+        <alias field="NAME" index="5" name=""/>
+        <alias field="STRUCTURETYPE" index="6" name=""/>
+        <alias field="AIRPORTCODE" index="7" name=""/>
+        <alias field="ADDRESS" index="8" name=""/>
+        <alias field="SUBURB" index="9" name=""/>
+        <alias field="STATE" index="10" name=""/>
+        <alias field="SPATIALCONFIDENCE" index="11" name=""/>
+        <alias field="REVISED" index="12" name=""/>
+        <alias field="COMMENT" index="13" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions default="-1"/>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="1476444224">
+        <columns>
+          <column width="-1" hidden="0" type="field" name="OBJECTID"/>
+          <column width="-1" hidden="0" type="field" name="FEATURETYPE"/>
+          <column width="-1" hidden="0" type="field" name="DESCRIPTION"/>
+          <column width="-1" hidden="0" type="field" name="CLASS"/>
+          <column width="-1" hidden="0" type="field" name="FID"/>
+          <column width="-1" hidden="0" type="field" name="NAME"/>
+          <column width="-1" hidden="0" type="field" name="STRUCTURETYPE"/>
+          <column width="-1" hidden="0" type="field" name="AIRPORTCODE"/>
+          <column width="-1" hidden="0" type="field" name="ADDRESS"/>
+          <column width="-1" hidden="0" type="field" name="SUBURB"/>
+          <column width="-1" hidden="0" type="field" name="STATE"/>
+          <column width="-1" hidden="0" type="field" name="SPATIALCONFIDENCE"/>
+          <column width="-1" hidden="0" type="field" name="REVISED"/>
+          <column width="-1" hidden="0" type="field" name="COMMENT"/>
+          <column width="-1" hidden="1" type="actions"/>
+        </columns>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <defaults>
+        <default field="OBJECTID" expression=""/>
+        <default field="FEATURETYPE" expression=""/>
+        <default field="DESCRIPTION" expression=""/>
+        <default field="CLASS" expression=""/>
+        <default field="FID" expression=""/>
+        <default field="NAME" expression=""/>
+        <default field="STRUCTURETYPE" expression=""/>
+        <default field="AIRPORTCODE" expression=""/>
+        <default field="ADDRESS" expression=""/>
+        <default field="SUBURB" expression=""/>
+        <default field="STATE" expression=""/>
+        <default field="SPATIALCONFIDENCE" expression=""/>
+        <default field="REVISED" expression=""/>
+        <default field="COMMENT" expression=""/>
+      </defaults>
+      <previewExpression></previewExpression>
+    </maplayer>
+    <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <id>National_Major_Power_Stations20170910210032344</id>
+      <datasource> restrictToRequestBBOX='1' srsname='EPSG:4283' typename='Electricity_Infrastructure:National_Major_Power_Stations' url='http://services.ga.gov.au/site_3/services/Electricity_Infrastructure/MapServer/WFSServer?' version='auto' table="" sql=</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Major Power Stations</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs</proj4>
+          <srsid>3415</srsid>
+          <srid>4283</srid>
+          <authid>EPSG:4283</authid>
+          <description>GDA94</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="System">WFS</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="OBJECTID">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="FEATURETYPE">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="DESCRIPTION">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="CLASS">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="FID">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="NAME">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="OPERATIONALSTATUS">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="OPERATOR">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="OWNER">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="GENERATIONTYPE">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="PRIMARYFUELTYPE">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="PRIMARYSUBFUELTYPE">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="GENERATIONMW">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="GENERATORNUMBER">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="SUBURB">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="STATE">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="SPATIALCONFIDENCE">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="REVISED">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="COMMENT">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+      </edittypes>
+      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="marker" name="0">
+            <layer pass="0" class="SimpleMarker" locked="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="255,137,1,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="diamond"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="area"/>
+              <prop k="size" v="3"/>
+              <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale scalemethod="diameter"/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties>
+        <property key="embeddedWidgets/count" value="0"/>
+        <property key="labeling" value="pal"/>
+        <property key="labeling/addDirectionSymbol" value="false"/>
+        <property key="labeling/angleOffset" value="0"/>
+        <property key="labeling/blendMode" value="0"/>
+        <property key="labeling/bufferBlendMode" value="0"/>
+        <property key="labeling/bufferColorA" value="255"/>
+        <property key="labeling/bufferColorB" value="255"/>
+        <property key="labeling/bufferColorG" value="255"/>
+        <property key="labeling/bufferColorR" value="255"/>
+        <property key="labeling/bufferDraw" value="false"/>
+        <property key="labeling/bufferJoinStyle" value="128"/>
+        <property key="labeling/bufferNoFill" value="false"/>
+        <property key="labeling/bufferSize" value="1"/>
+        <property key="labeling/bufferSizeInMapUnits" value="false"/>
+        <property key="labeling/bufferSizeMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/bufferTransp" value="0"/>
+        <property key="labeling/centroidInside" value="false"/>
+        <property key="labeling/centroidWhole" value="false"/>
+        <property key="labeling/decimals" value="3"/>
+        <property key="labeling/displayAll" value="false"/>
+        <property key="labeling/dist" value="0"/>
+        <property key="labeling/distInMapUnits" value="false"/>
+        <property key="labeling/distMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/drawLabels" value="false"/>
+        <property key="labeling/enabled" value="false"/>
+        <property key="labeling/fieldName" value=""/>
+        <property key="labeling/fitInPolygonOnly" value="false"/>
+        <property key="labeling/fontCapitals" value="0"/>
+        <property key="labeling/fontFamily" value="MS Shell Dlg 2"/>
+        <property key="labeling/fontItalic" value="false"/>
+        <property key="labeling/fontLetterSpacing" value="0"/>
+        <property key="labeling/fontLimitPixelSize" value="false"/>
+        <property key="labeling/fontMaxPixelSize" value="10000"/>
+        <property key="labeling/fontMinPixelSize" value="3"/>
+        <property key="labeling/fontSize" value="8.25"/>
+        <property key="labeling/fontSizeInMapUnits" value="false"/>
+        <property key="labeling/fontSizeMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/fontStrikeout" value="false"/>
+        <property key="labeling/fontUnderline" value="false"/>
+        <property key="labeling/fontWeight" value="50"/>
+        <property key="labeling/fontWordSpacing" value="0"/>
+        <property key="labeling/formatNumbers" value="false"/>
+        <property key="labeling/isExpression" value="true"/>
+        <property key="labeling/labelOffsetInMapUnits" value="true"/>
+        <property key="labeling/labelOffsetMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/labelPerPart" value="false"/>
+        <property key="labeling/leftDirectionSymbol" value="&lt;"/>
+        <property key="labeling/limitNumLabels" value="false"/>
+        <property key="labeling/maxCurvedCharAngleIn" value="25"/>
+        <property key="labeling/maxCurvedCharAngleOut" value="-25"/>
+        <property key="labeling/maxNumLabels" value="2000"/>
+        <property key="labeling/mergeLines" value="false"/>
+        <property key="labeling/minFeatureSize" value="0"/>
+        <property key="labeling/multilineAlign" value="3"/>
+        <property key="labeling/multilineHeight" value="1"/>
+        <property key="labeling/namedStyle" value="Normal"/>
+        <property key="labeling/obstacle" value="true"/>
+        <property key="labeling/obstacleFactor" value="1"/>
+        <property key="labeling/obstacleType" value="0"/>
+        <property key="labeling/offsetType" value="0"/>
+        <property key="labeling/placeDirectionSymbol" value="0"/>
+        <property key="labeling/placement" value="6"/>
+        <property key="labeling/placementFlags" value="10"/>
+        <property key="labeling/plussign" value="false"/>
+        <property key="labeling/predefinedPositionOrder" value="TR,TL,BR,BL,R,L,TSR,BSR"/>
+        <property key="labeling/preserveRotation" value="true"/>
+        <property key="labeling/previewBkgrdColor" value="#ffffff"/>
+        <property key="labeling/priority" value="5"/>
+        <property key="labeling/quadOffset" value="4"/>
+        <property key="labeling/repeatDistance" value="0"/>
+        <property key="labeling/repeatDistanceMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/repeatDistanceUnit" value="1"/>
+        <property key="labeling/reverseDirectionSymbol" value="false"/>
+        <property key="labeling/rightDirectionSymbol" value=">"/>
+        <property key="labeling/scaleMax" value="10000000"/>
+        <property key="labeling/scaleMin" value="1"/>
+        <property key="labeling/scaleVisibility" value="false"/>
+        <property key="labeling/shadowBlendMode" value="6"/>
+        <property key="labeling/shadowColorB" value="0"/>
+        <property key="labeling/shadowColorG" value="0"/>
+        <property key="labeling/shadowColorR" value="0"/>
+        <property key="labeling/shadowDraw" value="false"/>
+        <property key="labeling/shadowOffsetAngle" value="135"/>
+        <property key="labeling/shadowOffsetDist" value="1"/>
+        <property key="labeling/shadowOffsetGlobal" value="true"/>
+        <property key="labeling/shadowOffsetMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shadowOffsetUnits" value="1"/>
+        <property key="labeling/shadowRadius" value="1.5"/>
+        <property key="labeling/shadowRadiusAlphaOnly" value="false"/>
+        <property key="labeling/shadowRadiusMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shadowRadiusUnits" value="1"/>
+        <property key="labeling/shadowScale" value="100"/>
+        <property key="labeling/shadowTransparency" value="30"/>
+        <property key="labeling/shadowUnder" value="0"/>
+        <property key="labeling/shapeBlendMode" value="0"/>
+        <property key="labeling/shapeBorderColorA" value="255"/>
+        <property key="labeling/shapeBorderColorB" value="128"/>
+        <property key="labeling/shapeBorderColorG" value="128"/>
+        <property key="labeling/shapeBorderColorR" value="128"/>
+        <property key="labeling/shapeBorderWidth" value="0"/>
+        <property key="labeling/shapeBorderWidthMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shapeBorderWidthUnits" value="1"/>
+        <property key="labeling/shapeDraw" value="false"/>
+        <property key="labeling/shapeFillColorA" value="255"/>
+        <property key="labeling/shapeFillColorB" value="255"/>
+        <property key="labeling/shapeFillColorG" value="255"/>
+        <property key="labeling/shapeFillColorR" value="255"/>
+        <property key="labeling/shapeJoinStyle" value="64"/>
+        <property key="labeling/shapeOffsetMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shapeOffsetUnits" value="1"/>
+        <property key="labeling/shapeOffsetX" value="0"/>
+        <property key="labeling/shapeOffsetY" value="0"/>
+        <property key="labeling/shapeRadiiMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shapeRadiiUnits" value="1"/>
+        <property key="labeling/shapeRadiiX" value="0"/>
+        <property key="labeling/shapeRadiiY" value="0"/>
+        <property key="labeling/shapeRotation" value="0"/>
+        <property key="labeling/shapeRotationType" value="0"/>
+        <property key="labeling/shapeSVGFile" value=""/>
+        <property key="labeling/shapeSizeMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shapeSizeType" value="0"/>
+        <property key="labeling/shapeSizeUnits" value="1"/>
+        <property key="labeling/shapeSizeX" value="0"/>
+        <property key="labeling/shapeSizeY" value="0"/>
+        <property key="labeling/shapeTransparency" value="0"/>
+        <property key="labeling/shapeType" value="0"/>
+        <property key="labeling/substitutions" value="&lt;substitutions/>"/>
+        <property key="labeling/textColorA" value="255"/>
+        <property key="labeling/textColorB" value="0"/>
+        <property key="labeling/textColorG" value="0"/>
+        <property key="labeling/textColorR" value="0"/>
+        <property key="labeling/textTransp" value="0"/>
+        <property key="labeling/upsidedownLabels" value="0"/>
+        <property key="labeling/useSubstitutions" value="false"/>
+        <property key="labeling/wrapChar" value=""/>
+        <property key="labeling/xOffset" value="0"/>
+        <property key="labeling/yOffset" value="0"/>
+        <property key="labeling/zIndex" value="0"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <displayfield>DESCRIPTION</displayfield>
+      <label>0</label>
+      <labelattributes>
+        <label fieldname="" text="Label"/>
+        <family fieldname="" name="MS Shell Dlg 2"/>
+        <size fieldname="" units="pt" value="12"/>
+        <bold fieldname="" on="0"/>
+        <italic fieldname="" on="0"/>
+        <underline fieldname="" on="0"/>
+        <strikeout fieldname="" on="0"/>
+        <color fieldname="" red="0" blue="0" green="0"/>
+        <x fieldname=""/>
+        <y fieldname=""/>
+        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+        <angle fieldname="" value="0" auto="0"/>
+        <alignment fieldname="" value="center"/>
+        <buffercolor fieldname="" red="255" blue="255" green="255"/>
+        <buffersize fieldname="" units="pt" value="1"/>
+        <bufferenabled fieldname="" on=""/>
+        <multilineenabled fieldname="" on=""/>
+        <selectedonly on=""/>
+      </labelattributes>
+      <SingleCategoryDiagramRenderer diagramType="Histogram" sizeLegend="0" attributeLegend="1">
+        <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" sizeScale="0,0,0,0,0,0" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" lineSizeScale="0,0,0,0,0,0" sizeType="MM" lineSizeType="MM" minScaleDenominator="inf">
+          <fontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
+        </DiagramCategory>
+        <symbol alpha="1" clip_to_extent="1" type="marker" name="sizeSymbol">
+          <layer pass="0" class="SimpleMarker" locked="0">
+            <prop k="angle" v="0"/>
+            <prop k="color" v="255,0,0,255"/>
+            <prop k="horizontal_anchor_point" v="1"/>
+            <prop k="joinstyle" v="bevel"/>
+            <prop k="name" v="circle"/>
+            <prop k="offset" v="0,0"/>
+            <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="outline_color" v="0,0,0,255"/>
+            <prop k="outline_style" v="solid"/>
+            <prop k="outline_width" v="0"/>
+            <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+            <prop k="outline_width_unit" v="MM"/>
+            <prop k="scale_method" v="diameter"/>
+            <prop k="size" v="2"/>
+            <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+            <prop k="size_unit" v="MM"/>
+            <prop k="vertical_anchor_point" v="1"/>
+          </layer>
+        </symbol>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings yPosColumn="-1" showColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
+      <annotationform></annotationform>
+      <aliases>
+        <alias field="OBJECTID" index="0" name=""/>
+        <alias field="FEATURETYPE" index="1" name=""/>
+        <alias field="DESCRIPTION" index="2" name=""/>
+        <alias field="CLASS" index="3" name=""/>
+        <alias field="FID" index="4" name=""/>
+        <alias field="NAME" index="5" name=""/>
+        <alias field="OPERATIONALSTATUS" index="6" name=""/>
+        <alias field="OPERATOR" index="7" name=""/>
+        <alias field="OWNER" index="8" name=""/>
+        <alias field="GENERATIONTYPE" index="9" name=""/>
+        <alias field="PRIMARYFUELTYPE" index="10" name=""/>
+        <alias field="PRIMARYSUBFUELTYPE" index="11" name=""/>
+        <alias field="GENERATIONMW" index="12" name=""/>
+        <alias field="GENERATORNUMBER" index="13" name=""/>
+        <alias field="SUBURB" index="14" name=""/>
+        <alias field="STATE" index="15" name=""/>
+        <alias field="SPATIALCONFIDENCE" index="16" name=""/>
+        <alias field="REVISED" index="17" name=""/>
+        <alias field="COMMENT" index="18" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions default="-1"/>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="811819712">
+        <columns>
+          <column width="-1" hidden="0" type="field" name="OBJECTID"/>
+          <column width="-1" hidden="0" type="field" name="FEATURETYPE"/>
+          <column width="-1" hidden="0" type="field" name="DESCRIPTION"/>
+          <column width="-1" hidden="0" type="field" name="CLASS"/>
+          <column width="-1" hidden="0" type="field" name="FID"/>
+          <column width="-1" hidden="0" type="field" name="NAME"/>
+          <column width="-1" hidden="0" type="field" name="OPERATIONALSTATUS"/>
+          <column width="-1" hidden="0" type="field" name="OPERATOR"/>
+          <column width="-1" hidden="0" type="field" name="OWNER"/>
+          <column width="-1" hidden="0" type="field" name="GENERATIONTYPE"/>
+          <column width="-1" hidden="0" type="field" name="PRIMARYFUELTYPE"/>
+          <column width="-1" hidden="0" type="field" name="PRIMARYSUBFUELTYPE"/>
+          <column width="-1" hidden="0" type="field" name="GENERATIONMW"/>
+          <column width="-1" hidden="0" type="field" name="GENERATORNUMBER"/>
+          <column width="-1" hidden="0" type="field" name="SUBURB"/>
+          <column width="-1" hidden="0" type="field" name="STATE"/>
+          <column width="-1" hidden="0" type="field" name="SPATIALCONFIDENCE"/>
+          <column width="-1" hidden="0" type="field" name="REVISED"/>
+          <column width="-1" hidden="0" type="field" name="COMMENT"/>
+          <column width="-1" hidden="1" type="actions"/>
+        </columns>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <defaults>
+        <default field="OBJECTID" expression=""/>
+        <default field="FEATURETYPE" expression=""/>
+        <default field="DESCRIPTION" expression=""/>
+        <default field="CLASS" expression=""/>
+        <default field="FID" expression=""/>
+        <default field="NAME" expression=""/>
+        <default field="OPERATIONALSTATUS" expression=""/>
+        <default field="OPERATOR" expression=""/>
+        <default field="OWNER" expression=""/>
+        <default field="GENERATIONTYPE" expression=""/>
+        <default field="PRIMARYFUELTYPE" expression=""/>
+        <default field="PRIMARYSUBFUELTYPE" expression=""/>
+        <default field="GENERATIONMW" expression=""/>
+        <default field="GENERATORNUMBER" expression=""/>
+        <default field="SUBURB" expression=""/>
+        <default field="STATE" expression=""/>
+        <default field="SPATIALCONFIDENCE" expression=""/>
+        <default field="REVISED" expression=""/>
+        <default field="COMMENT" expression=""/>
+      </defaults>
+      <previewExpression></previewExpression>
+    </maplayer>
+    <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <id>National_Electricity_Transmission_Substations20170910205539699</id>
+      <datasource> restrictToRequestBBOX='1' srsname='EPSG:4283' typename='Electricity_Infrastructure:National_Electricity_Transmission_Substations' url='http://services.ga.gov.au/site_3/services/Electricity_Infrastructure/MapServer/WFSServer?' version='auto' table="" sql=</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Electricity Transmission Substations</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs</proj4>
+          <srsid>3415</srsid>
+          <srid>4283</srid>
+          <authid>EPSG:4283</authid>
+          <description>GDA94</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="System">WFS</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="OBJECTID">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="FEATURETYPE">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="DESCRIPTION">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="CLASS">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="FID">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="NAME">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="OPERATIONALSTATUS">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="SUBURB">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="STATE">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="SPATIALCONFIDENCE">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="REVISED">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="COMMENT">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+      </edittypes>
+      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="marker" name="0">
+            <layer pass="0" class="SimpleMarker" locked="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="56,255,1,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="square"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="area"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale scalemethod="diameter"/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties>
+        <property key="embeddedWidgets/count" value="0"/>
+        <property key="labeling" value="pal"/>
+        <property key="labeling/addDirectionSymbol" value="false"/>
+        <property key="labeling/angleOffset" value="0"/>
+        <property key="labeling/blendMode" value="0"/>
+        <property key="labeling/bufferBlendMode" value="0"/>
+        <property key="labeling/bufferColorA" value="255"/>
+        <property key="labeling/bufferColorB" value="255"/>
+        <property key="labeling/bufferColorG" value="255"/>
+        <property key="labeling/bufferColorR" value="255"/>
+        <property key="labeling/bufferDraw" value="false"/>
+        <property key="labeling/bufferJoinStyle" value="128"/>
+        <property key="labeling/bufferNoFill" value="false"/>
+        <property key="labeling/bufferSize" value="1"/>
+        <property key="labeling/bufferSizeInMapUnits" value="false"/>
+        <property key="labeling/bufferSizeMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/bufferTransp" value="0"/>
+        <property key="labeling/centroidInside" value="false"/>
+        <property key="labeling/centroidWhole" value="false"/>
+        <property key="labeling/decimals" value="3"/>
+        <property key="labeling/displayAll" value="false"/>
+        <property key="labeling/dist" value="0"/>
+        <property key="labeling/distInMapUnits" value="false"/>
+        <property key="labeling/distMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/drawLabels" value="false"/>
+        <property key="labeling/enabled" value="false"/>
+        <property key="labeling/fieldName" value=""/>
+        <property key="labeling/fitInPolygonOnly" value="false"/>
+        <property key="labeling/fontCapitals" value="0"/>
+        <property key="labeling/fontFamily" value="MS Shell Dlg 2"/>
+        <property key="labeling/fontItalic" value="false"/>
+        <property key="labeling/fontLetterSpacing" value="0"/>
+        <property key="labeling/fontLimitPixelSize" value="false"/>
+        <property key="labeling/fontMaxPixelSize" value="10000"/>
+        <property key="labeling/fontMinPixelSize" value="3"/>
+        <property key="labeling/fontSize" value="8.25"/>
+        <property key="labeling/fontSizeInMapUnits" value="false"/>
+        <property key="labeling/fontSizeMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/fontStrikeout" value="false"/>
+        <property key="labeling/fontUnderline" value="false"/>
+        <property key="labeling/fontWeight" value="50"/>
+        <property key="labeling/fontWordSpacing" value="0"/>
+        <property key="labeling/formatNumbers" value="false"/>
+        <property key="labeling/isExpression" value="true"/>
+        <property key="labeling/labelOffsetInMapUnits" value="true"/>
+        <property key="labeling/labelOffsetMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/labelPerPart" value="false"/>
+        <property key="labeling/leftDirectionSymbol" value="&lt;"/>
+        <property key="labeling/limitNumLabels" value="false"/>
+        <property key="labeling/maxCurvedCharAngleIn" value="25"/>
+        <property key="labeling/maxCurvedCharAngleOut" value="-25"/>
+        <property key="labeling/maxNumLabels" value="2000"/>
+        <property key="labeling/mergeLines" value="false"/>
+        <property key="labeling/minFeatureSize" value="0"/>
+        <property key="labeling/multilineAlign" value="3"/>
+        <property key="labeling/multilineHeight" value="1"/>
+        <property key="labeling/namedStyle" value="Normal"/>
+        <property key="labeling/obstacle" value="true"/>
+        <property key="labeling/obstacleFactor" value="1"/>
+        <property key="labeling/obstacleType" value="0"/>
+        <property key="labeling/offsetType" value="0"/>
+        <property key="labeling/placeDirectionSymbol" value="0"/>
+        <property key="labeling/placement" value="6"/>
+        <property key="labeling/placementFlags" value="10"/>
+        <property key="labeling/plussign" value="false"/>
+        <property key="labeling/predefinedPositionOrder" value="TR,TL,BR,BL,R,L,TSR,BSR"/>
+        <property key="labeling/preserveRotation" value="true"/>
+        <property key="labeling/previewBkgrdColor" value="#ffffff"/>
+        <property key="labeling/priority" value="5"/>
+        <property key="labeling/quadOffset" value="4"/>
+        <property key="labeling/repeatDistance" value="0"/>
+        <property key="labeling/repeatDistanceMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/repeatDistanceUnit" value="1"/>
+        <property key="labeling/reverseDirectionSymbol" value="false"/>
+        <property key="labeling/rightDirectionSymbol" value=">"/>
+        <property key="labeling/scaleMax" value="10000000"/>
+        <property key="labeling/scaleMin" value="1"/>
+        <property key="labeling/scaleVisibility" value="false"/>
+        <property key="labeling/shadowBlendMode" value="6"/>
+        <property key="labeling/shadowColorB" value="0"/>
+        <property key="labeling/shadowColorG" value="0"/>
+        <property key="labeling/shadowColorR" value="0"/>
+        <property key="labeling/shadowDraw" value="false"/>
+        <property key="labeling/shadowOffsetAngle" value="135"/>
+        <property key="labeling/shadowOffsetDist" value="1"/>
+        <property key="labeling/shadowOffsetGlobal" value="true"/>
+        <property key="labeling/shadowOffsetMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shadowOffsetUnits" value="1"/>
+        <property key="labeling/shadowRadius" value="1.5"/>
+        <property key="labeling/shadowRadiusAlphaOnly" value="false"/>
+        <property key="labeling/shadowRadiusMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shadowRadiusUnits" value="1"/>
+        <property key="labeling/shadowScale" value="100"/>
+        <property key="labeling/shadowTransparency" value="30"/>
+        <property key="labeling/shadowUnder" value="0"/>
+        <property key="labeling/shapeBlendMode" value="0"/>
+        <property key="labeling/shapeBorderColorA" value="255"/>
+        <property key="labeling/shapeBorderColorB" value="128"/>
+        <property key="labeling/shapeBorderColorG" value="128"/>
+        <property key="labeling/shapeBorderColorR" value="128"/>
+        <property key="labeling/shapeBorderWidth" value="0"/>
+        <property key="labeling/shapeBorderWidthMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shapeBorderWidthUnits" value="1"/>
+        <property key="labeling/shapeDraw" value="false"/>
+        <property key="labeling/shapeFillColorA" value="255"/>
+        <property key="labeling/shapeFillColorB" value="255"/>
+        <property key="labeling/shapeFillColorG" value="255"/>
+        <property key="labeling/shapeFillColorR" value="255"/>
+        <property key="labeling/shapeJoinStyle" value="64"/>
+        <property key="labeling/shapeOffsetMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shapeOffsetUnits" value="1"/>
+        <property key="labeling/shapeOffsetX" value="0"/>
+        <property key="labeling/shapeOffsetY" value="0"/>
+        <property key="labeling/shapeRadiiMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shapeRadiiUnits" value="1"/>
+        <property key="labeling/shapeRadiiX" value="0"/>
+        <property key="labeling/shapeRadiiY" value="0"/>
+        <property key="labeling/shapeRotation" value="0"/>
+        <property key="labeling/shapeRotationType" value="0"/>
+        <property key="labeling/shapeSVGFile" value=""/>
+        <property key="labeling/shapeSizeMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shapeSizeType" value="0"/>
+        <property key="labeling/shapeSizeUnits" value="1"/>
+        <property key="labeling/shapeSizeX" value="0"/>
+        <property key="labeling/shapeSizeY" value="0"/>
+        <property key="labeling/shapeTransparency" value="0"/>
+        <property key="labeling/shapeType" value="0"/>
+        <property key="labeling/substitutions" value="&lt;substitutions/>"/>
+        <property key="labeling/textColorA" value="255"/>
+        <property key="labeling/textColorB" value="0"/>
+        <property key="labeling/textColorG" value="0"/>
+        <property key="labeling/textColorR" value="0"/>
+        <property key="labeling/textTransp" value="0"/>
+        <property key="labeling/upsidedownLabels" value="0"/>
+        <property key="labeling/useSubstitutions" value="false"/>
+        <property key="labeling/wrapChar" value=""/>
+        <property key="labeling/xOffset" value="0"/>
+        <property key="labeling/yOffset" value="0"/>
+        <property key="labeling/zIndex" value="0"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <displayfield>DESCRIPTION</displayfield>
+      <label>0</label>
+      <labelattributes>
+        <label fieldname="" text="Label"/>
+        <family fieldname="" name="MS Shell Dlg 2"/>
+        <size fieldname="" units="pt" value="12"/>
+        <bold fieldname="" on="0"/>
+        <italic fieldname="" on="0"/>
+        <underline fieldname="" on="0"/>
+        <strikeout fieldname="" on="0"/>
+        <color fieldname="" red="0" blue="0" green="0"/>
+        <x fieldname=""/>
+        <y fieldname=""/>
+        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+        <angle fieldname="" value="0" auto="0"/>
+        <alignment fieldname="" value="center"/>
+        <buffercolor fieldname="" red="255" blue="255" green="255"/>
+        <buffersize fieldname="" units="pt" value="1"/>
+        <bufferenabled fieldname="" on=""/>
+        <multilineenabled fieldname="" on=""/>
+        <selectedonly on=""/>
+      </labelattributes>
+      <SingleCategoryDiagramRenderer diagramType="Histogram" sizeLegend="0" attributeLegend="1">
+        <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" sizeScale="0,0,0,0,0,0" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" lineSizeScale="0,0,0,0,0,0" sizeType="MM" lineSizeType="MM" minScaleDenominator="inf">
+          <fontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
+        </DiagramCategory>
+        <symbol alpha="1" clip_to_extent="1" type="marker" name="sizeSymbol">
+          <layer pass="0" class="SimpleMarker" locked="0">
+            <prop k="angle" v="0"/>
+            <prop k="color" v="255,0,0,255"/>
+            <prop k="horizontal_anchor_point" v="1"/>
+            <prop k="joinstyle" v="bevel"/>
+            <prop k="name" v="circle"/>
+            <prop k="offset" v="0,0"/>
+            <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="outline_color" v="0,0,0,255"/>
+            <prop k="outline_style" v="solid"/>
+            <prop k="outline_width" v="0"/>
+            <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+            <prop k="outline_width_unit" v="MM"/>
+            <prop k="scale_method" v="diameter"/>
+            <prop k="size" v="2"/>
+            <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+            <prop k="size_unit" v="MM"/>
+            <prop k="vertical_anchor_point" v="1"/>
+          </layer>
+        </symbol>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings yPosColumn="-1" showColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
+      <annotationform></annotationform>
+      <aliases>
+        <alias field="OBJECTID" index="0" name=""/>
+        <alias field="FEATURETYPE" index="1" name=""/>
+        <alias field="DESCRIPTION" index="2" name=""/>
+        <alias field="CLASS" index="3" name=""/>
+        <alias field="FID" index="4" name=""/>
+        <alias field="NAME" index="5" name=""/>
+        <alias field="OPERATIONALSTATUS" index="6" name=""/>
+        <alias field="SUBURB" index="7" name=""/>
+        <alias field="STATE" index="8" name=""/>
+        <alias field="SPATIALCONFIDENCE" index="9" name=""/>
+        <alias field="REVISED" index="10" name=""/>
+        <alias field="COMMENT" index="11" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions default="-1"/>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="697013216">
+        <columns>
+          <column width="-1" hidden="0" type="field" name="OBJECTID"/>
+          <column width="-1" hidden="0" type="field" name="FEATURETYPE"/>
+          <column width="-1" hidden="0" type="field" name="DESCRIPTION"/>
+          <column width="-1" hidden="0" type="field" name="CLASS"/>
+          <column width="-1" hidden="0" type="field" name="FID"/>
+          <column width="-1" hidden="0" type="field" name="NAME"/>
+          <column width="-1" hidden="0" type="field" name="OPERATIONALSTATUS"/>
+          <column width="-1" hidden="0" type="field" name="SUBURB"/>
+          <column width="-1" hidden="0" type="field" name="STATE"/>
+          <column width="-1" hidden="0" type="field" name="SPATIALCONFIDENCE"/>
+          <column width="-1" hidden="0" type="field" name="REVISED"/>
+          <column width="-1" hidden="0" type="field" name="COMMENT"/>
+          <column width="-1" hidden="1" type="actions"/>
+        </columns>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <defaults>
+        <default field="OBJECTID" expression=""/>
+        <default field="FEATURETYPE" expression=""/>
+        <default field="DESCRIPTION" expression=""/>
+        <default field="CLASS" expression=""/>
+        <default field="FID" expression=""/>
+        <default field="NAME" expression=""/>
+        <default field="OPERATIONALSTATUS" expression=""/>
+        <default field="SUBURB" expression=""/>
+        <default field="STATE" expression=""/>
+        <default field="SPATIALCONFIDENCE" expression=""/>
+        <default field="REVISED" expression=""/>
+        <default field="COMMENT" expression=""/>
+      </defaults>
+      <previewExpression></previewExpression>
+    </maplayer>
+    <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <id>National_Electricity_Transmission_Lines20170910205530287</id>
+      <datasource> restrictToRequestBBOX='1' srsname='EPSG:4283' typename='Electricity_Infrastructure:National_Electricity_Transmission_Lines' url='http://services.ga.gov.au/site_3/services/Electricity_Infrastructure/MapServer/WFSServer?' version='auto' table="" sql=</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Electricity Transmission Lines</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs</proj4>
+          <srsid>3415</srsid>
+          <srid>4283</srid>
+          <authid>EPSG:4283</authid>
+          <description>GDA94</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="System">WFS</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="OBJECTID">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="FEATURETYPE">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="DESCRIPTON">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="CLASS">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="FID">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="NAME">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="OPERATIONALSTATUS">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="CAPACITYKV">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="STATE">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="SPATIALCONFIDENCE">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="REVISED">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="COMMENT">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="SHAPE_Length">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+      </edittypes>
+      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="line" name="0">
+            <layer pass="0" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="square"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="134,134,134,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="0.26"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale scalemethod="diameter"/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties>
+        <property key="embeddedWidgets/count" value="0"/>
+        <property key="labeling" value="pal"/>
+        <property key="labeling/addDirectionSymbol" value="false"/>
+        <property key="labeling/angleOffset" value="0"/>
+        <property key="labeling/blendMode" value="0"/>
+        <property key="labeling/bufferBlendMode" value="0"/>
+        <property key="labeling/bufferColorA" value="255"/>
+        <property key="labeling/bufferColorB" value="255"/>
+        <property key="labeling/bufferColorG" value="255"/>
+        <property key="labeling/bufferColorR" value="255"/>
+        <property key="labeling/bufferDraw" value="false"/>
+        <property key="labeling/bufferJoinStyle" value="128"/>
+        <property key="labeling/bufferNoFill" value="false"/>
+        <property key="labeling/bufferSize" value="1"/>
+        <property key="labeling/bufferSizeInMapUnits" value="false"/>
+        <property key="labeling/bufferSizeMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/bufferTransp" value="0"/>
+        <property key="labeling/centroidInside" value="false"/>
+        <property key="labeling/centroidWhole" value="false"/>
+        <property key="labeling/decimals" value="3"/>
+        <property key="labeling/displayAll" value="false"/>
+        <property key="labeling/dist" value="0"/>
+        <property key="labeling/distInMapUnits" value="false"/>
+        <property key="labeling/distMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/drawLabels" value="false"/>
+        <property key="labeling/enabled" value="false"/>
+        <property key="labeling/fieldName" value=""/>
+        <property key="labeling/fitInPolygonOnly" value="false"/>
+        <property key="labeling/fontCapitals" value="0"/>
+        <property key="labeling/fontFamily" value="MS Shell Dlg 2"/>
+        <property key="labeling/fontItalic" value="false"/>
+        <property key="labeling/fontLetterSpacing" value="0"/>
+        <property key="labeling/fontLimitPixelSize" value="false"/>
+        <property key="labeling/fontMaxPixelSize" value="10000"/>
+        <property key="labeling/fontMinPixelSize" value="3"/>
+        <property key="labeling/fontSize" value="8.25"/>
+        <property key="labeling/fontSizeInMapUnits" value="false"/>
+        <property key="labeling/fontSizeMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/fontStrikeout" value="false"/>
+        <property key="labeling/fontUnderline" value="false"/>
+        <property key="labeling/fontWeight" value="50"/>
+        <property key="labeling/fontWordSpacing" value="0"/>
+        <property key="labeling/formatNumbers" value="false"/>
+        <property key="labeling/isExpression" value="true"/>
+        <property key="labeling/labelOffsetInMapUnits" value="true"/>
+        <property key="labeling/labelOffsetMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/labelPerPart" value="false"/>
+        <property key="labeling/leftDirectionSymbol" value="&lt;"/>
+        <property key="labeling/limitNumLabels" value="false"/>
+        <property key="labeling/maxCurvedCharAngleIn" value="25"/>
+        <property key="labeling/maxCurvedCharAngleOut" value="-25"/>
+        <property key="labeling/maxNumLabels" value="2000"/>
+        <property key="labeling/mergeLines" value="false"/>
+        <property key="labeling/minFeatureSize" value="0"/>
+        <property key="labeling/multilineAlign" value="4294967295"/>
+        <property key="labeling/multilineHeight" value="1"/>
+        <property key="labeling/namedStyle" value="Normal"/>
+        <property key="labeling/obstacle" value="true"/>
+        <property key="labeling/obstacleFactor" value="1"/>
+        <property key="labeling/obstacleType" value="0"/>
+        <property key="labeling/offsetType" value="0"/>
+        <property key="labeling/placeDirectionSymbol" value="0"/>
+        <property key="labeling/placement" value="2"/>
+        <property key="labeling/placementFlags" value="10"/>
+        <property key="labeling/plussign" value="false"/>
+        <property key="labeling/predefinedPositionOrder" value="TR,TL,BR,BL,R,L,TSR,BSR"/>
+        <property key="labeling/preserveRotation" value="true"/>
+        <property key="labeling/previewBkgrdColor" value="#ffffff"/>
+        <property key="labeling/priority" value="5"/>
+        <property key="labeling/quadOffset" value="4"/>
+        <property key="labeling/repeatDistance" value="0"/>
+        <property key="labeling/repeatDistanceMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/repeatDistanceUnit" value="1"/>
+        <property key="labeling/reverseDirectionSymbol" value="false"/>
+        <property key="labeling/rightDirectionSymbol" value=">"/>
+        <property key="labeling/scaleMax" value="10000000"/>
+        <property key="labeling/scaleMin" value="1"/>
+        <property key="labeling/scaleVisibility" value="false"/>
+        <property key="labeling/shadowBlendMode" value="6"/>
+        <property key="labeling/shadowColorB" value="0"/>
+        <property key="labeling/shadowColorG" value="0"/>
+        <property key="labeling/shadowColorR" value="0"/>
+        <property key="labeling/shadowDraw" value="false"/>
+        <property key="labeling/shadowOffsetAngle" value="135"/>
+        <property key="labeling/shadowOffsetDist" value="1"/>
+        <property key="labeling/shadowOffsetGlobal" value="true"/>
+        <property key="labeling/shadowOffsetMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shadowOffsetUnits" value="1"/>
+        <property key="labeling/shadowRadius" value="1.5"/>
+        <property key="labeling/shadowRadiusAlphaOnly" value="false"/>
+        <property key="labeling/shadowRadiusMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shadowRadiusUnits" value="1"/>
+        <property key="labeling/shadowScale" value="100"/>
+        <property key="labeling/shadowTransparency" value="30"/>
+        <property key="labeling/shadowUnder" value="0"/>
+        <property key="labeling/shapeBlendMode" value="0"/>
+        <property key="labeling/shapeBorderColorA" value="255"/>
+        <property key="labeling/shapeBorderColorB" value="128"/>
+        <property key="labeling/shapeBorderColorG" value="128"/>
+        <property key="labeling/shapeBorderColorR" value="128"/>
+        <property key="labeling/shapeBorderWidth" value="0"/>
+        <property key="labeling/shapeBorderWidthMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shapeBorderWidthUnits" value="1"/>
+        <property key="labeling/shapeDraw" value="false"/>
+        <property key="labeling/shapeFillColorA" value="255"/>
+        <property key="labeling/shapeFillColorB" value="255"/>
+        <property key="labeling/shapeFillColorG" value="255"/>
+        <property key="labeling/shapeFillColorR" value="255"/>
+        <property key="labeling/shapeJoinStyle" value="64"/>
+        <property key="labeling/shapeOffsetMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shapeOffsetUnits" value="1"/>
+        <property key="labeling/shapeOffsetX" value="0"/>
+        <property key="labeling/shapeOffsetY" value="0"/>
+        <property key="labeling/shapeRadiiMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shapeRadiiUnits" value="1"/>
+        <property key="labeling/shapeRadiiX" value="0"/>
+        <property key="labeling/shapeRadiiY" value="0"/>
+        <property key="labeling/shapeRotation" value="0"/>
+        <property key="labeling/shapeRotationType" value="0"/>
+        <property key="labeling/shapeSVGFile" value=""/>
+        <property key="labeling/shapeSizeMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shapeSizeType" value="0"/>
+        <property key="labeling/shapeSizeUnits" value="1"/>
+        <property key="labeling/shapeSizeX" value="0"/>
+        <property key="labeling/shapeSizeY" value="0"/>
+        <property key="labeling/shapeTransparency" value="0"/>
+        <property key="labeling/shapeType" value="0"/>
+        <property key="labeling/substitutions" value="&lt;substitutions/>"/>
+        <property key="labeling/textColorA" value="255"/>
+        <property key="labeling/textColorB" value="0"/>
+        <property key="labeling/textColorG" value="0"/>
+        <property key="labeling/textColorR" value="0"/>
+        <property key="labeling/textTransp" value="0"/>
+        <property key="labeling/upsidedownLabels" value="0"/>
+        <property key="labeling/useSubstitutions" value="false"/>
+        <property key="labeling/wrapChar" value=""/>
+        <property key="labeling/xOffset" value="0"/>
+        <property key="labeling/yOffset" value="0"/>
+        <property key="labeling/zIndex" value="0"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <displayfield>DESCRIPTON</displayfield>
+      <label>0</label>
+      <labelattributes>
+        <label fieldname="" text="Label"/>
+        <family fieldname="" name="MS Shell Dlg 2"/>
+        <size fieldname="" units="pt" value="12"/>
+        <bold fieldname="" on="0"/>
+        <italic fieldname="" on="0"/>
+        <underline fieldname="" on="0"/>
+        <strikeout fieldname="" on="0"/>
+        <color fieldname="" red="0" blue="0" green="0"/>
+        <x fieldname=""/>
+        <y fieldname=""/>
+        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+        <angle fieldname="" value="0" auto="0"/>
+        <alignment fieldname="" value="center"/>
+        <buffercolor fieldname="" red="255" blue="255" green="255"/>
+        <buffersize fieldname="" units="pt" value="1"/>
+        <bufferenabled fieldname="" on=""/>
+        <multilineenabled fieldname="" on=""/>
+        <selectedonly on=""/>
+      </labelattributes>
+      <SingleCategoryDiagramRenderer diagramType="Histogram" sizeLegend="0" attributeLegend="1">
+        <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" sizeScale="0,0,0,0,0,0" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" lineSizeScale="0,0,0,0,0,0" sizeType="MM" lineSizeType="MM" minScaleDenominator="inf">
+          <fontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
+        </DiagramCategory>
+        <symbol alpha="1" clip_to_extent="1" type="marker" name="sizeSymbol">
+          <layer pass="0" class="SimpleMarker" locked="0">
+            <prop k="angle" v="0"/>
+            <prop k="color" v="255,0,0,255"/>
+            <prop k="horizontal_anchor_point" v="1"/>
+            <prop k="joinstyle" v="bevel"/>
+            <prop k="name" v="circle"/>
+            <prop k="offset" v="0,0"/>
+            <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="outline_color" v="0,0,0,255"/>
+            <prop k="outline_style" v="solid"/>
+            <prop k="outline_width" v="0"/>
+            <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+            <prop k="outline_width_unit" v="MM"/>
+            <prop k="scale_method" v="diameter"/>
+            <prop k="size" v="2"/>
+            <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+            <prop k="size_unit" v="MM"/>
+            <prop k="vertical_anchor_point" v="1"/>
+          </layer>
+        </symbol>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings yPosColumn="-1" showColumn="-1" linePlacementFlags="10" placement="2" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
+      <annotationform></annotationform>
+      <aliases>
+        <alias field="OBJECTID" index="0" name=""/>
+        <alias field="FEATURETYPE" index="1" name=""/>
+        <alias field="DESCRIPTON" index="2" name=""/>
+        <alias field="CLASS" index="3" name=""/>
+        <alias field="FID" index="4" name=""/>
+        <alias field="NAME" index="5" name=""/>
+        <alias field="OPERATIONALSTATUS" index="6" name=""/>
+        <alias field="CAPACITYKV" index="7" name=""/>
+        <alias field="STATE" index="8" name=""/>
+        <alias field="SPATIALCONFIDENCE" index="9" name=""/>
+        <alias field="REVISED" index="10" name=""/>
+        <alias field="COMMENT" index="11" name=""/>
+        <alias field="SHAPE_Length" index="12" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions default="-1"/>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
+        <columns>
+          <column width="-1" hidden="0" type="field" name="OBJECTID"/>
+          <column width="-1" hidden="0" type="field" name="FEATURETYPE"/>
+          <column width="-1" hidden="0" type="field" name="DESCRIPTON"/>
+          <column width="-1" hidden="0" type="field" name="CLASS"/>
+          <column width="-1" hidden="0" type="field" name="FID"/>
+          <column width="-1" hidden="0" type="field" name="NAME"/>
+          <column width="-1" hidden="0" type="field" name="OPERATIONALSTATUS"/>
+          <column width="-1" hidden="0" type="field" name="CAPACITYKV"/>
+          <column width="-1" hidden="0" type="field" name="STATE"/>
+          <column width="-1" hidden="0" type="field" name="SPATIALCONFIDENCE"/>
+          <column width="-1" hidden="0" type="field" name="REVISED"/>
+          <column width="-1" hidden="0" type="field" name="COMMENT"/>
+          <column width="-1" hidden="0" type="field" name="SHAPE_Length"/>
+          <column width="-1" hidden="1" type="actions"/>
+        </columns>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <defaults>
+        <default field="OBJECTID" expression=""/>
+        <default field="FEATURETYPE" expression=""/>
+        <default field="DESCRIPTON" expression=""/>
+        <default field="CLASS" expression=""/>
+        <default field="FID" expression=""/>
+        <default field="NAME" expression=""/>
+        <default field="OPERATIONALSTATUS" expression=""/>
+        <default field="CAPACITYKV" expression=""/>
+        <default field="STATE" expression=""/>
+        <default field="SPATIALCONFIDENCE" expression=""/>
+        <default field="REVISED" expression=""/>
+        <default field="COMMENT" expression=""/>
+        <default field="SHAPE_Length" expression=""/>
+      </defaults>
+      <previewExpression></previewExpression>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>-20037508.34278924390673637</xmin>
+        <ymin>-20037508.34278925508260727</ymin>
+        <xmax>20037508.34278924390673637</xmax>
+        <ymax>20037508.34278924390673637</ymax>
+      </extent>
+      <id>Google_Satelite2017091020522348831106</id>
+      <datasource>crs=EPSG:3857&amp;format=&amp;type=xyz&amp;url=https://mt1.google.com/vt/lyrs%3Ds%26x%3D%7Bx%7D%26y%3D%7By%7D%26z%3D%7Bz%7D</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Google Satelite</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs</proj4>
+          <srsid>3857</srsid>
+          <srid>3857</srid>
+          <authid>EPSG:3857</authid>
+          <description>WGS 84 / Pseudo Mercator</description>
+          <projectionacronym>merc</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Undefined"/>
+      </customproperties>
+      <provider>wms</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="-1" band="1" type="singlebandcolordata">
+          <rasterTransparency/>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>-20037508.34278924390673637</xmin>
+        <ymin>-20037508.34278925508260727</ymin>
+        <xmax>20037508.34278924390673637</xmax>
+        <ymax>20037508.34278924390673637</ymax>
+      </extent>
+      <id>Google_Hybrid2017091020522348817027</id>
+      <datasource>crs=EPSG:3857&amp;format=&amp;type=xyz&amp;url=https://mt1.google.com/vt/lyrs%3Dy%26x%3D%7Bx%7D%26y%3D%7By%7D%26z%3D%7Bz%7D</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Google Hybrid Satelite</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs</proj4>
+          <srsid>3857</srsid>
+          <srid>3857</srid>
+          <authid>EPSG:3857</authid>
+          <description>WGS 84 / Pseudo Mercator</description>
+          <projectionacronym>merc</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Undefined"/>
+      </customproperties>
+      <provider>wms</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="-1" band="1" type="singlebandcolordata">
+          <rasterTransparency/>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>-20037508.34278924390673637</xmin>
+        <ymin>-20037508.34278925508260727</ymin>
+        <xmax>20037508.34278924390673637</xmax>
+        <ymax>20037508.34278924390673637</ymax>
+      </extent>
+      <id>Google_Terrain_Only201709102052234884408</id>
+      <datasource>crs=EPSG:3857&amp;format=&amp;type=xyz&amp;url=https://mt1.google.com/vt/lyrs%3Dt%26x%3D%7Bx%7D%26y%3D%7By%7D%26z%3D%7Bz%7D</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Google Terrain</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs</proj4>
+          <srsid>3857</srsid>
+          <srid>3857</srid>
+          <authid>EPSG:3857</authid>
+          <description>WGS 84 / Pseudo Mercator</description>
+          <projectionacronym>merc</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Undefined"/>
+      </customproperties>
+      <provider>wms</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="-1" band="1" type="singlebandcolordata">
+          <rasterTransparency/>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>-20037508.34278924390673637</xmin>
+        <ymin>-20037508.34278925508260727</ymin>
+        <xmax>20037508.34278924390673637</xmax>
+        <ymax>20037508.34278924390673637</ymax>
+      </extent>
+      <id>Google_Terrain2017091020522348814052</id>
+      <datasource>crs=EPSG:3857&amp;format=&amp;type=xyz&amp;url=https://mt1.google.com/vt/lyrs%3Dp%26x%3D%7Bx%7D%26y%3D%7By%7D%26z%3D%7Bz%7D</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Google Hybrid Terrain</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs</proj4>
+          <srsid>3857</srsid>
+          <srid>3857</srid>
+          <authid>EPSG:3857</authid>
+          <description>WGS 84 / Pseudo Mercator</description>
+          <projectionacronym>merc</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Undefined"/>
+      </customproperties>
+      <provider>wms</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="-1" band="1" type="singlebandcolordata">
+          <rasterTransparency/>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>-20037508.34278924390673637</xmin>
+        <ymin>-20037508.34278925508260727</ymin>
+        <xmax>20037508.34278924390673637</xmax>
+        <ymax>20037508.34278924390673637</ymax>
+      </extent>
+      <id>Google_Alt__Roads201709102052234889134</id>
+      <datasource>crs=EPSG:3857&amp;format=&amp;type=xyz&amp;url=https://mt1.google.com/vt/lyrs%3Dr%26x%3D%7Bx%7D%26y%3D%7By%7D%26z%3D%7Bz%7D</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Google Maps Green</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs</proj4>
+          <srsid>3857</srsid>
+          <srid>3857</srid>
+          <authid>EPSG:3857</authid>
+          <description>WGS 84 / Pseudo Mercator</description>
+          <projectionacronym>merc</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Undefined"/>
+      </customproperties>
+      <provider>wms</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="-1" band="1" type="singlebandcolordata">
+          <rasterTransparency/>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>-20037508.34278924390673637</xmin>
+        <ymin>-20037508.34278925508260727</ymin>
+        <xmax>20037508.34278924390673637</xmax>
+        <ymax>20037508.34278924390673637</ymax>
+      </extent>
+      <id>Google_Standard_Roadmap2017091020522348819026</id>
+      <datasource>crs=EPSG:3857&amp;format=&amp;type=xyz&amp;url=https://mt1.google.com/vt/lyrs%3Dm%26x%3D%7Bx%7D%26y%3D%7By%7D%26z%3D%7Bz%7D</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Google Maps Grey</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs</proj4>
+          <srsid>3857</srsid>
+          <srid>3857</srid>
+          <authid>EPSG:3857</authid>
+          <description>WGS 84 / Pseudo Mercator</description>
+          <projectionacronym>merc</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Undefined"/>
+      </customproperties>
+      <provider>wms</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="-1" band="1" type="singlebandcolordata">
+          <rasterTransparency/>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>-20037508.34278924390673637</xmin>
+        <ymin>-20037508.34278925508260727</ymin>
+        <xmax>20037508.34278924390673637</xmax>
+        <ymax>20037508.34278924390673637</ymax>
+      </extent>
+      <id>Google_Roads_Only2017091020522348815373</id>
+      <datasource>crs=EPSG:3857&amp;format=&amp;type=xyz&amp;url=https://mt1.google.com/vt/lyrs%3Dh%26x%3D%7Bx%7D%26y%3D%7By%7D%26z%3D%7Bz%7D</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Google Roads Overlay</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs</proj4>
+          <srsid>3857</srsid>
+          <srid>3857</srid>
+          <authid>EPSG:3857</authid>
+          <description>WGS 84 / Pseudo Mercator</description>
+          <projectionacronym>merc</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Undefined"/>
+      </customproperties>
+      <provider>wms</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="-1" band="1" type="singlebandcolordata">
+          <rasterTransparency/>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
     </maplayer>
   </maplayers>
 </qlr>

@@ -57,21 +57,25 @@ class KfConfig(QtCore.QObject):
 
     def load(self):
         self.cached_kf_qlr_filename = self.settings.value('cache_path') + 'kortforsyning_data.qlr'
-        self.allowed_kf_services = {}
-        if self.settings.is_set():
-            try:
-                self.allowed_kf_services = self.get_allowed_kf_services()
-                self.kf_qlr_file = self.get_kf_qlr_file()
-                self.background_category, self.categories = self.get_kf_categories()
-            except Exception, e:
-                self.kf_con_error.emit()
-                self.background_category = None
-                self.categories = []
-            self.debug_write_allowed_services()
-        else:
-                self.kf_settings_warning.emit()
-                self.background_category = None
-                self.categories = []
+        self.kf_qlr_file = self.get_kf_qlr_file()
+        self.background_category, self.categories = self.get_kf_categories()
+        ## Full Code for when the password settings are required
+        
+        ##self.allowed_kf_services = {}
+        ##if self.settings.is_set():
+        ##    try:
+        ##        self.allowed_kf_services = self.get_allowed_kf_services()
+        ##        self.kf_qlr_file = self.get_kf_qlr_file()
+        ##        self.background_category, self.categories = self.get_kf_categories()
+        ##    except Exception, e:
+        ##        self.kf_con_error.emit()
+        ##        self.background_category = None
+        ##        self.categories = []
+        ##    self.debug_write_allowed_services()
+        ##else:
+        ##        self.kf_settings_warning.emit()
+        ##        self.background_category = None
+        ##        self.categories = []
 
     def get_allowed_kf_services(self):
         allowed_kf_services = {}
@@ -117,14 +121,13 @@ class KfConfig(QtCore.QObject):
                 'selectables': []
             }
             for layer in group['layers']:
-                if self.user_has_access(layer['service']):
-                    kf_category['selectables'].append({
-                        'type': 'layer',
-                        'source': 'kf',
-                        'name': layer['name'],
-                        'id': layer['id']
-                        }
-                    )
+                kf_category['selectables'].append({
+                    'type': 'layer',
+                    'source': 'kf',
+                    'name': layer['name'],
+                    'id': layer['id']
+                    }
+                )
             if len(kf_category['selectables']) > 0:
                 kf_categories.append(kf_category)
                 if group['name'] == 'Baggrundskort':

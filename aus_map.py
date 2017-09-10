@@ -239,16 +239,16 @@ class AusMap:
         self.settings_menu.triggered.connect(self.settings_dialog)
         self.menu.addAction(self.settings_menu)
 
-        # Add about
-        self.about_menu = QAction(
-            QIcon(icon_path_info),
-            self.tr('About the plugin'),
-            self.iface.mainWindow()
-        )
-        self.about_menu.setObjectName(self.tr('About the plugin'))
-        self.about_menu.triggered.connect(self.about_dialog)
-        self.menu.addAction(self.about_menu)
-
+        # TODO: Add about
+        #self.about_menu = QAction(
+        #    QIcon(icon_path_info),
+        #    self.tr('About the plugin'),
+        #    self.iface.mainWindow()
+        #)
+        #self.about_menu.setObjectName(self.tr('About the plugin'))
+        #self.about_menu.triggered.connect(self.about_dialog)
+        #self.menu.addAction(self.about_menu)
+        #
         menu_bar = self.iface.mainWindow().menuBar()
         menu_bar.insertMenu(
             self.iface.firstRightStandardMenu().menuAction(), self.menu
