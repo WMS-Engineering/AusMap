@@ -144,13 +144,13 @@ class KfConfig(QtCore.QObject):
         config = None
         load_remote_config = True
 
-        local_file_exists = os.path.exists(self.cached_kf_qlr_filename)
-        if local_file_exists:
-            config = self.read_cached_kf_qlr()
-            local_file_time = datetime.datetime.fromtimestamp(
-                os.path.getmtime(self.cached_kf_qlr_filename)
-            )
-            load_remote_config = local_file_time < datetime.datetime.now() - FILE_MAX_AGE
+        ##local_file_exists = os.path.exists(self.cached_kf_qlr_filename)
+        ##if local_file_exists:
+        ##    config = self.read_cached_kf_qlr()
+        ##    local_file_time = datetime.datetime.fromtimestamp(
+        ##        os.path.getmtime(self.cached_kf_qlr_filename)
+        ##    )
+        ##    load_remote_config = local_file_time < datetime.datetime.now() - FILE_MAX_AGE
 
         if load_remote_config:
             try:
