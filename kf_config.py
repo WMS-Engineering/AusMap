@@ -40,7 +40,7 @@ from ausmap_settings import(
 import resources_rc
 from qlr_file import QlrFile
 
-FILE_MAX_AGE = datetime.timedelta(hours=12)
+FILE_MAX_AGE = datetime.timedelta(hours=0)
 KF_SERVICES_URL = 'http://services.kortforsyningen.dk/service?request=GetServices&login={{kf_username}}&password={{kf_password}}'
 
 def log_message(message):
@@ -56,7 +56,7 @@ class KfConfig(QtCore.QObject):
         self.settings = settings
 
     def load(self):
-        self.cached_kf_qlr_filename = self.settings.value('cache_path') + 'kortforsyning_data.qlr'
+        self.cached_kf_qlr_filename = self.settings.value('cache_path') + 'ausmap_data.qlr'
         self.kf_qlr_file = self.get_kf_qlr_file()
         self.background_category, self.categories = self.get_kf_categories()
         ## Full Code for when the password settings are required

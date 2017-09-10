@@ -67,7 +67,7 @@ from myseptimasearchprovider import MySeptimaSearchProvider
 CONFIG_FILE_URL = 'https://raw.githubusercontent.com/Dan-Knott/AusMap/master/AusMapLayers.qlr'
 
 ABOUT_FILE_URL = 'https://raw.githubusercontent.com/Dan-Knott/AusMap/master/About.htm'
-FILE_MAX_AGE = datetime.timedelta(hours=12)
+FILE_MAX_AGE = datetime.timedelta(hours=0)
 
 def log_message(message):
     QgsMessageLog.logMessage(message, 'AusMap plugin')
@@ -238,7 +238,15 @@ class AusMap:
         self.settings_menu.setObjectName(self.tr('Settings'))
         self.settings_menu.triggered.connect(self.settings_dialog)
         self.menu.addAction(self.settings_menu)
-
+        # Add Refresh Button
+        #self.refresh_menu = QAction(
+        #    QIcon(icon_path_info),
+        #    self.tr('Refresh'),
+        #    self.iface.mainWindow()
+        #)
+        #self.refresh_menu.setObjectName(self.tr('Refresh'))
+        #self.refresh_menu.triggered.connect(self.refreshQLR())
+        #self.menu.addAction(self.refresh_menu)
         # TODO: Add about
         #self.about_menu = QAction(
         #    QIcon(icon_path_info),
@@ -254,6 +262,9 @@ class AusMap:
             self.iface.firstRightStandardMenu().menuAction(), self.menu
         )
         
+    def refreshQLR(self):
+        FILE_MAX_AGE = datetime.timedelta(hours=0)
+
     def open_local_node(self, id):
         node = self.config.get_local_maplayer_node(id)
         self.open_node(node, id)
@@ -311,6 +322,7 @@ class AusMap:
 
         if result == 1:
             del dlg
+            FILE_MAX_AGE = datetime.timedelta(hours=0)
             self.reloadMenu()
 
     def about_dialog(self):
