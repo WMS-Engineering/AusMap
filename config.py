@@ -30,7 +30,7 @@ class Config(QtCore.QObject):
 
         self.categories = []
         self.categories_list = []
-        if self.settings.value('use_custom_qlr_file') and self.settings.value('kf_only_background'):
+        if self.settings.value('use_custom_qlr_file'):
             self.kf_categories = []
             background_category = self.kf_config.get_background_category()
             if background_category:

@@ -34,7 +34,7 @@ from PyQt4 import (
 import json
 
 # Initialize Qt resources from file resources.py
-from kortforsyningen_settings import(
+from ausmap_settings import(
     KFSettings
 )
 import resources_rc
