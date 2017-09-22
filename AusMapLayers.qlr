@@ -6,217 +6,223 @@
       <customproperties/>
       <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="Australian Basemap - Features">
         <customproperties/>
-        <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Unchecked" id="Airport20170910221411216" source=" restrictToRequestBBOX='1' srsname='EPSG:4326' typename='Global_Map_Project_Australian_Base_Map:Airport' url='http://services.ga.gov.au/gis/services/Global_Map_Project_Australian_Base_Map/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Airport">
+        <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Unchecked" id="Airport201709131203139932385" source=" restrictToRequestBBOX='1' srsname='EPSG:4326' typename='Global_Map_Project_Australian_Base_Map:Airport' url='http://services.ga.gov.au/gis/services/Global_Map_Project_Australian_Base_Map/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Airport">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Unchecked" id="Aqueduct_And_Canal20170910221419728" source=" restrictToRequestBBOX='1' srsname='EPSG:4326' typename='Global_Map_Project_Australian_Base_Map:Aqueduct_And_Canal' url='http://services.ga.gov.au/gis/services/Global_Map_Project_Australian_Base_Map/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Aqueduct And Canal">
+        <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Unchecked" id="Aqueduct_And_Canal2017091312031399624852" source=" restrictToRequestBBOX='1' srsname='EPSG:4326' typename='Global_Map_Project_Australian_Base_Map:Aqueduct_And_Canal' url='http://services.ga.gov.au/gis/services/Global_Map_Project_Australian_Base_Map/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Aqueduct And Canal">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Unchecked" id="Bridge20170910221434005" source=" restrictToRequestBBOX='1' srsname='EPSG:4326' typename='Global_Map_Project_Australian_Base_Map:Bridge' url='http://services.ga.gov.au/gis/services/Global_Map_Project_Australian_Base_Map/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Bridge">
+        <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Unchecked" id="Bridge201709131203140005296" source=" restrictToRequestBBOX='1' srsname='EPSG:4326' typename='Global_Map_Project_Australian_Base_Map:Bridge' url='http://services.ga.gov.au/gis/services/Global_Map_Project_Australian_Base_Map/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Bridge">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Unchecked" id="Built_Up_Area20170910221437718" source=" restrictToRequestBBOX='1' srsname='EPSG:4326' typename='Global_Map_Project_Australian_Base_Map:Built_Up_Area' url='http://services.ga.gov.au/gis/services/Global_Map_Project_Australian_Base_Map/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Built Up Area">
+        <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Unchecked" id="Built_Up_Area2017091312031400329534" source=" restrictToRequestBBOX='1' srsname='EPSG:4326' typename='Global_Map_Project_Australian_Base_Map:Built_Up_Area' url='http://services.ga.gov.au/gis/services/Global_Map_Project_Australian_Base_Map/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Built Up Area">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Unchecked" id="Built_Up_Point20170910221439612" source=" restrictToRequestBBOX='1' srsname='EPSG:4326' typename='Global_Map_Project_Australian_Base_Map:Built_Up_Point' url='http://services.ga.gov.au/gis/services/Global_Map_Project_Australian_Base_Map/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Built Up Point">
+        <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Unchecked" id="Built_Up_Point2017091312031400611327" source=" restrictToRequestBBOX='1' srsname='EPSG:4326' typename='Global_Map_Project_Australian_Base_Map:Built_Up_Point' url='http://services.ga.gov.au/gis/services/Global_Map_Project_Australian_Base_Map/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Built Up Point">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Checked" id="Coastline20170910221442179" source=" restrictToRequestBBOX='1' srsname='EPSG:4326' typename='Global_Map_Project_Australian_Base_Map:Coastline' url='http://services.ga.gov.au/gis/services/Global_Map_Project_Australian_Base_Map/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Coastline">
+        <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Checked" id="Coastline2017091312031400932395" source=" restrictToRequestBBOX='1' srsname='EPSG:4326' typename='Global_Map_Project_Australian_Base_Map:Coastline' url='http://services.ga.gov.au/gis/services/Global_Map_Project_Australian_Base_Map/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Coastline">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="0" providerKey="WFS" checked="Qt::Unchecked" id="Inland_Water20170910221455176" source=" restrictToRequestBBOX='1' srsname='EPSG:4326' typename='Global_Map_Project_Australian_Base_Map:Inland_Water' url='http://services.ga.gov.au/gis/services/Global_Map_Project_Australian_Base_Map/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Inland Water">
+        <layer-tree-layer expanded="0" providerKey="WFS" checked="Qt::Unchecked" id="Inland_Water2017091312031401224013" source=" restrictToRequestBBOX='1' srsname='EPSG:4326' typename='Global_Map_Project_Australian_Base_Map:Inland_Water' url='http://services.ga.gov.au/gis/services/Global_Map_Project_Australian_Base_Map/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Inland Water">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Unchecked" id="Miscellaneous_Drainage20170910221457109" source=" restrictToRequestBBOX='1' srsname='EPSG:4326' typename='Global_Map_Project_Australian_Base_Map:Miscellaneous_Drainage' url='http://services.ga.gov.au/gis/services/Global_Map_Project_Australian_Base_Map/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Miscellaneous Drainage">
+        <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Unchecked" id="Miscellaneous_Drainage201709131203140155832" source=" restrictToRequestBBOX='1' srsname='EPSG:4326' typename='Global_Map_Project_Australian_Base_Map:Miscellaneous_Drainage' url='http://services.ga.gov.au/gis/services/Global_Map_Project_Australian_Base_Map/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Miscellaneous Drainage">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Unchecked" id="Miscellaneous_Population20170910221459065" source=" restrictToRequestBBOX='1' srsname='EPSG:4326' typename='Global_Map_Project_Australian_Base_Map:Miscellaneous_Population' url='http://services.ga.gov.au/gis/services/Global_Map_Project_Australian_Base_Map/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Miscellaneous Population">
+        <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Unchecked" id="Miscellaneous_Population201709131203140187170" source=" restrictToRequestBBOX='1' srsname='EPSG:4326' typename='Global_Map_Project_Australian_Base_Map:Miscellaneous_Population' url='http://services.ga.gov.au/gis/services/Global_Map_Project_Australian_Base_Map/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Miscellaneous Population">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="0" providerKey="WFS" checked="Qt::Unchecked" id="Political_Boundary_Area20170910221503425" source=" restrictToRequestBBOX='1' srsname='EPSG:4326' typename='Global_Map_Project_Australian_Base_Map:Political_Boundary_Area' url='http://services.ga.gov.au/gis/services/Global_Map_Project_Australian_Base_Map/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Political Boundary Area">
+        <layer-tree-layer expanded="0" providerKey="WFS" checked="Qt::Unchecked" id="Political_Boundary_Area201709131203140207816" source=" restrictToRequestBBOX='1' srsname='EPSG:4326' typename='Global_Map_Project_Australian_Base_Map:Political_Boundary_Area' url='http://services.ga.gov.au/gis/services/Global_Map_Project_Australian_Base_Map/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Political Boundary Area">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Unchecked" id="Political_Boundary_Line20170910221507031" source=" restrictToRequestBBOX='1' srsname='EPSG:4326' typename='Global_Map_Project_Australian_Base_Map:Political_Boundary_Line' url='http://services.ga.gov.au/gis/services/Global_Map_Project_Australian_Base_Map/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Political Boundary Line">
+        <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Checked" id="Political_Boundary_Line2017091312031402314405" source=" restrictToRequestBBOX='1' srsname='EPSG:4326' typename='Global_Map_Project_Australian_Base_Map:Political_Boundary_Line' url='http://services.ga.gov.au/gis/services/Global_Map_Project_Australian_Base_Map/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Political Boundary Line">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Unchecked" id="Political_Boundary_Point20170910221511353" source=" restrictToRequestBBOX='1' srsname='EPSG:4326' typename='Global_Map_Project_Australian_Base_Map:Political_Boundary_Point' url='http://services.ga.gov.au/gis/services/Global_Map_Project_Australian_Base_Map/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Political Boundary Point">
+        <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Unchecked" id="Political_Boundary_Point2017091312031402616207" source=" restrictToRequestBBOX='1' srsname='EPSG:4326' typename='Global_Map_Project_Australian_Base_Map:Political_Boundary_Point' url='http://services.ga.gov.au/gis/services/Global_Map_Project_Australian_Base_Map/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Political Boundary Point">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Unchecked" id="Railroad20170910221513827" source=" restrictToRequestBBOX='1' srsname='EPSG:4326' typename='Global_Map_Project_Australian_Base_Map:Railroad' url='http://services.ga.gov.au/gis/services/Global_Map_Project_Australian_Base_Map/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Railroad">
+        <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Unchecked" id="Railroad2017091312031402917636" source=" restrictToRequestBBOX='1' srsname='EPSG:4326' typename='Global_Map_Project_Australian_Base_Map:Railroad' url='http://services.ga.gov.au/gis/services/Global_Map_Project_Australian_Base_Map/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Railroad">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Unchecked" id="Railyard20170910221515920" source=" restrictToRequestBBOX='1' srsname='EPSG:4326' typename='Global_Map_Project_Australian_Base_Map:Railyard' url='http://services.ga.gov.au/gis/services/Global_Map_Project_Australian_Base_Map/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Railyard">
+        <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Unchecked" id="Railyard2017091312031403123996" source=" restrictToRequestBBOX='1' srsname='EPSG:4326' typename='Global_Map_Project_Australian_Base_Map:Railyard' url='http://services.ga.gov.au/gis/services/Global_Map_Project_Australian_Base_Map/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Railyard">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="0" providerKey="WFS" checked="Qt::Unchecked" id="Road_Major20170910221518599" source=" restrictToRequestBBOX='1' srsname='EPSG:4326' typename='Global_Map_Project_Australian_Base_Map:Road_Major' url='http://services.ga.gov.au/gis/services/Global_Map_Project_Australian_Base_Map/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Road Major">
+        <layer-tree-layer expanded="0" providerKey="WFS" checked="Qt::Unchecked" id="Road_Major2017091312031403526971" source=" restrictToRequestBBOX='1' srsname='EPSG:4326' typename='Global_Map_Project_Australian_Base_Map:Road_Major' url='http://services.ga.gov.au/gis/services/Global_Map_Project_Australian_Base_Map/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Road Major">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="0" providerKey="WFS" checked="Qt::Unchecked" id="Road_Minor20170910221521479" source=" restrictToRequestBBOX='1' srsname='EPSG:4326' typename='Global_Map_Project_Australian_Base_Map:Road_Minor' url='http://services.ga.gov.au/gis/services/Global_Map_Project_Australian_Base_Map/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Road Minor">
+        <layer-tree-layer expanded="0" providerKey="WFS" checked="Qt::Unchecked" id="Road_Minor201709131203140382871" source=" restrictToRequestBBOX='1' srsname='EPSG:4326' typename='Global_Map_Project_Australian_Base_Map:Road_Minor' url='http://services.ga.gov.au/gis/services/Global_Map_Project_Australian_Base_Map/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Road Minor">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="0" providerKey="WFS" checked="Qt::Unchecked" id="Watercourse20170910221524760" source=" restrictToRequestBBOX='1' srsname='EPSG:4326' typename='Global_Map_Project_Australian_Base_Map:Watercourse' url='http://services.ga.gov.au/gis/services/Global_Map_Project_Australian_Base_Map/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Watercourse">
+        <layer-tree-layer expanded="0" providerKey="WFS" checked="Qt::Unchecked" id="Watercourse2017091312031404216876" source=" restrictToRequestBBOX='1' srsname='EPSG:4326' typename='Global_Map_Project_Australian_Base_Map:Watercourse' url='http://services.ga.gov.au/gis/services/Global_Map_Project_Australian_Base_Map/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Watercourse">
           <customproperties/>
         </layer-tree-layer>
       </layer-tree-group>
       <layer-tree-group expanded="0" checked="Qt::Unchecked" name="Australian Basmap - Rasters">
         <customproperties/>
-        <layer-tree-layer expanded="0" providerKey="wms" checked="Qt::Unchecked" id="Vegetation_Percentage_Tree_Cover20170910223735928" source="crs=EPSG:4283&amp;dpiMode=7&amp;format=image/png&amp;layers=Vegetation_Percentage_Tree_Cover&amp;styles=&amp;url=http://services.ga.gov.au/gis/services/Global_Map_Project_Australian_Base_Map/MapServer/WMSServer?" name="Vegetation Percentage Tree Cover">
+        <layer-tree-layer expanded="0" providerKey="wms" checked="Qt::Unchecked" id="Vegetation_Percentage_Tree_Cover2017091312031404518851" source="crs=EPSG:4283&amp;dpiMode=7&amp;format=image/png&amp;layers=Vegetation_Percentage_Tree_Cover&amp;styles=&amp;url=http://services.ga.gov.au/gis/services/Global_Map_Project_Australian_Base_Map/MapServer/WMSServer?" name="Vegetation Percentage Tree Cover">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="0" providerKey="wms" checked="Qt::Unchecked" id="Landcover20170910223728585" source="crs=EPSG:4283&amp;dpiMode=7&amp;format=image/png&amp;layers=Landcover&amp;styles=&amp;url=http://services.ga.gov.au/gis/services/Global_Map_Project_Australian_Base_Map/MapServer/WMSServer?" name="Landcover">
+        <layer-tree-layer expanded="0" providerKey="wms" checked="Qt::Unchecked" id="Landcover2017091312031404827881" source="crs=EPSG:4283&amp;dpiMode=7&amp;format=image/png&amp;layers=Landcover&amp;styles=&amp;url=http://services.ga.gov.au/gis/services/Global_Map_Project_Australian_Base_Map/MapServer/WMSServer?" name="Landcover">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="0" providerKey="wcs" checked="Qt::Unchecked" id="Elevation20170910222226802" source="identifier=3&amp;url=http://services.ga.gov.au/gis/services/Global_Map_Project_Australian_Base_Map/MapServer/WCSServer?" name="Elevation">
+        <layer-tree-layer expanded="0" providerKey="wcs" checked="Qt::Unchecked" id="Elevation2017091312031405123043" source="identifier=3&amp;url=http://services.ga.gov.au/gis/services/Global_Map_Project_Australian_Base_Map/MapServer/WCSServer?" name="Elevation">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" providerKey="wcs" checked="Qt::Unchecked" id="Elevation20170910222457990" source="identifier=3&amp;url=http://services.ga.gov.au/gis/services/Global_Map_Project_Australian_Base_Map/MapServer/WCSServer?" name="Hillshade">
+        <layer-tree-layer expanded="1" providerKey="wcs" checked="Qt::Unchecked" id="Elevation2017091312031405315200" source="identifier=3&amp;url=http://services.ga.gov.au/gis/services/Global_Map_Project_Australian_Base_Map/MapServer/WCSServer?" name="Hillshade">
           <customproperties/>
         </layer-tree-layer>
       </layer-tree-group>
       <layer-tree-group expanded="0" checked="Qt::Unchecked" name="Australian Surface Hydrology">
         <customproperties/>
-        <layer-tree-layer expanded="0" providerKey="WFS" checked="Qt::Unchecked" id="Basins20170201709102153566426932" source=" restrictToRequestBBOX='1' srsname='EPSG:4283' typename='Surface_Hydrology_WM:Basins' url='http://services.ga.gov.au/gis/services/Surface_Hydrology_WM/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Basins">
+        <layer-tree-layer expanded="0" providerKey="WFS" checked="Qt::Unchecked" id="Basins2017020172017091312031405721756" source=" restrictToRequestBBOX='1' srsname='EPSG:4283' typename='Surface_Hydrology_WM:Basins' url='http://services.ga.gov.au/gis/services/Surface_Hydrology_WM/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Basins">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="0" providerKey="WFS" checked="Qt::Unchecked" id="Catchments201702017091021535664223966" source=" restrictToRequestBBOX='1' srsname='EPSG:4283' typename='Surface_Hydrology_WM:Catchments' url='http://services.ga.gov.au/gis/services/Surface_Hydrology_WM/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Catchments">
+        <layer-tree-layer expanded="0" providerKey="WFS" checked="Qt::Unchecked" id="Catchments20170201702017091312031406026627" source=" restrictToRequestBBOX='1' srsname='EPSG:4283' typename='Surface_Hydrology_WM:Catchments' url='http://services.ga.gov.au/gis/services/Surface_Hydrology_WM/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Catchments">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Unchecked" id="Surface_HydroPolys_Regional201702017091021535664224921" source=" restrictToRequestBBOX='1' srsname='EPSG:4283' typename='Surface_Hydrology_WM:Surface_HydroPolys_Regional' url='http://services.ga.gov.au/gis/services/Surface_Hydrology_WM/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Surface HydroPolys Regional">
+        <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Unchecked" id="Surface_HydroPolys_Regional2017020170201709131203140631164" source=" restrictToRequestBBOX='1' srsname='EPSG:4283' typename='Surface_Hydrology_WM:Surface_HydroPolys_Regional' url='http://services.ga.gov.au/gis/services/Surface_Hydrology_WM/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Surface HydroPolys Regional">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Unchecked" id="Surface_HydroPolys_National201702017091021535664216205" source=" restrictToRequestBBOX='1' srsname='EPSG:4283' typename='Surface_Hydrology_WM:Surface_HydroPolys_National' url='http://services.ga.gov.au/gis/services/Surface_Hydrology_WM/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Surface HydroPolys National">
+        <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Unchecked" id="Surface_HydroPolys_National2017020170201709131203140653720" source=" restrictToRequestBBOX='1' srsname='EPSG:4283' typename='Surface_Hydrology_WM:Surface_HydroPolys_National' url='http://services.ga.gov.au/gis/services/Surface_Hydrology_WM/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Surface HydroPolys National">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Unchecked" id="Surface_HydroPoints_Regional201702017091021535664218547" source=" restrictToRequestBBOX='1' srsname='EPSG:4283' typename='Surface_Hydrology_WM:Surface_HydroPoints_Regional' url='http://services.ga.gov.au/gis/services/Surface_Hydrology_WM/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Surface HydroPoints Regional">
+        <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Unchecked" id="Surface_HydroPoints_Regional20170201702017091312031406828796" source=" restrictToRequestBBOX='1' srsname='EPSG:4283' typename='Surface_Hydrology_WM:Surface_HydroPoints_Regional' url='http://services.ga.gov.au/gis/services/Surface_Hydrology_WM/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Surface HydroPoints Regional">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Unchecked" id="Surface_HydroPoints_National201702017091021535664226799" source=" restrictToRequestBBOX='1' srsname='EPSG:4283' typename='Surface_Hydrology_WM:Surface_HydroPoints_National' url='http://services.ga.gov.au/gis/services/Surface_Hydrology_WM/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Surface HydroPoints National">
+        <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Unchecked" id="Surface_HydroPoints_National20170201702017091312031407011991" source=" restrictToRequestBBOX='1' srsname='EPSG:4283' typename='Surface_Hydrology_WM:Surface_HydroPoints_National' url='http://services.ga.gov.au/gis/services/Surface_Hydrology_WM/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Surface HydroPoints National">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Unchecked" id="Surface_HydroLines_Regional20170201709102153566429959" source=" restrictToRequestBBOX='1' srsname='EPSG:4283' typename='Surface_Hydrology_WM:Surface_HydroLines_Regional' url='http://services.ga.gov.au/gis/services/Surface_Hydrology_WM/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Surface HydroLines Regional">
+        <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Unchecked" id="Surface_HydroLines_Regional2017020172017091312031407323377" source=" restrictToRequestBBOX='1' srsname='EPSG:4283' typename='Surface_Hydrology_WM:Surface_HydroLines_Regional' url='http://services.ga.gov.au/gis/services/Surface_Hydrology_WM/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Surface HydroLines Regional">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Unchecked" id="Surface_HydroLines_National20172017091021535664222953" source=" restrictToRequestBBOX='1' srsname='EPSG:4283' typename='Surface_Hydrology_WM:Surface_HydroLines_National' url='http://services.ga.gov.au/gis/services/Surface_Hydrology_WM/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Surface HydroLines National">
+        <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Unchecked" id="Surface_HydroLines_National201720170201709131203140768885" source=" restrictToRequestBBOX='1' srsname='EPSG:4283' typename='Surface_Hydrology_WM:Surface_HydroLines_National' url='http://services.ga.gov.au/gis/services/Surface_Hydrology_WM/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Surface HydroLines National">
           <customproperties/>
         </layer-tree-layer>
       </layer-tree-group>
       <layer-tree-group expanded="0" checked="Qt::Unchecked" name="DEM">
         <customproperties/>
-        <layer-tree-layer expanded="0" providerKey="wcs" checked="Qt::Unchecked" id="DEM_LiDAR_5m_120170201709102153566428121" source="identifier=1&amp;url=http://services.ga.gov.au/gis/services/DEM_LiDAR_5m/MapServer/WCSServer?" name="LiDAR Derived 5m">
+        <layer-tree-layer expanded="0" providerKey="wcs" checked="Qt::Unchecked" id="DEM_LiDAR_5m_1201702017201709131203140787107" source="identifier=1&amp;url=http://services.ga.gov.au/gis/services/DEM_LiDAR_5m/MapServer/WCSServer?" name="LiDAR Derived 5m">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="0" providerKey="wcs" checked="Qt::Unchecked" id="DEM_LiDAR_25m201702017091021535664225474" source="identifier=1&amp;url=http://services.ga.gov.au/gis/services/DEM_LiDAR_25m/MapServer/WCSServer?" name="LiDAR Derived 25m">
+        <layer-tree-layer expanded="0" providerKey="wcs" checked="Qt::Unchecked" id="DEM_LiDAR_25m20170201702017091312031408125047" source="identifier=1&amp;url=http://services.ga.gov.au/gis/services/DEM_LiDAR_25m/MapServer/WCSServer?" name="LiDAR Derived 25m">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="0" providerKey="wcs" checked="Qt::Unchecked" id="DEM_SRTM_1Second_Slope201702017091021535664223569" source="identifier=1&amp;url=http://services.ga.gov.au/gis/services/DEM_SRTM_1Second_Slope/MapServer/WCSServer?" name="SRTM 1Second Slope">
+        <layer-tree-layer expanded="0" providerKey="wcs" checked="Qt::Unchecked" id="DEM_SRTM_1Second_Slope20170201702017091312031408324334" source="identifier=1&amp;url=http://services.ga.gov.au/gis/services/DEM_SRTM_1Second_Slope/MapServer/WCSServer?" name="SRTM 1Second Slope">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="0" providerKey="wcs" checked="Qt::Unchecked" id="DEM_SRTM_1_Second20170201709102153566424757" source="identifier=1&amp;url=http://services.ga.gov.au/gis/services/DEM_SRTM_1Second/MapServer/WCSServer?" name="SRTM 1 Second">
+        <layer-tree-layer expanded="0" providerKey="wcs" checked="Qt::Unchecked" id="DEM_SRTM_1_Second201702017201709131203140853970" source="identifier=1&amp;url=http://services.ga.gov.au/gis/services/DEM_SRTM_1Second/MapServer/WCSServer?" name="SRTM 1 Second">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="0" providerKey="wcs" checked="Qt::Unchecked" id="DEM_SRTM_1_Second_Hydro_Enforced2017201709102153566422723" source="identifier=1&amp;url=http://services.ga.gov.au/site_9/services/DEM_SRTM_1Second_Hydro_Enforced/MapServer/WCSServer?" name="SRTM 1 Second Hydro Enforced">
+        <layer-tree-layer expanded="0" providerKey="wcs" checked="Qt::Unchecked" id="DEM_SRTM_1_Second_Hydro_Enforced2017201720170913120314088655" source="identifier=1&amp;url=http://services.ga.gov.au/site_9/services/DEM_SRTM_1Second_Hydro_Enforced/MapServer/WCSServer?" name="SRTM 1 Second Hydro Enforced">
           <customproperties/>
         </layer-tree-layer>
       </layer-tree-group>
       <layer-tree-group expanded="0" checked="Qt::Unchecked" name="Google Basemaps">
         <customproperties/>
-        <layer-tree-layer expanded="1" providerKey="wms" checked="Qt::Unchecked" id="Google_Satelite201702017091021535664232103" source="crs=EPSG:3857&amp;format=&amp;type=xyz&amp;url=https://mt1.google.com/vt/lyrs%3Ds%26x%3D%7Bx%7D%26y%3D%7By%7D%26z%3D%7Bz%7D" name="Google Satelite">
+        <layer-tree-layer expanded="1" providerKey="wms" checked="Qt::Unchecked" id="Google_Satelite20170201702017091312031409226139" source="crs=EPSG:3857&amp;format=&amp;type=xyz&amp;url=https://mt1.google.com/vt/lyrs%3Ds%26x%3D%7Bx%7D%26y%3D%7By%7D%26z%3D%7Bz%7D" name="Google Satelite">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" providerKey="wms" checked="Qt::Unchecked" id="Google_Hybrid201702017091021535664227670" source="crs=EPSG:3857&amp;format=&amp;type=xyz&amp;url=https://mt1.google.com/vt/lyrs%3Dy%26x%3D%7Bx%7D%26y%3D%7By%7D%26z%3D%7Bz%7D" name="Google Hybrid Satelite">
+        <layer-tree-layer expanded="1" providerKey="wms" checked="Qt::Unchecked" id="Google_Hybrid20170201702017091312031409526512" source="crs=EPSG:3857&amp;format=&amp;type=xyz&amp;url=https://mt1.google.com/vt/lyrs%3Dy%26x%3D%7Bx%7D%26y%3D%7By%7D%26z%3D%7Bz%7D" name="Google Hybrid Satelite">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" providerKey="wms" checked="Qt::Unchecked" id="Google_Terrain_Only20172017091021535664229281" source="crs=EPSG:3857&amp;format=&amp;type=xyz&amp;url=https://mt1.google.com/vt/lyrs%3Dt%26x%3D%7Bx%7D%26y%3D%7By%7D%26z%3D%7Bz%7D" name="Google Terrain">
+        <layer-tree-layer expanded="1" providerKey="wms" checked="Qt::Unchecked" id="Google_Terrain_Only2017201702017091312031409830810" source="crs=EPSG:3857&amp;format=&amp;type=xyz&amp;url=https://mt1.google.com/vt/lyrs%3Dt%26x%3D%7Bx%7D%26y%3D%7By%7D%26z%3D%7Bz%7D" name="Google Terrain">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" providerKey="wms" checked="Qt::Unchecked" id="Google_Terrain201702017091021535664216552" source="crs=EPSG:3857&amp;format=&amp;type=xyz&amp;url=https://mt1.google.com/vt/lyrs%3Dp%26x%3D%7Bx%7D%26y%3D%7By%7D%26z%3D%7Bz%7D" name="Google Hybrid Terrain">
+        <layer-tree-layer expanded="1" providerKey="wms" checked="Qt::Unchecked" id="Google_Terrain20170201702017091312031410031280" source="crs=EPSG:3857&amp;format=&amp;type=xyz&amp;url=https://mt1.google.com/vt/lyrs%3Dp%26x%3D%7Bx%7D%26y%3D%7By%7D%26z%3D%7Bz%7D" name="Google Hybrid Terrain">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" providerKey="wms" checked="Qt::Unchecked" id="Google_Alt__Roads20172017091021535664227085" source="crs=EPSG:3857&amp;format=&amp;type=xyz&amp;url=https://mt1.google.com/vt/lyrs%3Dr%26x%3D%7Bx%7D%26y%3D%7By%7D%26z%3D%7Bz%7D" name="Google Maps Green">
+        <layer-tree-layer expanded="1" providerKey="wms" checked="Qt::Unchecked" id="Google_Alt__Roads2017201702017091312031410315616" source="crs=EPSG:3857&amp;format=&amp;type=xyz&amp;url=https://mt1.google.com/vt/lyrs%3Dr%26x%3D%7Bx%7D%26y%3D%7By%7D%26z%3D%7Bz%7D" name="Google Maps Green">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" providerKey="wms" checked="Qt::Unchecked" id="Google_Standard_Roadmap201702017091021535664219488" source="crs=EPSG:3857&amp;format=&amp;type=xyz&amp;url=https://mt1.google.com/vt/lyrs%3Dm%26x%3D%7Bx%7D%26y%3D%7By%7D%26z%3D%7Bz%7D" name="Google Maps Grey">
+        <layer-tree-layer expanded="1" providerKey="wms" checked="Qt::Unchecked" id="Google_Standard_Roadmap20170201702017091312031410611463" source="crs=EPSG:3857&amp;format=&amp;type=xyz&amp;url=https://mt1.google.com/vt/lyrs%3Dm%26x%3D%7Bx%7D%26y%3D%7By%7D%26z%3D%7Bz%7D" name="Google Maps Grey">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" providerKey="wms" checked="Qt::Unchecked" id="Google_Roads_Only201702017091021535664232469" source="crs=EPSG:3857&amp;format=&amp;type=xyz&amp;url=https://mt1.google.com/vt/lyrs%3Dh%26x%3D%7Bx%7D%26y%3D%7By%7D%26z%3D%7Bz%7D" name="Google Roads Overlay">
+        <layer-tree-layer expanded="1" providerKey="wms" checked="Qt::Unchecked" id="Google_Roads_Only20170201702017091312031410816698" source="crs=EPSG:3857&amp;format=&amp;type=xyz&amp;url=https://mt1.google.com/vt/lyrs%3Dh%26x%3D%7Bx%7D%26y%3D%7By%7D%26z%3D%7Bz%7D" name="Google Roads Overlay">
           <customproperties/>
         </layer-tree-layer>
       </layer-tree-group>
       <layer-tree-group expanded="1" checked="Qt::Unchecked" name="Imagery">
         <customproperties/>
-        <layer-tree-layer expanded="1" providerKey="wms" checked="Qt::Unchecked" id="QLD_Globe_Imagery20170913110342323" source="type=xyz&amp;url=https://gisservices.information.qld.gov.au/arcgis/rest/services/Imagery/QldBase_QgovSispUsers/ImageServer/tile/%7Bz%7D/%7By%7D/%7Bx%7D?blankTile%3Dfalse" name="QLD Globe Imagery">
+        <layer-tree-layer expanded="1" providerKey="wms" checked="Qt::Unchecked" id="SATELLITE220170922130016470" source="crs=EPSG:3111&amp;dpiMode=7&amp;format=image/png&amp;layers=SATELLITE2&amp;styles=_null&amp;tileMatrixSet=EPSG:3111_SATELLITE2&amp;url=http://api.maps.vic.gov.au/geowebcache/service/wmts" name="VIC SATELLITE2">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" providerKey="wms" checked="Qt::Unchecked" id="NSW_Six_Map20170913110347071" source="type=xyz&amp;url=https://maps1.six.nsw.gov.au/arcgis/rest/services/sixmaps/LPI_Imagery_Best/MapServer/tile/%7Bz%7D/%7By%7D/%7Bx%7D?blankTile%3Dfalse" name="NSW Six Map">
+        <layer-tree-layer expanded="1" providerKey="wms" checked="Qt::Unchecked" id="QLD_Globe_Imagery2017091312031411129500" source="crs=EPSG:3857&amp;format=&amp;type=xyz&amp;url=https://gisservices.information.qld.gov.au/arcgis/rest/services/Imagery/QldBase_QgovSispUsers/ImageServer/tile/%7Bz%7D/%7By%7D/%7Bx%7D?blankTile%3Dfalse" name="QLD Globe Imagery">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" providerKey="wms" checked="Qt::Unchecked" id="AUSIMAGE_Aerial_Imagery_Canberra_201420170913110317319" source="crs=EPSG:4283&amp;dpiMode=7&amp;format=image/png&amp;layers=Ausimage_Canberra_2014&amp;styles=&amp;url=http://services.ga.gov.au/site_1/services/Ausimage_Canberra_2014/ImageServer/WMSServer?" name="AUSIMAGE Aerial Imagery Canberra 2014">
+        <layer-tree-layer expanded="1" providerKey="wms" checked="Qt::Unchecked" id="NSW_Six_Map2017091312031411432534" source="crs=EPSG:3857&amp;format=&amp;type=xyz&amp;url=https://maps1.six.nsw.gov.au/arcgis/rest/services/sixmaps/LPI_Imagery_Best/MapServer/tile/%7Bz%7D/%7By%7D/%7Bx%7D?blankTile%3Dfalse" name="NSW Six Map">
+          <customproperties/>
+        </layer-tree-layer>
+        <layer-tree-layer expanded="1" providerKey="wms" checked="Qt::Unchecked" id="TAS_Imagery20170922130141282" source="type=xyz&amp;url=http://services.thelist.tas.gov.au/arcgis/rest/services/Basemaps/Orthophoto/MapServer/tile/%7Bz%7D/%7By%7D/%7Bx%7D" name="TAS Imagery">
+          <customproperties/>
+        </layer-tree-layer>
+        <layer-tree-layer expanded="1" providerKey="wms" checked="Qt::Unchecked" id="AUSIMAGE_Aerial_Imagery_Canberra_20142017091312031411626141" source="crs=EPSG:4283&amp;dpiMode=7&amp;format=image/png&amp;layers=Ausimage_Canberra_2014&amp;styles=&amp;url=http://services.ga.gov.au/site_1/services/Ausimage_Canberra_2014/ImageServer/WMSServer?" name="Canberra 2014">
           <customproperties/>
         </layer-tree-layer>
       </layer-tree-group>
       <layer-tree-group expanded="0" checked="Qt::Unchecked" name="National Infrastructure">
         <customproperties/>
-        <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Unchecked" id="Waste_Management_Facilities20170910215948668" source=" restrictToRequestBBOX='1' srsname='EPSG:4283' typename='Waste_Management_Facilities:Waste_Management_Facilities' url='http://services.ga.gov.au/gis/services/Waste_Management_Facilities/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Waste Management Facilities">
+        <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Unchecked" id="Waste_Management_Facilities20170913120314118184" source=" restrictToRequestBBOX='1' srsname='EPSG:4283' typename='Waste_Management_Facilities:Waste_Management_Facilities' url='http://services.ga.gov.au/gis/services/Waste_Management_Facilities/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Waste Management Facilities">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Unchecked" id="National_Wastewater_Treatment_Facilities20170910215804034" source=" restrictToRequestBBOX='1' srsname='EPSG:4283' typename='Wastewater_Treatment_Facilities:National_Wastewater_Treatment_Facilities' url='http://services.ga.gov.au/gis/services/Wastewater_Treatment_Facilities/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Wastewater Treatment Facilities">
+        <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Unchecked" id="National_Wastewater_Treatment_Facilities2017091312031412113187" source=" restrictToRequestBBOX='1' srsname='EPSG:4283' typename='Wastewater_Treatment_Facilities:National_Wastewater_Treatment_Facilities' url='http://services.ga.gov.au/gis/services/Wastewater_Treatment_Facilities/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Wastewater Treatment Facilities">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Unchecked" id="National_Telephone_Exchanges20170910215626021" source=" restrictToRequestBBOX='1' srsname='EPSG:4283' typename='Telephone_Exchanges:National_Telephone_Exchanges' url='http://services.ga.gov.au/gis/services/Telephone_Exchanges/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Telephone Exchanges">
+        <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Unchecked" id="National_Telephone_Exchanges2017091312031412432313" source=" restrictToRequestBBOX='1' srsname='EPSG:4283' typename='Telephone_Exchanges:National_Telephone_Exchanges' url='http://services.ga.gov.au/gis/services/Telephone_Exchanges/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Telephone Exchanges">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="0" providerKey="WFS" checked="Qt::Unchecked" id="National_Major_Aviation_Terminals2017091021535664223189" source=" restrictToRequestBBOX='1' srsname='EPSG:4283' typename='Aviation_Facilities:National_Major_Aviation_Terminals' url='http://services.ga.gov.au/gis/services/Aviation_Facilities/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Major Aviation Terminals">
+        <layer-tree-layer expanded="0" providerKey="WFS" checked="Qt::Unchecked" id="National_Major_Aviation_Terminals201702017091312031412729702" source=" restrictToRequestBBOX='1' srsname='EPSG:4283' typename='Aviation_Facilities:National_Major_Aviation_Terminals' url='http://services.ga.gov.au/gis/services/Aviation_Facilities/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Major Aviation Terminals">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="0" providerKey="WFS" checked="Qt::Unchecked" id="National_Major_Power_Stations2017091021535664210216" source=" restrictToRequestBBOX='1' srsname='EPSG:4283' typename='Electricity_Infrastructure:National_Major_Power_Stations' url='http://services.ga.gov.au/site_3/services/Electricity_Infrastructure/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Major Power Stations">
+        <layer-tree-layer expanded="0" providerKey="WFS" checked="Qt::Unchecked" id="National_Major_Power_Stations201702017091312031412921317" source=" restrictToRequestBBOX='1' srsname='EPSG:4283' typename='Electricity_Infrastructure:National_Major_Power_Stations' url='http://services.ga.gov.au/site_3/services/Electricity_Infrastructure/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Major Power Stations">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Unchecked" id="National_Electricity_Transmission_Substations2017091021535664215515" source=" restrictToRequestBBOX='1' srsname='EPSG:4283' typename='Electricity_Infrastructure:National_Electricity_Transmission_Substations' url='http://services.ga.gov.au/site_3/services/Electricity_Infrastructure/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Electricity Transmission Substations">
+        <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Unchecked" id="National_Electricity_Transmission_Substations201702017091312031413227717" source=" restrictToRequestBBOX='1' srsname='EPSG:4283' typename='Electricity_Infrastructure:National_Electricity_Transmission_Substations' url='http://services.ga.gov.au/site_3/services/Electricity_Infrastructure/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Electricity Transmission Substations">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="0" providerKey="WFS" checked="Qt::Unchecked" id="National_Electricity_Transmission_Lines20170910215356642429" source=" restrictToRequestBBOX='1' srsname='EPSG:4283' typename='Electricity_Infrastructure:National_Electricity_Transmission_Lines' url='http://services.ga.gov.au/site_3/services/Electricity_Infrastructure/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Electricity Transmission Lines">
+        <layer-tree-layer expanded="0" providerKey="WFS" checked="Qt::Unchecked" id="National_Electricity_Transmission_Lines2012017091312031413421245" source=" restrictToRequestBBOX='1' srsname='EPSG:4283' typename='Electricity_Infrastructure:National_Electricity_Transmission_Lines' url='http://services.ga.gov.au/site_3/services/Electricity_Infrastructure/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Electricity Transmission Lines">
           <customproperties/>
         </layer-tree-layer>
       </layer-tree-group>
       <layer-tree-group expanded="1" checked="Qt::Unchecked" name="National Oil and Gas">
         <customproperties/>
-        <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Unchecked" id="National_Petrol_Stations20170910220222139" source=" restrictToRequestBBOX='1' srsname='EPSG:4283' typename='Liquid_Fuel_Facilities:National_Petrol_Stations' url='http://services.ga.gov.au/gis/services/Liquid_Fuel_Facilities/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Petrol Stations">
+        <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Unchecked" id="National_Petrol_Stations2017091312031413718392" source=" restrictToRequestBBOX='1' srsname='EPSG:4283' typename='Liquid_Fuel_Facilities:National_Petrol_Stations' url='http://services.ga.gov.au/gis/services/Liquid_Fuel_Facilities/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Petrol Stations">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Unchecked" id="National_Liquid_Fuel_Terminals20170910220219467" source=" restrictToRequestBBOX='1' srsname='EPSG:4283' typename='Liquid_Fuel_Facilities:National_Liquid_Fuel_Terminals' url='http://services.ga.gov.au/gis/services/Liquid_Fuel_Facilities/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Liquid Fuel Terminals">
+        <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Unchecked" id="National_Liquid_Fuel_Terminals2017091312031414029615" source=" restrictToRequestBBOX='1' srsname='EPSG:4283' typename='Liquid_Fuel_Facilities:National_Liquid_Fuel_Terminals' url='http://services.ga.gov.au/gis/services/Liquid_Fuel_Facilities/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Liquid Fuel Terminals">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Unchecked" id="National_Liquid_Fuel_Refineries20170910220215845" source=" restrictToRequestBBOX='1' srsname='EPSG:4283' typename='Liquid_Fuel_Facilities:National_Liquid_Fuel_Refineries' url='http://services.ga.gov.au/gis/services/Liquid_Fuel_Facilities/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Liquid Fuel Refineries">
+        <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Unchecked" id="National_Liquid_Fuel_Refineries20170913120314146163" source=" restrictToRequestBBOX='1' srsname='EPSG:4283' typename='Liquid_Fuel_Facilities:National_Liquid_Fuel_Refineries' url='http://services.ga.gov.au/gis/services/Liquid_Fuel_Facilities/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Liquid Fuel Refineries">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Unchecked" id="National_Liquid_Fuel_Depots20170910220208748" source=" restrictToRequestBBOX='1' srsname='EPSG:4283' typename='Liquid_Fuel_Facilities:National_Liquid_Fuel_Depots' url='http://services.ga.gov.au/gis/services/Liquid_Fuel_Facilities/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Liquid Fuel Depots">
+        <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Unchecked" id="National_Liquid_Fuel_Depots2017091312031415222864" source=" restrictToRequestBBOX='1' srsname='EPSG:4283' typename='Liquid_Fuel_Facilities:National_Liquid_Fuel_Depots' url='http://services.ga.gov.au/gis/services/Liquid_Fuel_Facilities/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Liquid Fuel Depots">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Unchecked" id="National_Onshore_Oil_Pipelines20170910220121148" source=" restrictToRequestBBOX='1' srsname='EPSG:4283' typename='Oil_Gas_Infrastructure:National_Onshore_Oil_Pipelines' url='http://services.ga.gov.au/gis/services/Oil_Gas_Infrastructure/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Onshore Oil Pipelines">
+        <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Unchecked" id="National_Onshore_Oil_Pipelines2017091312031415632222" source=" restrictToRequestBBOX='1' srsname='EPSG:4283' typename='Oil_Gas_Infrastructure:National_Onshore_Oil_Pipelines' url='http://services.ga.gov.au/gis/services/Oil_Gas_Infrastructure/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Onshore Oil Pipelines">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Unchecked" id="National_Onshore_Gas_Pipelines20170910220110483" source=" restrictToRequestBBOX='1' srsname='EPSG:4283' typename='Oil_Gas_Infrastructure:National_Onshore_Gas_Pipelines' url='http://services.ga.gov.au/gis/services/Oil_Gas_Infrastructure/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Onshore Gas Pipelines">
+        <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Unchecked" id="National_Onshore_Gas_Pipelines2017091312031416015594" source=" restrictToRequestBBOX='1' srsname='EPSG:4283' typename='Oil_Gas_Infrastructure:National_Onshore_Gas_Pipelines' url='http://services.ga.gov.au/gis/services/Oil_Gas_Infrastructure/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Onshore Gas Pipelines">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Unchecked" id="National_Oil_Gas_Platforms20170910220108259" source=" restrictToRequestBBOX='1' srsname='EPSG:4283' typename='Oil_Gas_Infrastructure:National_Oil_Gas_Platforms' url='http://services.ga.gov.au/gis/services/Oil_Gas_Infrastructure/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Oil Gas Platforms">
+        <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Unchecked" id="National_Oil_Gas_Platforms201709131203141644180" source=" restrictToRequestBBOX='1' srsname='EPSG:4283' typename='Oil_Gas_Infrastructure:National_Oil_Gas_Platforms' url='http://services.ga.gov.au/gis/services/Oil_Gas_Infrastructure/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Oil Gas Platforms">
           <customproperties/>
         </layer-tree-layer>
       </layer-tree-group>
       <layer-tree-group expanded="1" checked="Qt::Unchecked" name="Place Names and Borders">
         <customproperties/>
-        <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Unchecked" id="Political_Boundary_Line_copy20170912101510306" source=" restrictToRequestBBOX='1' srsname='EPSG:4326' typename='Global_Map_Project_Australian_Base_Map:Political_Boundary_Line' url='http://services.ga.gov.au/gis/services/Global_Map_Project_Australian_Base_Map/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="State Borders">
+        <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Unchecked" id="Political_Boundary_Line_copy2017091312031416724666" source=" restrictToRequestBBOX='1' srsname='EPSG:4326' typename='Global_Map_Project_Australian_Base_Map:Political_Boundary_Line' url='http://services.ga.gov.au/gis/services/Global_Map_Project_Australian_Base_Map/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="State Borders">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Unchecked" id="Coastline_copy20170912101457857" source=" restrictToRequestBBOX='1' srsname='EPSG:4326' typename='Global_Map_Project_Australian_Base_Map:Coastline' url='http://services.ga.gov.au/gis/services/Global_Map_Project_Australian_Base_Map/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Coastline">
+        <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Unchecked" id="Coastline_copy2017091312031417023975" source=" restrictToRequestBBOX='1' srsname='EPSG:4326' typename='Global_Map_Project_Australian_Base_Map:Coastline' url='http://services.ga.gov.au/gis/services/Global_Map_Project_Australian_Base_Map/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Coastline">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Unchecked" id="Statistical_Area_420170912101545199" source=" restrictToRequestBBOX='1' srsname='EPSG:4283' typename='NEXIS_Building_Exposure:Statistical_Area_4' url='http://services.ga.gov.au/gis/services/NEXIS_Building_Exposure/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Statistical Area 4">
+        <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Unchecked" id="Statistical_Area_42017091312031417330991" source=" restrictToRequestBBOX='1' srsname='EPSG:4283' typename='NEXIS_Building_Exposure:Statistical_Area_4' url='http://services.ga.gov.au/gis/services/NEXIS_Building_Exposure/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Statistical Area 4">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Unchecked" id="Local_Government_Area_201520170912101244037" source=" restrictToRequestBBOX='1' srsname='EPSG:4283' typename='NEXIS_Building_Exposure:Local_Government_Area_2015' url='http://services.ga.gov.au/gis/services/NEXIS_Building_Exposure/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Local Government Area 2015">
+        <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Unchecked" id="Local_Government_Area_2015201709131203141766809" source=" restrictToRequestBBOX='1' srsname='EPSG:4283' typename='NEXIS_Building_Exposure:Local_Government_Area_2015' url='http://services.ga.gov.au/gis/services/NEXIS_Building_Exposure/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Local Government Area 2015">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Unchecked" id="Gazetteer_of_Australia20170910220840096" source=" restrictToRequestBBOX='1' srsname='EPSG:4283' typename='Australian_Gazetteer:Gazetteer_of_Australia' url='http://services.ga.gov.au/gis/services/Australian_Gazetteer/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Gazetteer of Australia">
+        <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Unchecked" id="Gazetteer_of_Australia201709131203141794520" source=" restrictToRequestBBOX='1' srsname='EPSG:4283' typename='Australian_Gazetteer:Gazetteer_of_Australia' url='http://services.ga.gov.au/gis/services/Australian_Gazetteer/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Gazetteer of Australia">
           <customproperties/>
         </layer-tree-layer>
       </layer-tree-group>
@@ -224,7 +230,7 @@
   </layer-tree-group>
   <maplayers>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>Airport20170910221411216</id>
+      <id>Airport201709131203139932385</id>
       <datasource> restrictToRequestBBOX='1' srsname='EPSG:4326' typename='Global_Map_Project_Australian_Base_Map:Airport' url='http://services.ga.gov.au/gis/services/Global_Map_Project_Australian_Base_Map/MapServer/WFSServer?' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
@@ -609,7 +615,7 @@ def my_form_open(dialog, layer, feature):
         <xmax>153.56696000000010827</xmax>
         <ymax>-14.43633999999991602</ymax>
       </extent>
-      <id>Aqueduct_And_Canal20170910221419728</id>
+      <id>Aqueduct_And_Canal2017091312031399624852</id>
       <datasource> restrictToRequestBBOX='1' srsname='EPSG:4326' typename='Global_Map_Project_Australian_Base_Map:Aqueduct_And_Canal' url='http://services.ga.gov.au/gis/services/Global_Map_Project_Australian_Base_Map/MapServer/WFSServer?' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
@@ -981,7 +987,7 @@ def my_form_open(dialog, layer, feature):
       <previewExpression></previewExpression>
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>Bridge20170910221434005</id>
+      <id>Bridge201709131203140005296</id>
       <datasource> restrictToRequestBBOX='1' srsname='EPSG:4326' typename='Global_Map_Project_Australian_Base_Map:Bridge' url='http://services.ga.gov.au/gis/services/Global_Map_Project_Australian_Base_Map/MapServer/WFSServer?' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
@@ -1341,7 +1347,7 @@ def my_form_open(dialog, layer, feature):
         <xmax>122.24562000000025819</xmax>
         <ymax>-17.94724999999982629</ymax>
       </extent>
-      <id>Built_Up_Area20170910221437718</id>
+      <id>Built_Up_Area2017091312031400329534</id>
       <datasource> restrictToRequestBBOX='1' srsname='EPSG:4326' typename='Global_Map_Project_Australian_Base_Map:Built_Up_Area' url='http://services.ga.gov.au/gis/services/Global_Map_Project_Australian_Base_Map/MapServer/WFSServer?' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
@@ -1697,7 +1703,7 @@ def my_form_open(dialog, layer, feature):
       <previewExpression></previewExpression>
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>Built_Up_Point20170910221439612</id>
+      <id>Built_Up_Point2017091312031400611327</id>
       <datasource> restrictToRequestBBOX='1' srsname='EPSG:4326' typename='Global_Map_Project_Australian_Base_Map:Built_Up_Point' url='http://services.ga.gov.au/gis/services/Global_Map_Project_Australian_Base_Map/MapServer/WFSServer?' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
@@ -2042,7 +2048,13 @@ def my_form_open(dialog, layer, feature):
       <previewExpression>COALESCE( "OBJECTID", '&lt;NULL>' )</previewExpression>
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>Coastline20170910221442179</id>
+      <extent>
+        <xmin>112.92137000000002445</xmin>
+        <ymin>-43.74286999999998216</ymin>
+        <xmax>153.63857000000018616</xmax>
+        <ymax>-9.14221999999989521</ymax>
+      </extent>
+      <id>Coastline2017091312031400932395</id>
       <datasource> restrictToRequestBBOX='1' srsname='EPSG:4326' typename='Global_Map_Project_Australian_Base_Map:Coastline' url='http://services.ga.gov.au/gis/services/Global_Map_Project_Australian_Base_Map/MapServer/WFSServer?' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
@@ -2420,7 +2432,7 @@ def my_form_open(dialog, layer, feature):
       <previewExpression></previewExpression>
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>Inland_Water20170910221455176</id>
+      <id>Inland_Water2017091312031401224013</id>
       <datasource> restrictToRequestBBOX='1' srsname='EPSG:4326' typename='Global_Map_Project_Australian_Base_Map:Inland_Water' url='http://services.ga.gov.au/gis/services/Global_Map_Project_Australian_Base_Map/MapServer/WFSServer?' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
@@ -2818,7 +2830,7 @@ def my_form_open(dialog, layer, feature):
       <previewExpression></previewExpression>
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>Miscellaneous_Drainage20170910221457109</id>
+      <id>Miscellaneous_Drainage201709131203140155832</id>
       <datasource> restrictToRequestBBOX='1' srsname='EPSG:4326' typename='Global_Map_Project_Australian_Base_Map:Miscellaneous_Drainage' url='http://services.ga.gov.au/gis/services/Global_Map_Project_Australian_Base_Map/MapServer/WFSServer?' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
@@ -3163,7 +3175,7 @@ def my_form_open(dialog, layer, feature):
       <previewExpression></previewExpression>
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>Miscellaneous_Population20170910221459065</id>
+      <id>Miscellaneous_Population201709131203140187170</id>
       <datasource> restrictToRequestBBOX='1' srsname='EPSG:4326' typename='Global_Map_Project_Australian_Base_Map:Miscellaneous_Population' url='http://services.ga.gov.au/gis/services/Global_Map_Project_Australian_Base_Map/MapServer/WFSServer?' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
@@ -3514,7 +3526,7 @@ def my_form_open(dialog, layer, feature):
         <xmax>167.99740600600023299</xmax>
         <ymax>-9.14221999999983836</ymax>
       </extent>
-      <id>Political_Boundary_Area20170910221503425</id>
+      <id>Political_Boundary_Area201709131203140207816</id>
       <datasource> restrictToRequestBBOX='1' srsname='EPSG:4326' typename='Global_Map_Project_Australian_Base_Map:Political_Boundary_Area' url='http://services.ga.gov.au/gis/services/Global_Map_Project_Australian_Base_Map/MapServer/WFSServer?' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
@@ -3898,7 +3910,7 @@ def my_form_open(dialog, layer, feature):
       <previewExpression>COALESCE( "OBJECTID", '&lt;NULL>' )</previewExpression>
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>Political_Boundary_Line20170910221507031</id>
+      <id>Political_Boundary_Line2017091312031402314405</id>
       <datasource> restrictToRequestBBOX='1' srsname='EPSG:4326' typename='Global_Map_Project_Australian_Base_Map:Political_Boundary_Line' url='http://services.ga.gov.au/gis/services/Global_Map_Project_Australian_Base_Map/MapServer/WFSServer?' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
@@ -4299,7 +4311,7 @@ def my_form_open(dialog, layer, feature):
         <xmax>123.5585784910001621</xmax>
         <ymax>-12.25588417099987737</ymax>
       </extent>
-      <id>Political_Boundary_Point20170910221511353</id>
+      <id>Political_Boundary_Point2017091312031402616207</id>
       <datasource> restrictToRequestBBOX='1' srsname='EPSG:4326' typename='Global_Map_Project_Australian_Base_Map:Political_Boundary_Point' url='http://services.ga.gov.au/gis/services/Global_Map_Project_Australian_Base_Map/MapServer/WFSServer?' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
@@ -4686,7 +4698,7 @@ def my_form_open(dialog, layer, feature):
         <xmax>153.61314000000015767</xmax>
         <ymax>-12.43505999999996448</ymax>
       </extent>
-      <id>Railroad20170910221513827</id>
+      <id>Railroad2017091312031402917636</id>
       <datasource> restrictToRequestBBOX='1' srsname='EPSG:4326' typename='Global_Map_Project_Australian_Base_Map:Railroad' url='http://services.ga.gov.au/gis/services/Global_Map_Project_Australian_Base_Map/MapServer/WFSServer?' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
@@ -5092,7 +5104,7 @@ def my_form_open(dialog, layer, feature):
       <previewExpression></previewExpression>
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>Railyard20170910221515920</id>
+      <id>Railyard2017091312031403123996</id>
       <datasource> restrictToRequestBBOX='1' srsname='EPSG:4326' typename='Global_Map_Project_Australian_Base_Map:Railyard' url='http://services.ga.gov.au/gis/services/Global_Map_Project_Australian_Base_Map/MapServer/WFSServer?' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
@@ -5437,7 +5449,7 @@ def my_form_open(dialog, layer, feature):
       <previewExpression></previewExpression>
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>Road_Major20170910221518599</id>
+      <id>Road_Major2017091312031403526971</id>
       <datasource> restrictToRequestBBOX='1' srsname='EPSG:4326' typename='Global_Map_Project_Australian_Base_Map:Road_Major' url='http://services.ga.gov.au/gis/services/Global_Map_Project_Australian_Base_Map/MapServer/WFSServer?' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
@@ -5878,7 +5890,7 @@ def my_form_open(dialog, layer, feature):
       <previewExpression></previewExpression>
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>Road_Minor20170910221521479</id>
+      <id>Road_Minor201709131203140382871</id>
       <datasource> restrictToRequestBBOX='1' srsname='EPSG:4326' typename='Global_Map_Project_Australian_Base_Map:Road_Minor' url='http://services.ga.gov.au/gis/services/Global_Map_Project_Australian_Base_Map/MapServer/WFSServer?' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
@@ -6319,7 +6331,7 @@ def my_form_open(dialog, layer, feature):
       <previewExpression></previewExpression>
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>Watercourse20170910221524760</id>
+      <id>Watercourse2017091312031404216876</id>
       <datasource> restrictToRequestBBOX='1' srsname='EPSG:4326' typename='Global_Map_Project_Australian_Base_Map:Watercourse' url='http://services.ga.gov.au/gis/services/Global_Map_Project_Australian_Base_Map/MapServer/WFSServer?' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
@@ -6712,7 +6724,7 @@ def my_form_open(dialog, layer, feature):
         <xmax>177.49999999999991473</xmax>
         <ymax>-6.00000000000000089</ymax>
       </extent>
-      <id>Vegetation_Percentage_Tree_Cover20170910223735928</id>
+      <id>Vegetation_Percentage_Tree_Cover2017091312031404518851</id>
       <datasource>crs=EPSG:4283&amp;dpiMode=7&amp;format=image/png&amp;layers=Vegetation_Percentage_Tree_Cover&amp;styles=&amp;url=http://services.ga.gov.au/gis/services/Global_Map_Project_Australian_Base_Map/MapServer/WMSServer?</datasource>
       <keywordList>
         <value></value>
@@ -6757,7 +6769,7 @@ def my_form_open(dialog, layer, feature):
         <xmax>177.49999999999991473</xmax>
         <ymax>-6.00000000000000089</ymax>
       </extent>
-      <id>Landcover20170910223728585</id>
+      <id>Landcover2017091312031404827881</id>
       <datasource>crs=EPSG:4283&amp;dpiMode=7&amp;format=image/png&amp;layers=Landcover&amp;styles=&amp;url=http://services.ga.gov.au/gis/services/Global_Map_Project_Australian_Base_Map/MapServer/WMSServer?</datasource>
       <keywordList>
         <value></value>
@@ -6802,7 +6814,7 @@ def my_form_open(dialog, layer, feature):
         <xmax>177.5041666665233322</xmax>
         <ymax>-5.99999999996157385</ymax>
       </extent>
-      <id>Elevation20170910222226802</id>
+      <id>Elevation2017091312031405123043</id>
       <datasource>identifier=3&amp;url=http://services.ga.gov.au/gis/services/Global_Map_Project_Australian_Base_Map/MapServer/WCSServer?</datasource>
       <keywordList>
         <value></value>
@@ -6876,7 +6888,7 @@ def my_form_open(dialog, layer, feature):
         <xmax>177.5041666665233322</xmax>
         <ymax>-5.99999999996157385</ymax>
       </extent>
-      <id>Elevation20170910222457990</id>
+      <id>Elevation2017091312031405315200</id>
       <datasource>identifier=3&amp;url=http://services.ga.gov.au/gis/services/Global_Map_Project_Australian_Base_Map/MapServer/WCSServer?</datasource>
       <keywordList>
         <value></value>
@@ -6924,7 +6936,7 @@ def my_form_open(dialog, layer, feature):
         <xmax>153.63749999999987494</xmax>
         <ymax>-9.19749999999995893</ymax>
       </extent>
-      <id>Basins20170201709102153566426932</id>
+      <id>Basins2017020172017091312031405721756</id>
       <datasource> restrictToRequestBBOX='1' srsname='EPSG:4283' typename='Surface_Hydrology_WM:Basins' url='http://services.ga.gov.au/gis/services/Surface_Hydrology_WM/MapServer/WFSServer?' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
@@ -7518,7 +7530,7 @@ def my_form_open(dialog, layer, feature):
         <xmax>153.63749999999987494</xmax>
         <ymax>-9.19749999999995893</ymax>
       </extent>
-      <id>Catchments201702017091021535664223966</id>
+      <id>Catchments20170201702017091312031406026627</id>
       <datasource> restrictToRequestBBOX='1' srsname='EPSG:4283' typename='Surface_Hydrology_WM:Catchments' url='http://services.ga.gov.au/gis/services/Surface_Hydrology_WM/MapServer/WFSServer?' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
@@ -8111,7 +8123,7 @@ def my_form_open(dialog, layer, feature):
       <previewExpression>COALESCE( "Level2Name", '&lt;NULL>' )</previewExpression>
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="0" scaleBasedLabelVisibilityFlag="0">
-      <id>Surface_HydroPolys_Regional201702017091021535664224921</id>
+      <id>Surface_HydroPolys_Regional2017020170201709131203140631164</id>
       <datasource> restrictToRequestBBOX='1' srsname='EPSG:4283' typename='Surface_Hydrology_WM:Surface_HydroPolys_Regional' url='http://services.ga.gov.au/gis/services/Surface_Hydrology_WM/MapServer/WFSServer?' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
@@ -8312,7 +8324,7 @@ def my_form_open(dialog, layer, feature):
       <previewExpression></previewExpression>
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="0" scaleBasedLabelVisibilityFlag="0">
-      <id>Surface_HydroPolys_National201702017091021535664216205</id>
+      <id>Surface_HydroPolys_National2017020170201709131203140653720</id>
       <datasource> restrictToRequestBBOX='1' srsname='EPSG:4283' typename='Surface_Hydrology_WM:Surface_HydroPolys_National' url='http://services.ga.gov.au/gis/services/Surface_Hydrology_WM/MapServer/WFSServer?' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
@@ -8513,7 +8525,7 @@ def my_form_open(dialog, layer, feature):
       <previewExpression></previewExpression>
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="0" scaleBasedLabelVisibilityFlag="0">
-      <id>Surface_HydroPoints_Regional201702017091021535664218547</id>
+      <id>Surface_HydroPoints_Regional20170201702017091312031406828796</id>
       <datasource> restrictToRequestBBOX='1' srsname='EPSG:4283' typename='Surface_Hydrology_WM:Surface_HydroPoints_Regional' url='http://services.ga.gov.au/gis/services/Surface_Hydrology_WM/MapServer/WFSServer?' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
@@ -8701,7 +8713,7 @@ def my_form_open(dialog, layer, feature):
       <previewExpression></previewExpression>
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="0" scaleBasedLabelVisibilityFlag="0">
-      <id>Surface_HydroPoints_National201702017091021535664226799</id>
+      <id>Surface_HydroPoints_National20170201702017091312031407011991</id>
       <datasource> restrictToRequestBBOX='1' srsname='EPSG:4283' typename='Surface_Hydrology_WM:Surface_HydroPoints_National' url='http://services.ga.gov.au/gis/services/Surface_Hydrology_WM/MapServer/WFSServer?' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
@@ -8889,7 +8901,7 @@ def my_form_open(dialog, layer, feature):
       <previewExpression></previewExpression>
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="0" scaleBasedLabelVisibilityFlag="0">
-      <id>Surface_HydroLines_Regional20170201709102153566429959</id>
+      <id>Surface_HydroLines_Regional2017020172017091312031407323377</id>
       <datasource> restrictToRequestBBOX='1' srsname='EPSG:4283' typename='Surface_Hydrology_WM:Surface_HydroLines_Regional' url='http://services.ga.gov.au/gis/services/Surface_Hydrology_WM/MapServer/WFSServer?' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
@@ -9099,7 +9111,7 @@ def my_form_open(dialog, layer, feature):
       <previewExpression></previewExpression>
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="0" scaleBasedLabelVisibilityFlag="0">
-      <id>Surface_HydroLines_National20172017091021535664222953</id>
+      <id>Surface_HydroLines_National201720170201709131203140768885</id>
       <datasource> restrictToRequestBBOX='1' srsname='EPSG:4283' typename='Surface_Hydrology_WM:Surface_HydroLines_National' url='http://services.ga.gov.au/gis/services/Surface_Hydrology_WM/MapServer/WFSServer?' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
@@ -9305,7 +9317,7 @@ def my_form_open(dialog, layer, feature):
         <xmax>162.00003317680361192</xmax>
         <ymax>-9.20556831399995446</ymax>
       </extent>
-      <id>DEM_LiDAR_5m_120170201709102153566428121</id>
+      <id>DEM_LiDAR_5m_1201702017201709131203140787107</id>
       <datasource>identifier=1&amp;url=http://services.ga.gov.au/gis/services/DEM_LiDAR_5m/MapServer/WCSServer?</datasource>
       <keywordList>
         <value></value>
@@ -9438,7 +9450,7 @@ def my_form_open(dialog, layer, feature):
         <xmax>156.78060372007360002</xmax>
         <ymax>-9.20559123385652178</ymax>
       </extent>
-      <id>DEM_LiDAR_25m201702017091021535664225474</id>
+      <id>DEM_LiDAR_25m20170201702017091312031408125047</id>
       <datasource>identifier=1&amp;url=http://services.ga.gov.au/gis/services/DEM_LiDAR_25m/MapServer/WCSServer?</datasource>
       <keywordList>
         <value></value>
@@ -9571,7 +9583,7 @@ def my_form_open(dialog, layer, feature):
         <xmax>154.00013888951744434</xmax>
         <ymax>-9.99986111092071184</ymax>
       </extent>
-      <id>DEM_SRTM_1Second_Slope201702017091021535664223569</id>
+      <id>DEM_SRTM_1Second_Slope20170201702017091312031408324334</id>
       <datasource>identifier=1&amp;url=http://services.ga.gov.au/gis/services/DEM_SRTM_1Second_Slope/MapServer/WCSServer?</datasource>
       <keywordList>
         <value></value>
@@ -9622,7 +9634,7 @@ def my_form_open(dialog, layer, feature):
         <xmax>153.99986111335098826</xmax>
         <ymax>-10.00013890099994995</ymax>
       </extent>
-      <id>DEM_SRTM_1_Second20170201709102153566424757</id>
+      <id>DEM_SRTM_1_Second201702017201709131203140853970</id>
       <datasource>identifier=1&amp;url=http://services.ga.gov.au/gis/services/DEM_SRTM_1Second/MapServer/WCSServer?</datasource>
       <keywordList>
         <value></value>
@@ -9752,7 +9764,7 @@ def my_form_open(dialog, layer, feature):
         <xmax>153.9998611116614029</xmax>
         <ymax>-10.00013888899990633</ymax>
       </extent>
-      <id>DEM_SRTM_1_Second_Hydro_Enforced2017201709102153566422723</id>
+      <id>DEM_SRTM_1_Second_Hydro_Enforced2017201720170913120314088655</id>
       <datasource>identifier=1&amp;url=http://services.ga.gov.au/site_9/services/DEM_SRTM_1Second_Hydro_Enforced/MapServer/WCSServer?</datasource>
       <keywordList>
         <value></value>
@@ -9883,7 +9895,7 @@ def my_form_open(dialog, layer, feature):
         <xmax>20037508.34278924390673637</xmax>
         <ymax>20037508.34278924390673637</ymax>
       </extent>
-      <id>Google_Satelite201702017091021535664232103</id>
+      <id>Google_Satelite20170201702017091312031409226139</id>
       <datasource>crs=EPSG:3857&amp;format=&amp;type=xyz&amp;url=https://mt1.google.com/vt/lyrs%3Ds%26x%3D%7Bx%7D%26y%3D%7By%7D%26z%3D%7Bz%7D</datasource>
       <keywordList>
         <value></value>
@@ -9928,7 +9940,7 @@ def my_form_open(dialog, layer, feature):
         <xmax>20037508.34278924390673637</xmax>
         <ymax>20037508.34278924390673637</ymax>
       </extent>
-      <id>Google_Hybrid201702017091021535664227670</id>
+      <id>Google_Hybrid20170201702017091312031409526512</id>
       <datasource>crs=EPSG:3857&amp;format=&amp;type=xyz&amp;url=https://mt1.google.com/vt/lyrs%3Dy%26x%3D%7Bx%7D%26y%3D%7By%7D%26z%3D%7Bz%7D</datasource>
       <keywordList>
         <value></value>
@@ -9973,7 +9985,7 @@ def my_form_open(dialog, layer, feature):
         <xmax>20037508.34278924390673637</xmax>
         <ymax>20037508.34278924390673637</ymax>
       </extent>
-      <id>Google_Terrain_Only20172017091021535664229281</id>
+      <id>Google_Terrain_Only2017201702017091312031409830810</id>
       <datasource>crs=EPSG:3857&amp;format=&amp;type=xyz&amp;url=https://mt1.google.com/vt/lyrs%3Dt%26x%3D%7Bx%7D%26y%3D%7By%7D%26z%3D%7Bz%7D</datasource>
       <keywordList>
         <value></value>
@@ -10018,7 +10030,7 @@ def my_form_open(dialog, layer, feature):
         <xmax>20037508.34278924390673637</xmax>
         <ymax>20037508.34278924390673637</ymax>
       </extent>
-      <id>Google_Terrain201702017091021535664216552</id>
+      <id>Google_Terrain20170201702017091312031410031280</id>
       <datasource>crs=EPSG:3857&amp;format=&amp;type=xyz&amp;url=https://mt1.google.com/vt/lyrs%3Dp%26x%3D%7Bx%7D%26y%3D%7By%7D%26z%3D%7Bz%7D</datasource>
       <keywordList>
         <value></value>
@@ -10063,7 +10075,7 @@ def my_form_open(dialog, layer, feature):
         <xmax>20037508.34278924390673637</xmax>
         <ymax>20037508.34278924390673637</ymax>
       </extent>
-      <id>Google_Alt__Roads20172017091021535664227085</id>
+      <id>Google_Alt__Roads2017201702017091312031410315616</id>
       <datasource>crs=EPSG:3857&amp;format=&amp;type=xyz&amp;url=https://mt1.google.com/vt/lyrs%3Dr%26x%3D%7Bx%7D%26y%3D%7By%7D%26z%3D%7Bz%7D</datasource>
       <keywordList>
         <value></value>
@@ -10108,7 +10120,7 @@ def my_form_open(dialog, layer, feature):
         <xmax>20037508.34278924390673637</xmax>
         <ymax>20037508.34278924390673637</ymax>
       </extent>
-      <id>Google_Standard_Roadmap201702017091021535664219488</id>
+      <id>Google_Standard_Roadmap20170201702017091312031410611463</id>
       <datasource>crs=EPSG:3857&amp;format=&amp;type=xyz&amp;url=https://mt1.google.com/vt/lyrs%3Dm%26x%3D%7Bx%7D%26y%3D%7By%7D%26z%3D%7Bz%7D</datasource>
       <keywordList>
         <value></value>
@@ -10153,7 +10165,7 @@ def my_form_open(dialog, layer, feature):
         <xmax>20037508.34278924390673637</xmax>
         <ymax>20037508.34278924390673637</ymax>
       </extent>
-      <id>Google_Roads_Only201702017091021535664232469</id>
+      <id>Google_Roads_Only20170201702017091312031410816698</id>
       <datasource>crs=EPSG:3857&amp;format=&amp;type=xyz&amp;url=https://mt1.google.com/vt/lyrs%3Dh%26x%3D%7Bx%7D%26y%3D%7By%7D%26z%3D%7Bz%7D</datasource>
       <keywordList>
         <value></value>
@@ -10193,13 +10205,58 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
       <extent>
+        <xmin>1786000</xmin>
+        <ymin>913528.9983913297764957</ymin>
+        <xmax>3953471.0016086702235043</xmax>
+        <ymax>3081000</ymax>
+      </extent>
+      <id>SATELLITE220170922130016470</id>
+      <datasource>crs=EPSG:3111&amp;dpiMode=7&amp;format=image/png&amp;layers=SATELLITE2&amp;styles=_null&amp;tileMatrixSet=EPSG:3111_SATELLITE2&amp;url=http://api.maps.vic.gov.au/geowebcache/service/wmts</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>VIC SATELLITE2</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=lcc +lat_1=-36 +lat_2=-38 +lat_0=-37 +lon_0=145 +x_0=2500000 +y_0=2500000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>1074</srsid>
+          <srid>3111</srid>
+          <authid>EPSG:3111</authid>
+          <description>GDA94 / Vicgrid94</description>
+          <projectionacronym>lcc</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Undefined"/>
+      </customproperties>
+      <provider>wms</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="-1" band="1" type="singlebandcolordata">
+          <rasterTransparency/>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
         <xmin>-20037508.34278924390673637</xmin>
         <ymin>-20037508.34278925508260727</ymin>
         <xmax>20037508.34278924390673637</xmax>
         <ymax>20037508.34278924390673637</ymax>
       </extent>
-      <id>QLD_Globe_Imagery20170913110342323</id>
-      <datasource>type=xyz&amp;url=https://gisservices.information.qld.gov.au/arcgis/rest/services/Imagery/QldBase_QgovSispUsers/ImageServer/tile/%7Bz%7D/%7By%7D/%7Bx%7D?blankTile%3Dfalse</datasource>
+      <id>QLD_Globe_Imagery2017091312031411129500</id>
+      <datasource>crs=EPSG:3857&amp;format=&amp;type=xyz&amp;url=https://gisservices.information.qld.gov.au/arcgis/rest/services/Imagery/QldBase_QgovSispUsers/ImageServer/tile/%7Bz%7D/%7By%7D/%7Bx%7D?blankTile%3Dfalse</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -10243,12 +10300,57 @@ def my_form_open(dialog, layer, feature):
         <xmax>20037508.34278924390673637</xmax>
         <ymax>20037508.34278924390673637</ymax>
       </extent>
-      <id>NSW_Six_Map20170913110347071</id>
-      <datasource>type=xyz&amp;url=https://maps1.six.nsw.gov.au/arcgis/rest/services/sixmaps/LPI_Imagery_Best/MapServer/tile/%7Bz%7D/%7By%7D/%7Bx%7D?blankTile%3Dfalse</datasource>
+      <id>NSW_Six_Map2017091312031411432534</id>
+      <datasource>crs=EPSG:3857&amp;format=&amp;type=xyz&amp;url=https://maps1.six.nsw.gov.au/arcgis/rest/services/sixmaps/LPI_Imagery_Best/MapServer/tile/%7Bz%7D/%7By%7D/%7Bx%7D?blankTile%3Dfalse</datasource>
       <keywordList>
         <value></value>
       </keywordList>
       <layername>NSW Six Map</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs</proj4>
+          <srsid>3857</srsid>
+          <srid>3857</srid>
+          <authid>EPSG:3857</authid>
+          <description>WGS 84 / Pseudo Mercator</description>
+          <projectionacronym>merc</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Undefined"/>
+      </customproperties>
+      <provider>wms</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="-1" band="1" type="singlebandcolordata">
+          <rasterTransparency/>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>-20037508.34278924390673637</xmin>
+        <ymin>-20037508.34278925508260727</ymin>
+        <xmax>20037508.34278924390673637</xmax>
+        <ymax>20037508.34278924390673637</ymax>
+      </extent>
+      <id>TAS_Imagery20170922130141282</id>
+      <datasource>type=xyz&amp;url=http://services.thelist.tas.gov.au/arcgis/rest/services/Basemaps/Orthophoto/MapServer/tile/%7Bz%7D/%7By%7D/%7Bx%7D</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>TAS Imagery</layername>
       <srs>
         <spatialrefsys>
           <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs</proj4>
@@ -10288,12 +10390,12 @@ def my_form_open(dialog, layer, feature):
         <xmax>149.29352699999984111</xmax>
         <ymax>-35.12238799999997951</ymax>
       </extent>
-      <id>AUSIMAGE_Aerial_Imagery_Canberra_201420170913110317319</id>
+      <id>AUSIMAGE_Aerial_Imagery_Canberra_20142017091312031411626141</id>
       <datasource>crs=EPSG:4283&amp;dpiMode=7&amp;format=image/png&amp;layers=Ausimage_Canberra_2014&amp;styles=&amp;url=http://services.ga.gov.au/site_1/services/Ausimage_Canberra_2014/ImageServer/WMSServer?</datasource>
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>AUSIMAGE Aerial Imagery Canberra 2014</layername>
+      <layername>Canberra 2014</layername>
       <srs>
         <spatialrefsys>
           <proj4>+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs</proj4>
@@ -10333,7 +10435,7 @@ def my_form_open(dialog, layer, feature):
         <xmax>153.5521440000001121</xmax>
         <ymax>-10.43490574699995932</ymax>
       </extent>
-      <id>Waste_Management_Facilities20170910215948668</id>
+      <id>Waste_Management_Facilities20170913120314118184</id>
       <datasource> restrictToRequestBBOX='1' srsname='EPSG:4283' typename='Waste_Management_Facilities:Waste_Management_Facilities' url='http://services.ga.gov.au/gis/services/Waste_Management_Facilities/MapServer/WFSServer?' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
@@ -10780,7 +10882,7 @@ def my_form_open(dialog, layer, feature):
         <xmax>153.57982635500002289</xmax>
         <ymax>-9.23346137999993744</ymax>
       </extent>
-      <id>National_Wastewater_Treatment_Facilities20170910215804034</id>
+      <id>National_Wastewater_Treatment_Facilities2017091312031412113187</id>
       <datasource> restrictToRequestBBOX='1' srsname='EPSG:4283' typename='Wastewater_Treatment_Facilities:National_Wastewater_Treatment_Facilities' url='http://services.ga.gov.au/gis/services/Wastewater_Treatment_Facilities/MapServer/WFSServer?' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
@@ -10964,7 +11066,7 @@ def my_form_open(dialog, layer, feature):
         <xmax>153.61312866199989458</xmax>
         <ymax>-10.59379005399995144</ymax>
       </extent>
-      <id>National_Telephone_Exchanges20170910215626021</id>
+      <id>National_Telephone_Exchanges2017091312031412432313</id>
       <datasource> restrictToRequestBBOX='1' srsname='EPSG:4283' typename='Telephone_Exchanges:National_Telephone_Exchanges' url='http://services.ga.gov.au/gis/services/Telephone_Exchanges/MapServer/WFSServer?' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
@@ -11351,7 +11453,7 @@ def my_form_open(dialog, layer, feature):
         <xmax>167.94348699999977725</xmax>
         <ymax>-10.45103399999992888</ymax>
       </extent>
-      <id>National_Major_Aviation_Terminals2017091021535664223189</id>
+      <id>National_Major_Aviation_Terminals201702017091312031412729702</id>
       <datasource> restrictToRequestBBOX='1' srsname='EPSG:4283' typename='Aviation_Facilities:National_Major_Aviation_Terminals' url='http://services.ga.gov.au/gis/services/Aviation_Facilities/MapServer/WFSServer?' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
@@ -11758,7 +11860,7 @@ def my_form_open(dialog, layer, feature):
         <xmax>153.43410999999989031</xmax>
         <ymax>-12.38917399999998992</ymax>
       </extent>
-      <id>National_Major_Power_Stations2017091021535664210216</id>
+      <id>National_Major_Power_Stations201702017091312031412921317</id>
       <datasource> restrictToRequestBBOX='1' srsname='EPSG:4283' typename='Electricity_Infrastructure:National_Major_Power_Stations' url='http://services.ga.gov.au/site_3/services/Electricity_Infrastructure/MapServer/WFSServer?' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
@@ -12239,7 +12341,7 @@ def my_form_open(dialog, layer, feature):
         <xmax>153.59407066000005671</xmax>
         <ymax>-12.38324549999992996</ymax>
       </extent>
-      <id>National_Electricity_Transmission_Substations2017091021535664215515</id>
+      <id>National_Electricity_Transmission_Substations201702017091312031413227717</id>
       <datasource> restrictToRequestBBOX='1' srsname='EPSG:4283' typename='Electricity_Infrastructure:National_Electricity_Transmission_Substations' url='http://services.ga.gov.au/site_3/services/Electricity_Infrastructure/MapServer/WFSServer?' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
@@ -12614,7 +12716,7 @@ def my_form_open(dialog, layer, feature):
         <xmax>153.59443702100017504</xmax>
         <ymax>-12.37707749999992757</ymax>
       </extent>
-      <id>National_Electricity_Transmission_Lines20170910215356642429</id>
+      <id>National_Electricity_Transmission_Lines2012017091312031413421245</id>
       <datasource> restrictToRequestBBOX='1' srsname='EPSG:4283' typename='Electricity_Infrastructure:National_Electricity_Transmission_Lines' url='http://services.ga.gov.au/site_3/services/Electricity_Infrastructure/MapServer/WFSServer?' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
@@ -13364,7 +13466,7 @@ def my_form_open(dialog, layer, feature):
       <previewExpression>COALESCE( "DESCRIPTON", '&lt;NULL>' )</previewExpression>
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="0" scaleBasedLabelVisibilityFlag="0">
-      <id>National_Petrol_Stations20170910220222139</id>
+      <id>National_Petrol_Stations2017091312031413718392</id>
       <datasource> restrictToRequestBBOX='1' srsname='EPSG:4283' typename='Liquid_Fuel_Facilities:National_Petrol_Stations' url='http://services.ga.gov.au/gis/services/Liquid_Fuel_Facilities/MapServer/WFSServer?' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
@@ -13547,7 +13649,7 @@ def my_form_open(dialog, layer, feature):
       <previewExpression></previewExpression>
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="0" scaleBasedLabelVisibilityFlag="0">
-      <id>National_Liquid_Fuel_Terminals20170910220219467</id>
+      <id>National_Liquid_Fuel_Terminals2017091312031414029615</id>
       <datasource> restrictToRequestBBOX='1' srsname='EPSG:4283' typename='Liquid_Fuel_Facilities:National_Liquid_Fuel_Terminals' url='http://services.ga.gov.au/gis/services/Liquid_Fuel_Facilities/MapServer/WFSServer?' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
@@ -13730,7 +13832,7 @@ def my_form_open(dialog, layer, feature):
       <previewExpression></previewExpression>
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="0" scaleBasedLabelVisibilityFlag="0">
-      <id>National_Liquid_Fuel_Refineries20170910220215845</id>
+      <id>National_Liquid_Fuel_Refineries20170913120314146163</id>
       <datasource> restrictToRequestBBOX='1' srsname='EPSG:4283' typename='Liquid_Fuel_Facilities:National_Liquid_Fuel_Refineries' url='http://services.ga.gov.au/gis/services/Liquid_Fuel_Facilities/MapServer/WFSServer?' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
@@ -13913,7 +14015,7 @@ def my_form_open(dialog, layer, feature):
       <previewExpression></previewExpression>
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="0" scaleBasedLabelVisibilityFlag="0">
-      <id>National_Liquid_Fuel_Depots20170910220208748</id>
+      <id>National_Liquid_Fuel_Depots2017091312031415222864</id>
       <datasource> restrictToRequestBBOX='1' srsname='EPSG:4283' typename='Liquid_Fuel_Facilities:National_Liquid_Fuel_Depots' url='http://services.ga.gov.au/gis/services/Liquid_Fuel_Facilities/MapServer/WFSServer?' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
@@ -14096,7 +14198,7 @@ def my_form_open(dialog, layer, feature):
       <previewExpression></previewExpression>
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="0" scaleBasedLabelVisibilityFlag="0">
-      <id>National_Onshore_Oil_Pipelines20170910220121148</id>
+      <id>National_Onshore_Oil_Pipelines2017091312031415632222</id>
       <datasource> restrictToRequestBBOX='1' srsname='EPSG:4283' typename='Oil_Gas_Infrastructure:National_Onshore_Oil_Pipelines' url='http://services.ga.gov.au/gis/services/Oil_Gas_Infrastructure/MapServer/WFSServer?' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
@@ -14291,7 +14393,7 @@ def my_form_open(dialog, layer, feature):
       <previewExpression></previewExpression>
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="0" scaleBasedLabelVisibilityFlag="0">
-      <id>National_Onshore_Gas_Pipelines20170910220110483</id>
+      <id>National_Onshore_Gas_Pipelines2017091312031416015594</id>
       <datasource> restrictToRequestBBOX='1' srsname='EPSG:4283' typename='Oil_Gas_Infrastructure:National_Onshore_Gas_Pipelines' url='http://services.ga.gov.au/gis/services/Oil_Gas_Infrastructure/MapServer/WFSServer?' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
@@ -14486,7 +14588,7 @@ def my_form_open(dialog, layer, feature):
       <previewExpression></previewExpression>
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="0" scaleBasedLabelVisibilityFlag="0">
-      <id>National_Oil_Gas_Platforms20170910220108259</id>
+      <id>National_Oil_Gas_Platforms201709131203141644180</id>
       <datasource> restrictToRequestBBOX='1' srsname='EPSG:4283' typename='Oil_Gas_Infrastructure:National_Oil_Gas_Platforms' url='http://services.ga.gov.au/gis/services/Oil_Gas_Infrastructure/MapServer/WFSServer?' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
@@ -14664,7 +14766,7 @@ def my_form_open(dialog, layer, feature):
       <previewExpression></previewExpression>
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>Political_Boundary_Line_copy20170912101510306</id>
+      <id>Political_Boundary_Line_copy2017091312031416724666</id>
       <datasource> restrictToRequestBBOX='1' srsname='EPSG:4326' typename='Global_Map_Project_Australian_Base_Map:Political_Boundary_Line' url='http://services.ga.gov.au/gis/services/Global_Map_Project_Australian_Base_Map/MapServer/WFSServer?' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
@@ -15058,7 +15160,7 @@ def my_form_open(dialog, layer, feature):
       <previewExpression></previewExpression>
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>Coastline_copy20170912101457857</id>
+      <id>Coastline_copy2017091312031417023975</id>
       <datasource> restrictToRequestBBOX='1' srsname='EPSG:4326' typename='Global_Map_Project_Australian_Base_Map:Coastline' url='http://services.ga.gov.au/gis/services/Global_Map_Project_Australian_Base_Map/MapServer/WFSServer?' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
@@ -15435,7 +15537,7 @@ def my_form_open(dialog, layer, feature):
       <previewExpression></previewExpression>
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>Statistical_Area_420170912101545199</id>
+      <id>Statistical_Area_42017091312031417330991</id>
       <datasource> restrictToRequestBBOX='1' srsname='EPSG:4283' typename='NEXIS_Building_Exposure:Statistical_Area_4' url='http://services.ga.gov.au/gis/services/NEXIS_Building_Exposure/MapServer/WFSServer?' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
@@ -15789,7 +15891,7 @@ def my_form_open(dialog, layer, feature):
       <previewExpression></previewExpression>
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>Local_Government_Area_201520170912101244037</id>
+      <id>Local_Government_Area_2015201709131203141766809</id>
       <datasource> restrictToRequestBBOX='1' srsname='EPSG:4283' typename='NEXIS_Building_Exposure:Local_Government_Area_2015' url='http://services.ga.gov.au/gis/services/NEXIS_Building_Exposure/MapServer/WFSServer?' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
@@ -16131,7 +16233,7 @@ def my_form_open(dialog, layer, feature):
       <previewExpression></previewExpression>
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="0" scaleBasedLabelVisibilityFlag="0">
-      <id>Gazetteer_of_Australia20170910220840096</id>
+      <id>Gazetteer_of_Australia201709131203141794520</id>
       <datasource> restrictToRequestBBOX='1' srsname='EPSG:4283' typename='Australian_Gazetteer:Gazetteer_of_Australia' url='http://services.ga.gov.au/gis/services/Australian_Gazetteer/MapServer/WFSServer?' version='auto' table="" sql=</datasource>
       <keywordList>
         <value></value>
