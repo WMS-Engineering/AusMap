@@ -4,7 +4,7 @@
     <customproperties/>
     <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="AusMap">
       <customproperties/>
-      <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="Australian Basemap - Features">
+      <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="Australian Base Map - Features">
         <customproperties/>
         <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Unchecked" id="Airport201709131203139932385" source=" restrictToRequestBBOX='1' srsname='EPSG:4326' typename='Global_Map_Project_Australian_Base_Map:Airport' url='http://services.ga.gov.au/gis/services/Global_Map_Project_Australian_Base_Map/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Airport">
           <customproperties/>
@@ -58,7 +58,7 @@
           <customproperties/>
         </layer-tree-layer>
       </layer-tree-group>
-      <layer-tree-group expanded="0" checked="Qt::Unchecked" name="Australian Basmap - Rasters">
+      <layer-tree-group expanded="0" checked="Qt::Unchecked" name="Australian Base Map - Rasters">
         <customproperties/>
         <layer-tree-layer expanded="0" providerKey="wms" checked="Qt::Unchecked" id="Vegetation_Percentage_Tree_Cover2017091312031404518851" source="crs=EPSG:4283&amp;dpiMode=7&amp;format=image/png&amp;layers=Vegetation_Percentage_Tree_Cover&amp;styles=&amp;url=http://services.ga.gov.au/gis/services/Global_Map_Project_Australian_Base_Map/MapServer/WMSServer?" name="Vegetation Percentage Tree Cover">
           <customproperties/>
