@@ -108,7 +108,7 @@
         <layer-tree-layer expanded="0" providerKey="wcs" checked="Qt::Unchecked" id="DEM_LiDAR_25m20170201702017091312031408125047" source="identifier=1&amp;url=http://services.ga.gov.au/gis/services/DEM_LiDAR_25m/MapServer/WCSServer?" name="LiDAR Derived 25m">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="0" providerKey="wcs" checked="Qt::Unchecked" id="DEM_SRTM_1Second_Slope20170201702017091312031408324334" source="identifier=1&amp;url=http://services.ga.gov.au/gis/services/DEM_SRTM_1Second_Slope/MapServer/WCSServer?" name="SRTM 1Second Slope">
+        <layer-tree-layer expanded="0" providerKey="wcs" checked="Qt::Unchecked" id="DEM_SRTM_1Second_Slope20170201702017091312031408324334" source="identifier=1&amp;url=http://services.ga.gov.au/gis/services/DEM_SRTM_1Second_Slope/MapServer/WCSServer?" name="SRTM 1 Second Slope">
           <customproperties/>
         </layer-tree-layer>
         <layer-tree-layer expanded="0" providerKey="wcs" checked="Qt::Unchecked" id="DEM_SRTM_1_Second201702017201709131203140853970" source="identifier=1&amp;url=http://services.ga.gov.au/gis/services/DEM_SRTM_1Second/MapServer/WCSServer?" name="SRTM 1 Second">
