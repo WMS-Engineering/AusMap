@@ -120,10 +120,10 @@
       </layer-tree-group>
       <layer-tree-group expanded="0" checked="Qt::Unchecked" name="Google Basemaps">
         <customproperties/>
-        <layer-tree-layer expanded="1" providerKey="wms" checked="Qt::Unchecked" id="Google_Satelite20170201702017091312031409226139" source="crs=EPSG:3857&amp;format=&amp;type=xyz&amp;url=https://mt1.google.com/vt/lyrs%3Ds%26x%3D%7Bx%7D%26y%3D%7By%7D%26z%3D%7Bz%7D" name="Google Satelite">
+        <layer-tree-layer expanded="1" providerKey="wms" checked="Qt::Unchecked" id="Google_Satellite20170201702017091312031409226139" source="crs=EPSG:3857&amp;format=&amp;type=xyz&amp;url=https://mt1.google.com/vt/lyrs%3Ds%26x%3D%7Bx%7D%26y%3D%7By%7D%26z%3D%7Bz%7D" name="Google Satellite">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" providerKey="wms" checked="Qt::Unchecked" id="Google_Hybrid20170201702017091312031409526512" source="crs=EPSG:3857&amp;format=&amp;type=xyz&amp;url=https://mt1.google.com/vt/lyrs%3Dy%26x%3D%7Bx%7D%26y%3D%7By%7D%26z%3D%7Bz%7D" name="Google Hybrid Satelite">
+        <layer-tree-layer expanded="1" providerKey="wms" checked="Qt::Unchecked" id="Google_Hybrid20170201702017091312031409526512" source="crs=EPSG:3857&amp;format=&amp;type=xyz&amp;url=https://mt1.google.com/vt/lyrs%3Dy%26x%3D%7Bx%7D%26y%3D%7By%7D%26z%3D%7Bz%7D" name="Google Hybrid Satellite">
           <customproperties/>
         </layer-tree-layer>
         <layer-tree-layer expanded="1" providerKey="wms" checked="Qt::Unchecked" id="Google_Terrain_Only2017201702017091312031409830810" source="crs=EPSG:3857&amp;format=&amp;type=xyz&amp;url=https://mt1.google.com/vt/lyrs%3Dt%26x%3D%7Bx%7D%26y%3D%7By%7D%26z%3D%7Bz%7D" name="Google Terrain">
