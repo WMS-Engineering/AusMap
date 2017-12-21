@@ -147,7 +147,7 @@
         <layer-tree-layer expanded="1" providerKey="wms" checked="Qt::Unchecked" id="SATELLITE220170922130016470" source="crs=EPSG:3111&amp;dpiMode=7&amp;format=image/png&amp;layers=SATELLITE2&amp;styles=_null&amp;tileMatrixSet=EPSG:3111_SATELLITE2&amp;url=http://api.maps.vic.gov.au/geowebcache/service/wmts" name="VIC SATELLITE2">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" providerKey="wms" checked="Qt::Unchecked" id="QLD_Globe_Imagery2017091312031411129500" source="crs=EPSG:3857&amp;format=&amp;type=xyz&amp;url=https://gisservices.information.qld.gov.au/arcgis/rest/services/Imagery/QldBase_QgovSispUsers/ImageServer/tile/%7Bz%7D/%7By%7D/%7Bx%7D?blankTile%3Dfalse" name="QLD Globe Imagery">
+        <layer-tree-layer expanded="1" providerKey="wms" checked="Qt::Unchecked" id="QLD_Globe_Imagery2017091312031411129500" source="crs=EPSG:3857&amp;format=&amp;type=xyz&amp;url=https://gisservices.information.qld.gov.au/arcgis/rest/services/Imagery/QldBase_All/ImageServer/tile/%7Bz%7D/%7By%7D/%7Bx%7D?blankTile%3Dfalse" name="QLD Globe Imagery">
           <customproperties/>
         </layer-tree-layer>
         <layer-tree-layer expanded="1" providerKey="wms" checked="Qt::Unchecked" id="NSW_Six_Map2017091312031411432534" source="crs=EPSG:3857&amp;format=&amp;type=xyz&amp;url=https://maps1.six.nsw.gov.au/arcgis/rest/services/sixmaps/LPI_Imagery_Best/MapServer/tile/%7Bz%7D/%7By%7D/%7Bx%7D?blankTile%3Dfalse" name="NSW Six Map">
@@ -10256,7 +10256,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>20037508.34278924390673637</ymax>
       </extent>
       <id>QLD_Globe_Imagery2017091312031411129500</id>
-      <datasource>crs=EPSG:3857&amp;format=&amp;type=xyz&amp;url=https://gisservices.information.qld.gov.au/arcgis/rest/services/Imagery/QldBase_QgovSispUsers/ImageServer/tile/%7Bz%7D/%7By%7D/%7Bx%7D?blankTile%3Dfalse</datasource>
+      <datasource>crs=EPSG:3857&amp;format=&amp;type=xyz&amp;url=https://gisservices.information.qld.gov.au/arcgis/rest/services/Imagery/QldBase_AllUsers/ImageServer/tile/%7Bz%7D/%7By%7D/%7Bx%7D?blankTile%3Dfalse</datasource>
       <keywordList>
         <value></value>
       </keywordList>
