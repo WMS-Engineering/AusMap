@@ -6,19 +6,19 @@
       <customproperties/>
       <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="Australian Basemap - Features">
         <customproperties/>
-        <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Unchecked" id="Airport201709131203139932385" source=" restrictToRequestBBOX='1' srsname='EPSG:4326' typename='Global_Map_Project_Australian_Base_Map:Airport' url='http://services.ga.gov.au/gis/services/Global_Map_Project_Australian_Base_Map/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Airport">
+        <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Unchecked" id="Airport201709131203139932385" source=" restrictToRequestBBOX='1' srsname='EPSG:4326' typename='Global_Map_Project_Australian_Base_Map:Airport' url='http://services.ga.gov.au/gis/services/Global_Map_Project_Australian_Base_Map/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Airports">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Unchecked" id="Aqueduct_And_Canal2017091312031399624852" source=" restrictToRequestBBOX='1' srsname='EPSG:4326' typename='Global_Map_Project_Australian_Base_Map:Aqueduct_And_Canal' url='http://services.ga.gov.au/gis/services/Global_Map_Project_Australian_Base_Map/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Aqueduct And Canal">
+        <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Unchecked" id="Aqueduct_And_Canal2017091312031399624852" source=" restrictToRequestBBOX='1' srsname='EPSG:4326' typename='Global_Map_Project_Australian_Base_Map:Aqueduct_And_Canal' url='http://services.ga.gov.au/gis/services/Global_Map_Project_Australian_Base_Map/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Aqueducts and Canals">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Unchecked" id="Bridge201709131203140005296" source=" restrictToRequestBBOX='1' srsname='EPSG:4326' typename='Global_Map_Project_Australian_Base_Map:Bridge' url='http://services.ga.gov.au/gis/services/Global_Map_Project_Australian_Base_Map/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Bridge">
+        <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Unchecked" id="Bridge201709131203140005296" source=" restrictToRequestBBOX='1' srsname='EPSG:4326' typename='Global_Map_Project_Australian_Base_Map:Bridge' url='http://services.ga.gov.au/gis/services/Global_Map_Project_Australian_Base_Map/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Bridges">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Unchecked" id="Built_Up_Area2017091312031400329534" source=" restrictToRequestBBOX='1' srsname='EPSG:4326' typename='Global_Map_Project_Australian_Base_Map:Built_Up_Area' url='http://services.ga.gov.au/gis/services/Global_Map_Project_Australian_Base_Map/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Built Up Area">
+        <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Unchecked" id="Built_Up_Area2017091312031400329534" source=" restrictToRequestBBOX='1' srsname='EPSG:4326' typename='Global_Map_Project_Australian_Base_Map:Built_Up_Area' url='http://services.ga.gov.au/gis/services/Global_Map_Project_Australian_Base_Map/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Built Up Areas">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Unchecked" id="Built_Up_Point2017091312031400611327" source=" restrictToRequestBBOX='1' srsname='EPSG:4326' typename='Global_Map_Project_Australian_Base_Map:Built_Up_Point' url='http://services.ga.gov.au/gis/services/Global_Map_Project_Australian_Base_Map/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Built Up Point">
+        <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Unchecked" id="Built_Up_Point2017091312031400611327" source=" restrictToRequestBBOX='1' srsname='EPSG:4326' typename='Global_Map_Project_Australian_Base_Map:Built_Up_Point' url='http://services.ga.gov.au/gis/services/Global_Map_Project_Australian_Base_Map/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Built Up Points">
           <customproperties/>
         </layer-tree-layer>
         <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Checked" id="Coastline2017091312031400932395" source=" restrictToRequestBBOX='1' srsname='EPSG:4326' typename='Global_Map_Project_Australian_Base_Map:Coastline' url='http://services.ga.gov.au/gis/services/Global_Map_Project_Australian_Base_Map/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Coastline">
@@ -27,34 +27,34 @@
         <layer-tree-layer expanded="0" providerKey="WFS" checked="Qt::Unchecked" id="Inland_Water2017091312031401224013" source=" restrictToRequestBBOX='1' srsname='EPSG:4326' typename='Global_Map_Project_Australian_Base_Map:Inland_Water' url='http://services.ga.gov.au/gis/services/Global_Map_Project_Australian_Base_Map/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Inland Water">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Unchecked" id="Miscellaneous_Drainage201709131203140155832" source=" restrictToRequestBBOX='1' srsname='EPSG:4326' typename='Global_Map_Project_Australian_Base_Map:Miscellaneous_Drainage' url='http://services.ga.gov.au/gis/services/Global_Map_Project_Australian_Base_Map/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Miscellaneous Drainage">
+        <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Unchecked" id="Miscellaneous_Drainage201709131203140155832" source=" restrictToRequestBBOX='1' srsname='EPSG:4326' typename='Global_Map_Project_Australian_Base_Map:Miscellaneous_Drainage' url='http://services.ga.gov.au/gis/services/Global_Map_Project_Australian_Base_Map/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Drainage">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Unchecked" id="Miscellaneous_Population201709131203140187170" source=" restrictToRequestBBOX='1' srsname='EPSG:4326' typename='Global_Map_Project_Australian_Base_Map:Miscellaneous_Population' url='http://services.ga.gov.au/gis/services/Global_Map_Project_Australian_Base_Map/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Miscellaneous Population">
+        <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Unchecked" id="Miscellaneous_Population201709131203140187170" source=" restrictToRequestBBOX='1' srsname='EPSG:4326' typename='Global_Map_Project_Australian_Base_Map:Miscellaneous_Population' url='http://services.ga.gov.au/gis/services/Global_Map_Project_Australian_Base_Map/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Population">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="0" providerKey="WFS" checked="Qt::Unchecked" id="Political_Boundary_Area201709131203140207816" source=" restrictToRequestBBOX='1' srsname='EPSG:4326' typename='Global_Map_Project_Australian_Base_Map:Political_Boundary_Area' url='http://services.ga.gov.au/gis/services/Global_Map_Project_Australian_Base_Map/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Political Boundary Area">
+        <layer-tree-layer expanded="0" providerKey="WFS" checked="Qt::Unchecked" id="Political_Boundary_Area201709131203140207816" source=" restrictToRequestBBOX='1' srsname='EPSG:4326' typename='Global_Map_Project_Australian_Base_Map:Political_Boundary_Area' url='http://services.ga.gov.au/gis/services/Global_Map_Project_Australian_Base_Map/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Political Boundaries - Areas">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Checked" id="Political_Boundary_Line2017091312031402314405" source=" restrictToRequestBBOX='1' srsname='EPSG:4326' typename='Global_Map_Project_Australian_Base_Map:Political_Boundary_Line' url='http://services.ga.gov.au/gis/services/Global_Map_Project_Australian_Base_Map/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Political Boundary Line">
+        <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Checked" id="Political_Boundary_Line2017091312031402314405" source=" restrictToRequestBBOX='1' srsname='EPSG:4326' typename='Global_Map_Project_Australian_Base_Map:Political_Boundary_Line' url='http://services.ga.gov.au/gis/services/Global_Map_Project_Australian_Base_Map/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Political Boundaries - Lines">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Unchecked" id="Political_Boundary_Point2017091312031402616207" source=" restrictToRequestBBOX='1' srsname='EPSG:4326' typename='Global_Map_Project_Australian_Base_Map:Political_Boundary_Point' url='http://services.ga.gov.au/gis/services/Global_Map_Project_Australian_Base_Map/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Political Boundary Point">
+        <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Unchecked" id="Political_Boundary_Point2017091312031402616207" source=" restrictToRequestBBOX='1' srsname='EPSG:4326' typename='Global_Map_Project_Australian_Base_Map:Political_Boundary_Point' url='http://services.ga.gov.au/gis/services/Global_Map_Project_Australian_Base_Map/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Political Boundaries - Points">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Unchecked" id="Railroad2017091312031402917636" source=" restrictToRequestBBOX='1' srsname='EPSG:4326' typename='Global_Map_Project_Australian_Base_Map:Railroad' url='http://services.ga.gov.au/gis/services/Global_Map_Project_Australian_Base_Map/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Railroad">
+        <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Unchecked" id="Railroad2017091312031402917636" source=" restrictToRequestBBOX='1' srsname='EPSG:4326' typename='Global_Map_Project_Australian_Base_Map:Railroad' url='http://services.ga.gov.au/gis/services/Global_Map_Project_Australian_Base_Map/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Rail">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Unchecked" id="Railyard2017091312031403123996" source=" restrictToRequestBBOX='1' srsname='EPSG:4326' typename='Global_Map_Project_Australian_Base_Map:Railyard' url='http://services.ga.gov.au/gis/services/Global_Map_Project_Australian_Base_Map/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Railyard">
+        <layer-tree-layer expanded="1" providerKey="WFS" checked="Qt::Unchecked" id="Railyard2017091312031403123996" source=" restrictToRequestBBOX='1' srsname='EPSG:4326' typename='Global_Map_Project_Australian_Base_Map:Railyard' url='http://services.ga.gov.au/gis/services/Global_Map_Project_Australian_Base_Map/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Rail Yards">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="0" providerKey="WFS" checked="Qt::Unchecked" id="Road_Major2017091312031403526971" source=" restrictToRequestBBOX='1' srsname='EPSG:4326' typename='Global_Map_Project_Australian_Base_Map:Road_Major' url='http://services.ga.gov.au/gis/services/Global_Map_Project_Australian_Base_Map/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Road Major">
+        <layer-tree-layer expanded="0" providerKey="WFS" checked="Qt::Unchecked" id="Road_Major2017091312031403526971" source=" restrictToRequestBBOX='1' srsname='EPSG:4326' typename='Global_Map_Project_Australian_Base_Map:Road_Major' url='http://services.ga.gov.au/gis/services/Global_Map_Project_Australian_Base_Map/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Roads - Major">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="0" providerKey="WFS" checked="Qt::Unchecked" id="Road_Minor201709131203140382871" source=" restrictToRequestBBOX='1' srsname='EPSG:4326' typename='Global_Map_Project_Australian_Base_Map:Road_Minor' url='http://services.ga.gov.au/gis/services/Global_Map_Project_Australian_Base_Map/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Road Minor">
+        <layer-tree-layer expanded="0" providerKey="WFS" checked="Qt::Unchecked" id="Road_Minor201709131203140382871" source=" restrictToRequestBBOX='1' srsname='EPSG:4326' typename='Global_Map_Project_Australian_Base_Map:Road_Minor' url='http://services.ga.gov.au/gis/services/Global_Map_Project_Australian_Base_Map/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Roads - Minor">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="0" providerKey="WFS" checked="Qt::Unchecked" id="Watercourse2017091312031404216876" source=" restrictToRequestBBOX='1' srsname='EPSG:4326' typename='Global_Map_Project_Australian_Base_Map:Watercourse' url='http://services.ga.gov.au/gis/services/Global_Map_Project_Australian_Base_Map/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Watercourse">
+        <layer-tree-layer expanded="0" providerKey="WFS" checked="Qt::Unchecked" id="Watercourse2017091312031404216876" source=" restrictToRequestBBOX='1' srsname='EPSG:4326' typename='Global_Map_Project_Australian_Base_Map:Watercourse' url='http://services.ga.gov.au/gis/services/Global_Map_Project_Australian_Base_Map/MapServer/WFSServer?' version='auto' table=&quot;&quot; sql=" name="Watercourses">
           <customproperties/>
         </layer-tree-layer>
       </layer-tree-group>
@@ -100,7 +100,7 @@
           <customproperties/>
         </layer-tree-layer>
       </layer-tree-group>
-      <layer-tree-group expanded="0" checked="Qt::Unchecked" name="DEM">
+      <layer-tree-group expanded="0" checked="Qt::Unchecked" name="DEMs">
         <customproperties/>
         <layer-tree-layer expanded="0" providerKey="wcs" checked="Qt::Unchecked" id="DEM_LiDAR_5m_1201702017201709131203140787107" source="identifier=1&amp;url=http://services.ga.gov.au/gis/services/DEM_LiDAR_5m/MapServer/WCSServer?" name="LiDAR Derived 5m">
           <customproperties/>
@@ -143,10 +143,6 @@
         </layer-tree-layer>
       </layer-tree-group>
       <layer-tree-group expanded="1" checked="Qt::Unchecked" name="Imagery">
-        <customproperties/>
-        <layer-tree-layer expanded="1" providerKey="wms" checked="Qt::Unchecked" id="SATELLITE220170922130016470" source="crs=EPSG:3111&amp;dpiMode=7&amp;format=image/png&amp;layers=SATELLITE2&amp;styles=_null&amp;tileMatrixSet=EPSG:3111_SATELLITE2&amp;url=http://api.maps.vic.gov.au/geowebcache/service/wmts" name="VIC SATELLITE2">
-          <customproperties/>
-        </layer-tree-layer>
         <layer-tree-layer expanded="1" providerKey="wms" checked="Qt::Unchecked" id="QLD_Globe_Imagery2017091312031411129500" source="crs=EPSG:3857&amp;format=&amp;type=xyz&amp;url=https://gisservices.information.qld.gov.au/arcgis/rest/services/Imagery/QldBase_All/ImageServer/tile/%7Bz%7D/%7By%7D/%7Bx%7D?blankTile%3Dfalse" name="QLD Globe Imagery">
           <customproperties/>
         </layer-tree-layer>
@@ -235,7 +231,7 @@
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>Airport</layername>
+      <layername>Airports</layername>
       <srs>
         <spatialrefsys>
           <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
@@ -620,7 +616,7 @@ def my_form_open(dialog, layer, feature):
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>Aqueduct And Canal</layername>
+      <layername>Aqueducts and Canals</layername>
       <srs>
         <spatialrefsys>
           <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
@@ -992,7 +988,7 @@ def my_form_open(dialog, layer, feature):
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>Bridge</layername>
+      <layername>Bridges</layername>
       <srs>
         <spatialrefsys>
           <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
@@ -1352,7 +1348,7 @@ def my_form_open(dialog, layer, feature):
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>Built Up Area</layername>
+      <layername>Built Up Areas</layername>
       <srs>
         <spatialrefsys>
           <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
@@ -1708,7 +1704,7 @@ def my_form_open(dialog, layer, feature):
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>Built Up Point</layername>
+      <layername>Built Up Points</layername>
       <srs>
         <spatialrefsys>
           <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
@@ -2835,7 +2831,7 @@ def my_form_open(dialog, layer, feature):
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>Miscellaneous Drainage</layername>
+      <layername>Drainage</layername>
       <srs>
         <spatialrefsys>
           <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
@@ -3180,7 +3176,7 @@ def my_form_open(dialog, layer, feature):
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>Miscellaneous Population</layername>
+      <layername>Population</layername>
       <srs>
         <spatialrefsys>
           <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
@@ -3531,7 +3527,7 @@ def my_form_open(dialog, layer, feature):
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>Political Boundary Area</layername>
+      <layername>Political Boundaries - Areas</layername>
       <srs>
         <spatialrefsys>
           <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
@@ -3915,7 +3911,7 @@ def my_form_open(dialog, layer, feature):
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>Political Boundary Line</layername>
+      <layername>Political Boundaries - Lines</layername>
       <srs>
         <spatialrefsys>
           <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
@@ -4316,7 +4312,7 @@ def my_form_open(dialog, layer, feature):
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>Political Boundary Point</layername>
+      <layername>Political Boundaries - Points</layername>
       <srs>
         <spatialrefsys>
           <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
@@ -4703,7 +4699,7 @@ def my_form_open(dialog, layer, feature):
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>Railroad</layername>
+      <layername>Rail</layername>
       <srs>
         <spatialrefsys>
           <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
@@ -5109,7 +5105,7 @@ def my_form_open(dialog, layer, feature):
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>Railyard</layername>
+      <layername>Rail Yards</layername>
       <srs>
         <spatialrefsys>
           <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
@@ -5454,7 +5450,7 @@ def my_form_open(dialog, layer, feature):
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>Road Major</layername>
+      <layername>Roads - Major</layername>
       <srs>
         <spatialrefsys>
           <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
@@ -5895,7 +5891,7 @@ def my_form_open(dialog, layer, feature):
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>Road Minor</layername>
+      <layername>Roads - Minor</layername>
       <srs>
         <spatialrefsys>
           <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
@@ -6336,7 +6332,7 @@ def my_form_open(dialog, layer, feature):
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>Watercourse</layername>
+      <layername>Watercourses</layername>
       <srs>
         <spatialrefsys>
           <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
