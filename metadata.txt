@@ -8,32 +8,37 @@
 
 [general]
 name=AusMap
-qgisMinimumVersion=2.0
+qgisMinimumVersion=3.0
 description=AusMap is the essential plugin for Australian QGIS users, providing easy access to free Government Datasets and other web services.
-version=0.1
-author=Daniel Knott
-email=daniel.knott@watermodelling.com.au
+version=1.1
+about=AusMap gives quick access to a variety of feature sets and basemap layers provided by Geoscience Australia and other government agencies. There are also some additional layers provided such as Open Street Map. From the AusMap menu, simply select a desired layer and it will be added to the project with styling and labelling applied. The layers are provided via WMS, WFS, WCS and Tile Server which all require an active internet connection.
 
-about=AusMap gives quick access to a variety of feature sets and basemap layers provided by Geoscience Australia and other government agencies. There are also some additional layers provided such as Open Street Map. From the AusMap menu, simply select a desired layer and it will be added to the project with styling and labelling applied. The layers are provided via WMS, WFS, WCS and Tile Server which all require an active internet connection. This plugin is based on the Kortforsyningen plugin by Septima.
 
-tracker=https://github.com/Dan-Knott/AusMap/issues
-repository=https://github.com/Dan-Knott/AusMap
+homepage=www.watermodelling.com.au/tools/ausmap
+tracker=https://github.com/WaterModellingSolutions/AusMap/issues
+repository=https://github.com/WaterModellingSolutions/AusMap
 # End of mandatory metadata
 
 # Recommended items:
 
 # Uncomment the following line and add your changelog:
-# changelog=
+changelog=- Increased minimum QGIS supported version to 3.4
+	- Import AusMap layers by typing in keywords in QGIS’ search window in the bottom left corner
+	- Extend AusMap by importing your own layers (supported file types are: *asc, *.shp, *.tif, *.tiff, *.jpg, *.jpeg, *.kml, *.mif, *.tab, *.png and*.qlr)
 
 # Tags are comma separated with spaces allowed
-tags=dem, flood, google, hydraulics, land cover, layers, vector, web, webservice, wfs, wms
+tags=dem, flood, google, hydraulics, hydrology, land cover, layers, vector, web, webservice, wfs, wms
 
-homepage=www.watermodelling.com.au/tools
 category=Web
-icon=icon.png
+
+icon=assets/icon.png
+
 # experimental flag
 experimental=False
 
 # deprecated flag (applies to the whole plugin, not just a single version)
 deprecated=False
+
+author=Water Modelling Solutions
+email=admin@watermodelling.com.au
 

@@ -8,13 +8,13 @@
 
 """
 
-__author__ = 'daniel.knott@watermodelling.com.au'
+__author__ = 'admin@watermodelling.com.au'
 __date__ = '2017-09-10'
-__copyright__ = 'Copyright 2017, Daniel Knott'
+__copyright__ = 'Copyright 2017, Water Modelling Solutions'
 
 import unittest
 
-from PyQt4.QtGui import QDialogButtonBox, QDialog
+from PyQt5.QtGui import QDialogButtonBox, QDialog
 
 from aus_map_dialog import AusMapDialog
 

@@ -1,7 +1,9 @@
-from settingmanager import SettingManager
-from setting import Setting
-from settingdialog import SettingDialog
 
-from types import *
+from .setting_manager import SettingManager
+from .setting import Setting, Scope
+from .setting_dialog import SettingDialog, UpdateMode
+
+from .types import *
+
 
 

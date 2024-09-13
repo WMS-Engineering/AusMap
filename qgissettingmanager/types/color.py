@@ -31,54 +31,82 @@
 # dialogTitle: show in color dialog
 # alpha: use or not alpha channel
 
-from PyQt4.QtCore import QSettings
-from PyQt4.QtGui import QColor, QColorDialog
+
+from PyQt5.QtGui import QColor
+from PyQt5.QtWidgets import QColorDialog
 from qgis.core import QgsProject
 from qgis.gui import QgsColorButton
 
 from ..setting import Setting
+from ..setting_widget import SettingWidget
 
 
 class Color(Setting):
 
-    def __init__(self, pluginName, name, scope, defaultValue, options={}):
+    def __init__(self, name, scope, default_value, options={}):
+        Setting.__init__(self, name, scope, default_value, None, QgsProject.instance().readListEntry, QgsProject.instance().writeEntry, options)
 
-        setGlobal = lambda(value): QSettings(pluginName, pluginName).setValue(name, [value.red(),
-                                                                                     value.green(),
-                                                                                     value.blue(),
-                                                                                     value.alpha()])
-        setProject = lambda(value): QgsProject.instance().writeEntry(pluginName, name,
-                                                                     ["%u" % value.red(),
-                                                                      "%u" % value.green(),
-                                                                      "%u" % value.blue(),
-                                                                      "%u" % value.alpha()])
-        getGlobal = lambda: self.list2color(QSettings(pluginName, pluginName).value(name, defaultValue))
-        getProject = lambda: self.list2color(QgsProject.instance().readListEntry(pluginName, name, defaultValue))
+    def read_out(self, value, scope):
+        if type(value) not in (list, tuple) or len(value) not in (3, 4):
+            # do not raise error if setting type is not correct, return default value
+            return self.default_value
+        else:
+            r = int(value[0])
+            g = int(value[1])
+            b = int(value[2])
+            a = int(value[3]) if len(value) > 3 and self.options.get("allowAlpha", False) else 255
+            return QColor(r, g, b, a)
 
-        Setting.__init__(self, pluginName, name, scope, defaultValue, options,
-                         setGlobal, setProject, getGlobal, getProject)
+    def write_in(self, value, scope):
+        if self.options.get("allowAlpha", False):
+            return ["%u" % value.red(), "%u" % value.green(), "%u" % value.blue(), "%u" % value.alpha()]
+        else:
+            return ["%u" % value.red(), "%u" % value.green(), "%u" % value.blue()]
 
     def check(self, color):
         if type(color) != QColor:
             raise NameError("Color setting %s must be a QColor." % self.name)
 
-    def setWidget(self, widget):
-        txt = self.options.get("dialogTitle", "")
-        self.widget = QgsColorButton(widget, txt)
-        if self.options.get("alpha", False):
-            self.widget.setColorDialogOptions(QColorDialog.ShowAlphaChannel)
-        self.signal = "colorChanged"  # TODO: check if signal is working
-        self.widgetSetMethod = self.widget.setColor
-        self.widgetGetMethod = self.widget.color
-
-    def list2color(self, color):
-        if type(color) != list or len(color) != 4:
-            return self.defaultValue
+    def config_widget(self, widget):
+        if type(widget) == QgsColorButton:
+            return QgisColorWidget(self, widget, self.options)
         else:
-            r = int(color[0])
-            g = int(color[1])
-            b = int(color[2])
-            a = int(color[3])
-            if not self.options.get("alpha", False):
-                a = 255
-        return QColor(r, g, b, a)
+            return StandardColorWidget(self, widget, self.options)
+
+
+class QgisColorWidget(SettingWidget):
+    def __init__(self, setting, widget, options):
+        signal = widget.colorChanged
+        SettingWidget.__init__(self, setting, widget, options, signal)
+
+        if type(self.widget) == QgsColorButton:
+            self.widget.setColorDialogOptions(QColorDialog.ShowAlphaChannel)
+        else:
+            self.widget.setAllowAlpha(self.options.get("allowAlpha", False))
+
+    def set_widget_value(self, value):
+        self.widget.setColor(value)
+
+    def widget_value(self):
+        return self.widget.color()
+
+
+class StandardColorWidget(SettingWidget):
+    def __init__(self, setting, widget, options):
+        txt = options.get("dialogTitle", "")
+        color_widget = QgsColorButton(widget, txt)
+        signal = color_widget.colorChanged
+
+        SettingWidget.__init__(self, setting, color_widget, options, signal)
+        self.widget.setAllowAlpha(self.options.get("allowAlpha", False))
+
+    def set_widget_value(self, value):
+        self.widget.setColor(value)
+
+    def widget_value(self):
+        return self.widget.color()
+
+
+
+
+

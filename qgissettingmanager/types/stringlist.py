@@ -27,46 +27,47 @@
 #---------------------------------------------------------------------
 
 
-from PyQt4.QtCore import QSettings, Qt
-from PyQt4.QtGui import QListWidget, QButtonGroup
+from PyQt5.QtCore import Qt
+from PyQt5.QtWidgets import QListWidget, QButtonGroup
 from qgis.core import QgsProject
 
 from ..setting import Setting
+from ..setting_widget import SettingWidget
 
 
 class Stringlist(Setting):
+    def __init__(self, name, scope, default_value, options={}):
+        Setting.__init__(self, name, scope, default_value, None, QgsProject.instance().readListEntry, QgsProject.instance().writeEntry, options)
 
-    def __init__(self, pluginName, name, scope, defaultValue, options={}):
+    def read_out(self, value, scope):
+        # always cast to list
+        return list(value)
 
-        setGlobal = lambda(value): QSettings(pluginName, pluginName).setValue(name, value)
-        setProject = lambda(value): QgsProject.instance().writeEntry(pluginName, name, value)
-        getGlobal = lambda: QSettings(pluginName, pluginName).value(name, defaultValue, type=list)
-        getProject = lambda: QgsProject.instance().readListEntry(pluginName, name, defaultValue)[0]
-
-        Setting.__init__(self, pluginName, name, scope, defaultValue, options,
-                         setGlobal, setProject, getGlobal, getProject)
+    def write_in(self, value, scope):
+        # always cast to list
+        return list(value)
 
     def check(self, value):
         if type(value) not in (list, tuple):
             raise NameError("Setting %s must be a string list." % self.name)
 
-    def setWidget(self, widget):
+    def config_widget(self, widget):
         if type(widget) == QListWidget:
-            self.signal = "clicked"
-            self.widgetSetMethod = self.setListBoxes
-            self.widgetGetMethod = self.getListBoxes
+            return ListStringListWidget(self, widget, self.options)
         elif type(widget) == QButtonGroup:
-            self.signal = "buttonClicked"
-            self.widgetSetMethod = self.setGroupBoxes
-            self.widgetGetMethod = self.getGroupBoxes
+            return ButtonGroupStringListWidget(self, widget, self.options)
         else:
+            print(type(widget))
             raise NameError("SettingManager does not handle %s widgets for integers for the moment (setting: %s)" %
                             (type(widget), self.name))
-        self.widget = widget
 
-    def setListBoxes(self, value):
-        if self.widget is None:
-            return
+
+class ListStringListWidget(SettingWidget):
+    def __init__(self, setting, widget, options):
+        signal = widget.itemChanged
+        SettingWidget.__init__(self, setting, widget, options, signal)
+
+    def set_widget_value(self, value):
         for i in range(self.widget.count()):
             item = self.widget.item(i)
             if item.text() in value:
@@ -74,9 +75,7 @@ class Stringlist(Setting):
             else:
                 item.setCheckState(Qt.Unchecked)
 
-    def getListBoxes(self):
-        if self.widget is None:
-            return
+    def widget_value(self):
         value = []
         for i in range(self.widget.count()):
             item = self.widget.item(i)
@@ -84,18 +83,25 @@ class Stringlist(Setting):
                 value.append(item.text())
         return value
 
-    def setGroupBoxes(self, value):
-        if self.widget is None:
-            return
+
+class ButtonGroupStringListWidget(SettingWidget):
+    def __init__(self, setting, widget, options):
+        signal = widget.buttonClicked
+        SettingWidget.__init__(self, setting, widget, options, signal)
+
+    def set_widget_value(self, value):
         for item in self.widget.buttons():
             item.setChecked(item.objectName() in value)
 
-    def getGroupBoxes(self):
-        if self.widget is None:
-            return
+    def widget_value(self):
         value = []
         for item in self.widget.buttons():
             if item.isChecked():
                 value.append(item.objectName())
         return value
+
+
+
+
+
 
