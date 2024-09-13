@@ -1,31 +1,21 @@
 from qgis.core import *
-from PyQt4 import QtXml
-from PyQt4.QtCore import *
-import os
-import urlparse
-import urllib
-from PyQt4 import QtCore
+from PyQt5 import QtXml
+from PyQt5.QtCore import *
+import urllib.parse as urlparse
+
 
 class QlrFile():
 
     def __init__(self, xml):
-        #self.filename = filename
-        #xml = file(unicode(filename)).read()
         try:
-            #txmlStream = QtCore.QTextStream(xml);
-            #txmlStream.setCodec("UTF-8");
-            #txmlStream.setAutoDetectUnicode(true);
-            
-            #d = txmlStream.readAll()
-            
+
             self.doc = QtXml.QDomDocument()
-            #xmlu = QtCore.QString(xml)
             self.doc.setContent(xml)
-        except Exception, e:
-            b= 3
+
+        except Exception as e:
+            pass
             
     def get_groups_with_layers(self):
-        #result: [{'name': groupName, 'layers': [{'name': layerName, 'id': layerId}]}]
         result = []
         groups = self.doc.elementsByTagName("layer-tree-group")
         i = 0
@@ -41,7 +31,6 @@ class QlrFile():
         return result
 
     def get_group_layers(self, group_node):
-        #result:[{'name': layerName, 'id': layerId}]
         result = []
         child_nodes = group_node.childNodes()
         i = 0
@@ -66,16 +55,14 @@ class QlrFile():
             datasource_node = datasource_nodes.at(0) 
             datasource = datasource_node.toElement().text()
             url_part = None
-            datasource_parts = datasource.split('&') + datasource.split(' ') 
-            #datasource_parts.append(datasource.split(' '))
+            datasource_parts = datasource.split('&') + datasource.split(' ')
             for part in datasource_parts:
                 if part.startswith('url'):
                     url_part = part
             if url_part:
                 if url_part:
-                    #url = url_part.split('=')[1]
                     url = url_part[5:]
-                    url = urllib.unquote(url)
+                    url = urlparse.unquote(url)
                     url_params = dict(urlparse.parse_qsl(urlparse.urlsplit(url).query))
                     try:
                         if url_params['servicename']:
@@ -85,12 +72,12 @@ class QlrFile():
         return service
 
     def get_maplayer_node(self, id):
-        node = self.getFirstChildByTagNameValue(
+        node = self.get_first_child_by_tag_name_value(
             self.doc.documentElement(), 'maplayer', 'id', id
         )
         return node 
 
-    def getFirstChildByTagNameValue(self, elt, tagName, key, value):
+    def get_first_child_by_tag_name_value(self, elt, tagName, key, value):
         nodes = elt.elementsByTagName(tagName)
         i = 0
         while i < nodes.count():
@@ -103,8 +90,3 @@ class QlrFile():
                     return node
             i += 1
         return None
-        
-
-        
-        
-    

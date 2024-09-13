@@ -29,45 +29,73 @@
 
 # for combobox, the value corresponds to the index of the combobox
 
-from PyQt4.QtCore import QSettings
-from PyQt4.QtGui import QLineEdit, QSpinBox, QSlider, QComboBox
+from PyQt5.QtWidgets import QLineEdit, QSpinBox, QSlider, QComboBox
 from qgis.core import QgsProject
 
 from ..setting import Setting
+from ..setting_widget import SettingWidget
 
 
 class Integer(Setting):
-
-    def __init__(self, pluginName, name, scope, defaultValue, options={}):
-
-        setGlobal = lambda(value): QSettings(pluginName, pluginName).setValue(name, value)
-        setProject = lambda(value): QgsProject.instance().writeEntry(pluginName, name, value)
-        getGlobal = lambda: QSettings(pluginName, pluginName).value(name, defaultValue, type=int)
-        getProject = lambda: QgsProject.instance().readNumEntry(pluginName, name, defaultValue)[0]
-
-        Setting.__init__(self, pluginName, name, scope, defaultValue, options,
-                         setGlobal, setProject, getGlobal, getProject)
+    def __init__(self, name, scope, default_value, options={}):
+        Setting.__init__(self, name, scope, default_value, int, QgsProject.instance().readNumEntry, QgsProject.instance().writeEntry, options)
 
     def check(self, value):
         if type(value) != int and type(value) != float:
             raise NameError("Setting %s must be an integer." % self.name)
 
-    def setWidget(self, widget):
+    def config_widget(self, widget):
         if type(widget) == QLineEdit:
-            self.signal = "textChanged"
-            self.widgetSetMethod = widget.setText()
-            self.widgetGetMethod = lambda: widget.text()
+            return LineEditIntegerWidget(self, widget, self.options)
         elif type(widget) in (QSpinBox, QSlider):
-            self.signal = "valueChanged"
-            self.widgetSetMethod = widget.setValue
-            self.widgetGetMethod = widget.value
+            return SpinBoxIntegerWidget(self, widget, self.options)
         elif type(widget) == QComboBox:
-            self.signal = "activated"
-            self.widgetSetMethod = widget.setCurrentIndex
-            self.widgetGetMethod = widget.currentIndex
+            return ComboBoxIntegerWidget(self, widget, self.options)
         else:
-            print type(widget)
+            print(type(widget))
             raise NameError("SettingManager does not handle %s widgets for integers for the moment (setting: %s)" %
                             (type(widget), self.name))
-        self.widget = widget
+
+
+class LineEditIntegerWidget(SettingWidget):
+    def __init__(self, setting, widget, options):
+        signal = widget.textChanged
+        SettingWidget.__init__(self, setting, widget, options, signal)
+
+    def set_widget_value(self, value):
+        self.widget.setText('{}'.format(value))
+
+    def widget_value(self):
+        try:
+            value = int(self.widget.text())
+        except ValueError:
+            value = None
+        return value
+
+
+
+class SpinBoxIntegerWidget(SettingWidget):
+    def __init__(self, setting, widget, options):
+        signal = widget.valueChanged
+        SettingWidget.__init__(self, setting, widget, options, signal)
+
+    def set_widget_value(self, value):
+        self.widget.setValue(value)
+
+    def widget_value(self):
+        return self.widget.value()
+
+
+class ComboBoxIntegerWidget(SettingWidget):
+    def __init__(self, setting, widget, options):
+        signal = widget.currentIndexChanged
+        SettingWidget.__init__(self, setting, widget, options, signal)
+
+    def set_widget_value(self, value):
+        self.widget.setCurrentIndex(value)
+
+    def widget_value(self):
+        return self.widget.currentIndex()
+
+
 

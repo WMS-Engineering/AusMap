@@ -6,8 +6,8 @@
  AusMap is the essential plugin for Australian QGIS users, providing easy access to free Government Datasets and other web services.
                              -------------------
         begin                : 2017-09-10
-        copyright            : (C) 2017 by Daniel Knott
-        email                : daniel.knott@watermodelling.com.au
+        copyright            : (C) 2017 by Water Modelling Solutions
+        email                : admin@watermodelling.com.au
         git sha              : $Format:%H$
  ***************************************************************************/
 

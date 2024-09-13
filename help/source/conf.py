@@ -41,7 +41,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'AusMap'
-copyright = u'2013, Daniel Knott'
+copyright = u'2013, Water Modelling Solutions'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -179,7 +179,7 @@ htmlhelp_basename = 'TemplateClassdoc'
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
   ('index', 'AusMap.tex', u'AusMap Documentation',
-   u'Daniel Knott', 'manual'),
+   u'Water Modelling Solutions', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -212,5 +212,5 @@ latex_documents = [
 # (source start file, name, description, authors, manual section).
 man_pages = [
     ('index', 'TemplateClass', u'AusMap Documentation',
-     [u'Daniel Knott'], 1)
+     [u'Water Modelling Solutions'], 1)
 ]

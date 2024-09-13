@@ -1,0 +1,2 @@
+ABOUT_FILE_URL = 'http://watermodelling.com.au/tools/ausmap/about/'
+CONFIG_FILE_URL = 'https://gist.githubusercontent.com/WaterModellingSolutions/0702699f4000e86689b7382b22fb4482/raw/d70309dff920507a1c9e7be4170d0e944d4a55ed/AusMapLayers.qlr'

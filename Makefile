@@ -5,7 +5,7 @@
 #							 -------------------
 #		begin				: 2017-09-10
 #		git sha				: $Format:%H$
-#		copyright			: (C) 2017 by Daniel Knott
+#		copyright			: (C) 2017 by Water Modelling Solutions
 # ***************************************************************************/
 #
 #/***************************************************************************
@@ -47,7 +47,9 @@ PY_FILES = \
 
 UI_FILES = aus_map_dialog_base.ui
 
-EXTRAS = metadata.txt icon.png
+EXTRAS = icon.png metadata.txt
+
+PLUGIN = qgissettingmanager
 
 EXTRA_DIRS =
 
