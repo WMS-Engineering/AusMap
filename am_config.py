@@ -107,9 +107,14 @@ class AmConfig(QtCore.QObject):
         return f.readAll()
 
     def get_remote_kf_qlr(self):
-        response = urlopen(self.settings.value('kf_qlr_url'))
-        content = response.read()
-        content = unicode(content, 'utf-8')
+        # response = urlopen(self.settings.value('kf_qlr_url'))
+        # content = response.read()
+        # content = unicode(content, 'utf-8')
+
+        # Open local QLR file instead of reading the remote one
+        with open(self.settings.value('kf_qlr_url'), 'r') as reader:
+            content = reader.read()
+
         return content
 
     def write_cached_kf_qlr(self, contents):
