@@ -1,38 +1,37 @@
+import os
 from PyQt5.QtCore import (
     QFile,
     QIODevice
 )
-import os.path
 from .qlr_file import QlrFile
 
 class LocalConfig:
-
+    """
+    Handles the layers in the user's custom QLR file if it is provided in the plugin settings
+    """
     def __init__(self, settings):
         self.settings = settings
         self.reload()
 
     def reload(self):
         self.categories = []
-        if self.settings.value('remember_settings'):
-            self.local_qlr_filename = self.settings.value('custom_qlr_file')
+        self.local_qlr_file = self.settings.value('custom_qlr_file')
+        if self.local_qlr_file:
             self.qlr_file = self.get_local_qlr_file()
             if self.qlr_file:
                 self.categories = self.get_local_categories()
 
     def get_local_qlr_file(self):
         config = None
-        if self.settings.value('remember_settings'):
-            local_file_exists = os.path.exists(self.local_qlr_filename)
-            if local_file_exists:
-                config = self.read_local_qlr()
-
+        if os.path.exists(self.local_qlr_file):
+            config = self.read_local_qlr()
         if config:
             return QlrFile(config)
         else:
             return None
 
     def read_local_qlr(self):
-        f = QFile(self.local_qlr_filename)
+        f = QFile(self.local_qlr_file)
         f.open(QIODevice.ReadOnly)
         return f.readAll()
 
