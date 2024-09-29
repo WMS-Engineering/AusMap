@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from qgis.core import (QgsLocatorFilter,
                        QgsLocatorResult)
-
+from .utils.constants import PLUGIN_NAME
 
 class LayerLocatorFilter( QgsLocatorFilter ):
 
@@ -18,19 +18,19 @@ class LayerLocatorFilter( QgsLocatorFilter ):
     def clone(self):
         return LayerLocatorFilter( data = self.data )
 
-    def name( self ):
-        return 'AusMap'
+    def name(self):
+        return PLUGIN_NAME
 
-    def displayName( self ):
-        return self.tr( 'AusMap' )
+    def displayName(self):
+        return PLUGIN_NAME
 
-    def priority( self ):
+    def priority(self):
         return QgsLocatorFilter.Low
 
-    def prefix( self ):
+    def prefix(self):
         return 'ausmap'
 
-    def flags( self ):
+    def flags(self):
         return QgsLocatorFilter.FlagFast
 
     def fetchResults( self, query, context, feedback ):

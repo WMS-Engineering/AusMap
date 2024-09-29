@@ -19,7 +19,7 @@ class QlrFile():
         result = []
         groups = self.doc.elementsByTagName("layer-tree-group")
         i = 0
-        while i<groups.count():
+        while i < groups.count():
             group = groups.at(i)
             group_name = None
             if group.toElement().hasAttribute("name") and group.toElement().attribute("name") != '':
@@ -34,7 +34,7 @@ class QlrFile():
         result = []
         child_nodes = group_node.childNodes()
         i = 0
-        while i<child_nodes.count():
+        while i < child_nodes.count():
             node = child_nodes.at(i)
             if node.nodeName() == "layer-tree-layer":
                 layer_name = node.toElement().attribute("name")
@@ -85,7 +85,7 @@ class QlrFile():
             idNode = node.namedItem(key)
             if idNode is not None:
                 child = idNode.firstChild().toText().data()
-                # layer found
+                # Layer found
                 if child == value:
                     return node
             i += 1
