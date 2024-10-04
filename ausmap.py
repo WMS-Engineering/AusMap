@@ -24,7 +24,7 @@ from PyQt5.QtWidgets import QAction, QMenu, QPushButton
 
 
 from .config import Config
-from .layerlocatorfilter import LayerLocatorFilter
+from .layer_locator_filter import LayerLocatorFilter
 from .utils.constants import ABOUT_FILE_URL, CONFIG_FILE_URL, PLUGIN_NAME
 from .utils import log_message
 
@@ -56,11 +56,7 @@ class AusMap:
         self.settings.setValue('cache_path', cache_path)
         self.settings.setValue('ausmap_qlr', CONFIG_FILE_URL)
 
-        self.layer_locator_filter = LayerLocatorFilter()
-        self.iface.registerLocatorFilter(self.layer_locator_filter)
-
         self.error_menu = None
-
 
         # Initialize locale - this is maybe not needed 
         locale = QSettings().value('locale/userLocale') # en_AU
@@ -111,8 +107,6 @@ class AusMap:
         self.menu.setObjectName(PLUGIN_NAME)
         self.menu.setTitle(PLUGIN_NAME)
 
-        searchable_layers = []
-
         if self.error_menu:
             self.menu.addAction(self.error_menu)
 
@@ -120,6 +114,7 @@ class AusMap:
         self.category_menus = []
         helper = lambda _id: lambda: self.open_ausmap_node(_id)
         local_helper = lambda _id: lambda: self.open_local_node(_id)
+        layer_action_map = {} # Used for the locator filter
 
         for category_list in self.category_lists:
             list_categorymenus = []
@@ -127,30 +122,30 @@ class AusMap:
                 category_menu = QMenu()
                 category_menu.setTitle(category['name'])
                 for selectable in category['selectables']:
-                    q_action = QAction(
+                    action = QAction(
                         selectable['name'], self.iface.mainWindow()
                     )
                     if selectable['source'] == 'ausmap':
-                        q_action.triggered.connect(
+                        action.triggered.connect(
                             helper(selectable['id'])
                         )
                     else:
-                        q_action.triggered.connect(
+                        action.triggered.connect(
                             local_helper(selectable['id'])
                         )
-                    category_menu.addAction(q_action)
-                    searchable_layers.append(
-                        {
-                            'title': selectable['name'],
-                            'category': category['name'],
-                            'action': q_action
-                        }
-                    )
+                    category_menu.addAction(action)
+
+                    layer_action_map[selectable['name']] = action
+                  
                 list_categorymenus.append(category_menu)
                 self.category_menus.append(category_menu)
             for category_menukuf in list_categorymenus:
                 self.menu.addMenu(category_menukuf)
             self.menu.addSeparator()
+
+        
+        self.layer_locator_filter = LayerLocatorFilter(self.iface, layer_action_map)
+        self.iface.registerLocatorFilter(self.layer_locator_filter)
 
         # About menu item
         icon_about_path = os.path.join(os.path.dirname(__file__), 'assets/icon_about.png')
@@ -219,6 +214,7 @@ class AusMap:
 
     def unload(self):
         self.iface.unregisterOptionsWidgetFactory(self.options_factory)
+        self.iface.deregisterLocatorFilter(self.layer_locator_filter)
         self.clearMenu()
 
     def reload_menu(self):
