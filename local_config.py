@@ -59,7 +59,7 @@ class LocalConfig:
         return self.categories
 
     def get_maplayer_node(self, id):
-         return self.qlr_file.get_maplayer_node(id)
+        return self.qlr_file.get_maplayer_node(id)
 
 
 
