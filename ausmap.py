@@ -14,7 +14,7 @@ from qgis.core import QgsProject, QgsSettings, QgsVectorLayer
 from qgis.gui import QgsMessageBar
 
 from .config import Config
-from .constants import ABOUT_FILE_URL, CONFIG_FILE_URL, PLUGIN_NAME
+from .constants import ABOUT_FILE_URL, PLUGIN_NAME, QLR_URL
 from .layer_locator_filter import LayerLocatorFilter
 from .settings import AusMapOptionsFactory
 
@@ -44,7 +44,7 @@ class AusMap:
             os.makedirs(cache_path)
 
         self.settings.setValue("cache_path", cache_path)
-        self.settings.setValue("ausmap_qlr", CONFIG_FILE_URL)
+        self.settings.setValue("ausmap_qlr", QLR_URL)
 
         self.error_menu = None
 
