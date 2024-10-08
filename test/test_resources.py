@@ -8,14 +8,13 @@
 
 """
 
-__author__ = 'admin@watermodelling.com.au'
-__date__ = '2017-09-10'
-__copyright__ = 'Copyright 2017, Water Modelling Solutions'
+__author__ = "admin@watermodelling.com.au"
+__date__ = "2017-09-10"
+__copyright__ = "Copyright 2017, Water Modelling Solutions"
 
 import unittest
 
 from PyQt5.QtGui import QIcon
-
 
 
 class AusMapDialogTest(unittest.TestCase):
@@ -31,14 +30,12 @@ class AusMapDialogTest(unittest.TestCase):
 
     def test_icon_png(self):
         """Test we can click OK."""
-        path = ':/plugins/AusMap/icon.png'
+        path = ":/plugins/AusMap/icon.png"
         icon = QIcon(path)
         self.assertFalse(icon.isNull())
+
 
 if __name__ == "__main__":
     suite = unittest.makeSuite(AusMapResourcesTest)
     runner = unittest.TextTestRunner(verbosity=2)
     runner.run(suite)
-
-
-

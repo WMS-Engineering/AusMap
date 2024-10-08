@@ -8,17 +8,16 @@
 
 """
 
-__author__ = 'admin@watermodelling.com.au'
-__date__ = '2017-09-10'
-__copyright__ = 'Copyright 2017, Water Modelling Solutions'
+__author__ = "admin@watermodelling.com.au"
+__date__ = "2017-09-10"
+__copyright__ = "Copyright 2017, Water Modelling Solutions"
 
 import unittest
 
-from PyQt5.QtGui import QDialogButtonBox, QDialog
-
 from aus_map_dialog import AusMapDialog
-
+from PyQt5.QtGui import QDialog, QDialogButtonBox
 from utilities import get_qgis_app
+
 QGIS_APP = get_qgis_app()
 
 
@@ -48,8 +47,8 @@ class AusMapDialogTest(unittest.TestCase):
         result = self.dialog.result()
         self.assertEqual(result, QDialog.Rejected)
 
+
 if __name__ == "__main__":
     suite = unittest.makeSuite(AusMapDialogTest)
     runner = unittest.TextTestRunner(verbosity=2)
     runner.run(suite)
-

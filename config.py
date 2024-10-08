@@ -1,8 +1,8 @@
+from PyQt5 import QtCore
+
 from .ausmap_config import AusMapConfig
 from .local_config import LocalConfig
-from PyQt5 import (
-    QtCore
-)
+
 
 class Config(QtCore.QObject):
 
@@ -14,7 +14,9 @@ class Config(QtCore.QObject):
         self.settings = settings
         self.ausmap_config = AusMapConfig(settings)
         self.ausmap_config.kf_con_error.connect(self.propagate_kf_con_error)
-        self.ausmap_config.kf_settings_warning.connect(self.propagate_kf_settings_warning)
+        self.ausmap_config.kf_settings_warning.connect(
+            self.propagate_kf_settings_warning
+        )
 
         self.local_config = LocalConfig(settings)
 

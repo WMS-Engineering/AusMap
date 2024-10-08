@@ -1,7 +1,6 @@
 <RCC>
     <qresource prefix="/plugins/AusMap-master" >
         <file>icon.png</file>
-		<file>settings-cog.png</file>
         <file>icon_about.png</file>
     </qresource>
 </RCC>
