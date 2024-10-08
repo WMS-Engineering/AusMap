@@ -31,7 +31,7 @@ tags=dem, flood, google, hydraulics, hydrology, land cover, layers, vector, web,
 
 category=Web
 
-icon=assets/icon.png
+icon=img/icon.png
 
 # experimental flag
 experimental=False

@@ -1,10 +1,9 @@
-from qgis.core import *
-from PyQt5 import QtXml
-from PyQt5.QtCore import *
 import urllib.parse as urlparse
 
+from PyQt5 import QtXml
 
-class QlrFile():
+
+class QlrFile:
 
     def __init__(self, xml):
         try:
@@ -14,7 +13,7 @@ class QlrFile():
 
         except Exception as e:
             pass
-            
+
     def get_groups_with_layers(self):
         result = []
         groups = self.doc.elementsByTagName("layer-tree-group")
@@ -22,11 +21,14 @@ class QlrFile():
         while i < groups.count():
             group = groups.at(i)
             group_name = None
-            if group.toElement().hasAttribute("name") and group.toElement().attribute("name") != '':
+            if (
+                group.toElement().hasAttribute("name")
+                and group.toElement().attribute("name") != ""
+            ):
                 group_name = group.toElement().attribute("name")
                 layers = self.get_group_layers(group)
                 if layers and group_name:
-                    result.append({'name': group_name, 'layers': layers})
+                    result.append({"name": group_name, "layers": layers})
             i += 1
         return result
 
@@ -43,39 +45,49 @@ class QlrFile():
                 if maplayer_node:
                     service = self.get_maplayer_service(maplayer_node)
                     if service:
-                        result.append({'name': layer_name, 'id': layer_id, 'service': service})
+                        result.append(
+                            {
+                                "name": layer_name,
+                                "id": layer_id,
+                                "service": service,
+                            }
+                        )
             i += 1
         return result
-    
+
     def get_maplayer_service(self, maplayer_node):
-        service = 'other'
+        service = "other"
         datasource_node = None
-        datasource_nodes = maplayer_node.toElement().elementsByTagName('datasource')
+        datasource_nodes = maplayer_node.toElement().elementsByTagName(
+            "datasource"
+        )
         if datasource_nodes.count() == 1:
-            datasource_node = datasource_nodes.at(0) 
+            datasource_node = datasource_nodes.at(0)
             datasource = datasource_node.toElement().text()
             url_part = None
-            datasource_parts = datasource.split('&') + datasource.split(' ')
+            datasource_parts = datasource.split("&") + datasource.split(" ")
             for part in datasource_parts:
-                if part.startswith('url'):
+                if part.startswith("url"):
                     url_part = part
             if url_part:
                 if url_part:
                     url = url_part[5:]
                     url = urlparse.unquote(url)
-                    url_params = dict(urlparse.parse_qsl(urlparse.urlsplit(url).query))
+                    url_params = dict(
+                        urlparse.parse_qsl(urlparse.urlsplit(url).query)
+                    )
                     try:
-                        if url_params['servicename']:
-                            service = url_params['servicename']
+                        if url_params["servicename"]:
+                            service = url_params["servicename"]
                     except:
-                        service = 'unknown'
+                        service = "unknown"
         return service
 
     def get_maplayer_node(self, id):
         node = self.get_first_child_by_tag_name_value(
-            self.doc.documentElement(), 'maplayer', 'id', id
+            self.doc.documentElement(), "maplayer", "id", id
         )
-        return node 
+        return node
 
     def get_first_child_by_tag_name_value(self, elt, tagName, key, value):
         nodes = elt.elementsByTagName(tagName)
