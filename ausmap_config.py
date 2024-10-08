@@ -1,12 +1,13 @@
 import codecs
 import json
 import os.path
+from datetime import datetime
 from urllib.request import urlopen
 
 from PyQt5.QtCore import QFile, QIODevice, QObject, pyqtSignal
-from PyQt5.QtWidgets import QAction
-from qgis.core import QgsMessageLog
+from qgis.core import Qgis, QgsMessageLog
 
+from .constants import FILE_MAX_AGE
 from .qlr_file import QlrFile
 
 
@@ -23,7 +24,6 @@ class AusMapConfig(QObject):
         self.cached_ausmap_qlr_file = (
             self.settings.value("cache_path") + "ausmap_data.qlr"
         )
-
         self.qlr_file = self.get_qlr_file()
         self.categories = self.get_ausmap_categories()
 
@@ -53,83 +53,45 @@ class AusMapConfig(QObject):
 
         return categories
 
-    def user_has_access(self, service_name):
-        return service_name in self.allowed_kf_services["any_type"]["services"]
-
-    def get_custom_categories(self):
-        return []
-
     def get_qlr_file(self):
-        config = None
-        load_remote_config = True
-
         local_file_exists = os.path.exists(self.cached_ausmap_qlr_file)
+        try:
+            if local_file_exists:
 
-        if load_remote_config:
-            try:
-                config = self.get_remote_qlr()
-            except Exception as e:
-                QgsMessageLog.logMessage(
-                    "No contact to the configuration at "
-                    + self.settings.value("ausmap_qlr")
-                    + ". Exception: "
-                    + str(e)
+                local_file_time = datetime.fromtimestamp(
+                    os.path.getmtime(self.cached_ausmap_qlr_file)
                 )
-                if not local_file_exists:
-                    self.error_menu = QAction(
-                        self.tr("No contact to AusMap"),
-                        self.iface.mainWindow(),
-                    )
-                return
-            self.write_cached_kf_qlr(config)
-        if config:
-            return QlrFile(config)
-        else:
-            return None
+                use_local = local_file_time > datetime.now() - FILE_MAX_AGE
+                if use_local:
+                    # Skip requesting remote qlr
+                    return self.get_cached_qlr()
 
-    def read_cached_kf_qlr(self):
+            # Fetch remote QLR if local QLR is outdated or missing
+            remote_ausmap_qlr = self.get_remote_qlr()
+            self.write_local_qlr(remote_ausmap_qlr)
+
+            return QlrFile(remote_ausmap_qlr)
+
+        except Exception as error:
+            QgsMessageLog.logMessage(
+                f"An unexpected error occurred while fetching QLR file: {str(error)}",
+                level=Qgis.Critical,
+            )
+
+    def get_cached_qlr(self):
         f = QFile(self.cached_ausmap_qlr_file)
         f.open(QIODevice.ReadOnly)
-        return f.readAll()
+        content = f.readAll()
+        return QlrFile(content)
 
     def get_remote_qlr(self):
-        # response = urlopen(self.settings.value('ausmap_qlr'))
-        # content = response.read()
-        # content = unicode(content, 'utf-8')
-
-        # Open local QLR file instead of reading the remote one
-        with open(self.settings.value("ausmap_qlr"), "r") as reader:
-            content = reader.read()
-
+        response = urlopen(self.settings.value("ausmap_qlr"))
+        content = response.read().decode("utf-8")
         return content
 
-    def write_cached_kf_qlr(self, contents):
-        """We only call this function IF we have a new version downloaded"""
-        # Remove old versions file
+    def write_local_qlr(self, content):
         if os.path.exists(self.cached_ausmap_qlr_file):
             os.remove(self.cached_ausmap_qlr_file)
 
-        # Write new version
         with codecs.open(self.cached_ausmap_qlr_file, "w", "utf-8") as f:
-            f.write(contents)
-
-    def debug_write_allowed_services(self):
-        try:
-            debug_filename = (
-                self.settings.value("cache_path")
-                + self.settings.value("username")
-                + ".txt"
-            )
-            if os.path.exists(debug_filename):
-                os.remove(debug_filename)
-            with codecs.open(debug_filename, "w", "utf-8") as f:
-                f.write(
-                    json.dumps(
-                        self.allowed_kf_services["any_type"]["services"],
-                        indent=2,
-                    )
-                    .replace("[", "")
-                    .replace("]", "")
-                )
-        except Exception as e:
-            pass
+            f.write(content)
