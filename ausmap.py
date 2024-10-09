@@ -135,16 +135,16 @@ class AusMap:
         webbrowser.open(ABOUT_FILE_URL)
 
     def unload(self):
-        if self.options_factory:
-            self.iface.unregisterOptionsWidgetFactory(self.options_factory)
-            self.options_factory = None
-        if self.layer_locator_filter:
-            self.iface.deregisterLocatorFilter(self.layer_locator_filter)
-            self.layer_locator_filter = None
+        self.iface.unregisterOptionsWidgetFactory(self.options_factory)
+        self.iface.deregisterLocatorFilter(self.layer_locator_filter)
+        self.options_factory = None
+        self.layer_locator_filter = None
         self.clear_menu()
 
     def reload_menu(self):
         self.clear_menu()
+        self.iface.deregisterLocatorFilter(self.layer_locator_filter)
+        self.layer_locator_filter = None
         self.create_menu()
 
     def clear_menu(self):
