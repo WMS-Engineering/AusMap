@@ -13,50 +13,46 @@ class LocalConfig:
 
     def __init__(self, settings):
         self.settings = settings
-        self.reload()
-
-    def reload(self):
+        self.qlr_file = None
         self.categories = []
-        self.local_qlr_file = self.settings.value("custom_qlr_file")
-        if self.local_qlr_file:
-            self.qlr_file = self.get_local_qlr_file()
-            if self.qlr_file:
-                self.categories = self.get_local_categories()
+        self.load()
 
-    def get_local_qlr_file(self):
-        config = None
-        if os.path.exists(self.local_qlr_file):
-            config = self.read_local_qlr()
-        if config:
-            return QlrFile(config)
-        else:
-            return None
+    def load(self):
+        self.local_qlr_file_path = self.settings.value("custom_qlr_file")
+        if self.local_qlr_file_path and os.path.exists(
+            self.local_qlr_file_path
+        ):
+            self.qlr_file = self._load_qlr_file()
+            self.categories = (
+                self._parse_local_categories() if self.qlr_file else []
+            )
 
-    def read_local_qlr(self):
-        f = QFile(self.local_qlr_file)
+    def _load_qlr_file(self):
+        """Read and load the QLR file from the local path."""
+        f = QFile(self.local_qlr_file_path)
         f.open(QIODevice.ReadOnly)
-        return f.readAll()
+        return QlrFile(f.readAll())
 
-    def get_local_categories(self):
-        local_categories = []
-        groups_with_layers = self.qlr_file.get_groups_with_layers()
-        for group in groups_with_layers:
-            local_category = {"name": group["name"], "selectables": []}
-            for layer in group["layers"]:
-                local_category["selectables"].append(
+    def _parse_local_categories(self):
+        """Parse categories and layers from the loaded QLR file."""
+        return [
+            {
+                "name": group["name"],
+                "selectables": [
                     {
                         "type": "layer",
                         "source": "local",
                         "name": layer["name"],
                         "id": layer["id"],
                     }
-                )
-            if len(local_category["selectables"]) > 0:
-                local_categories.append(local_category)
-        return local_categories
+                    for layer in group["layers"]
+                ],
+            }
+            for group in self.qlr_file.get_groups_with_layers()
+        ]
 
     def get_categories(self):
         return self.categories
 
-    def get_maplayer_node(self, id):
-        return self.qlr_file.get_maplayer_node(id)
+    def get_maplayer_node(self, layer_id):
+        return self.qlr_file.get_maplayer_node(layer_id)
