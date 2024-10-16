@@ -1,44 +1,26 @@
-# This file contains metadata for your plugin. Since 
-# version 2.0 of QGIS this is the proper way to supply 
-# information about a plugin. The old method of 
-# embedding metadata in __init__.py will 
-# is no longer supported since version 2.0.
-
-# This file should be included when you package your plugin.# Mandatory items:
-
-[general]
 name=AusMap
 qgisMinimumVersion=3.0
-description=AusMap is the essential plugin for Australian QGIS users, providing easy access to free Government Datasets and other web services.
-version=1.1
-about=AusMap gives quick access to a variety of feature sets and basemap layers provided by Geoscience Australia and other government agencies. There are also some additional layers provided such as Open Street Map. From the AusMap menu, simply select a desired layer and it will be added to the project with styling and labelling applied. The layers are provided via WMS, WFS, WCS and Tile Server which all require an active internet connection.
+description=AusMap is a plugin for visualising publicly available Australian geographic data. 
+about=AusMap gives quick access to a variety of feature sets and map layers provided by Geoscience Australia, the Google Maps Platform and OpenStreetMap. Selecting a desired layer from the AusMap menu will add it to the map canvas with styling and labelling applied. The layers are provided via WMS, WFS, WMTS and XYZ services, which all require an active internet connection.
+version=1.2
 
+author=WMS Engineering
+email=tools@wmseng.com.au
 
-homepage=www.watermodelling.com.au/tools/ausmap
-tracker=https://github.com/WaterModellingSolutions/AusMap/issues
-repository=https://github.com/WaterModellingSolutions/AusMap
-# End of mandatory metadata
+changelog=- Updated links to Geoscience Australia web services
+	- Additional map layers from Geoscience Australia included
+	- AusMap settings moved to a page in the options dialog
+	- Added option to extend AusMap with user's own map layers (in .qlr format)
+	- Fixed locator filter
+	- User manual included
+	- Fixed issue with AusMap settings dialog overwriting QGIS > Preferences on Mac
 
-# Recommended items:
-
-# Uncomment the following line and add your changelog:
-changelog=- Increased minimum QGIS supported version to 3.4
-	- Import AusMap layers by typing in keywords in QGIS’ search window in the bottom left corner
-	- Extend AusMap by importing your own layers (supported file types are: *asc, *.shp, *.tif, *.tiff, *.jpg, *.jpeg, *.kml, *.mif, *.tab, *.png and*.qlr)
-
-# Tags are comma separated with spaces allowed
-tags=dem, flood, google, hydraulics, hydrology, land cover, layers, vector, web, webservice, wfs, wms
-
-category=Web
+homepage=
+repository=https://github.com/WMS-Engineering/AusMap
+tracker=https://github.com/WMS-Engineering/AusMap/issues
 
 icon=img/icon.png
 
-# experimental flag
 experimental=False
-
-# deprecated flag (applies to the whole plugin, not just a single version)
 deprecated=False
-
-author=Water Modelling Solutions
-email=admin@watermodelling.com.au
-
+tags=dem,flood,google,hydraulics,hydrology,land cover,layers,vector,web,webservice,wfs,wms,imagery,basemap,australia
