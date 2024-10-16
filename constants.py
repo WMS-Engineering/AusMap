@@ -6,7 +6,7 @@ QLR_URL = (
     "https://raw.githubusercontent.com/WMS-Engineering/AusMap/main/ausmap.qlr"
 )
 
-ABOUT_FILE_URL = (
+USER_MANUAL = (
     "https://wmseng.com.au/"  # TODO: Add tool description on WMS website
 )
 

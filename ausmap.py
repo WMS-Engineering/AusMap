@@ -1,13 +1,13 @@
 import os.path
 import webbrowser
 
-from PyQt5.QtCore import QFileInfo
-from PyQt5.QtGui import QIcon
+from PyQt5.QtCore import QFileInfo, QUrl
+from PyQt5.QtGui import QDesktopServices, QIcon
 from PyQt5.QtWidgets import QAction, QMenu
-from qgis.core import QgsProject, QgsSettings, QgsVectorLayer
+from qgis.core import QgsProject, QgsSettings
 
 from .config import Config
-from .constants import ABOUT_FILE_URL, PLUGIN_NAME, QLR_URL
+from .constants import USER_MANUAL, PLUGIN_NAME, QLR_URL
 from .layer_locator_filter import LayerLocatorFilter
 from .settings import AusMapOptionsFactory
 
@@ -37,6 +37,17 @@ class AusMap:
         self.options_factory = AusMapOptionsFactory(self)
         self.options_factory.setTitle(PLUGIN_NAME)
         self.iface.registerOptionsWidgetFactory(self.options_factory)
+
+        # Action in Help menu
+        self.help_action = QAction(
+            QIcon(
+                os.path.dirname(os.path.realpath(__file__)) + "/img/icon.png"
+            ),
+            PLUGIN_NAME,
+            self.iface.mainWindow(),
+        )
+        self.iface.pluginHelpMenu().addAction(self.help_action)
+        self.help_action.triggered.connect(self.show_help)
 
         self.create_menu()
 
@@ -116,27 +127,17 @@ class AusMap:
         else:
             return None
 
-    def custom_layer_dialog(self):
-        custom_file = self.settings.value("custom_qlr_file")
-
-        file_name, file_extension = os.path.splitext(custom_file)
-        if ".qlr" not in file_extension:
-            file_name_split = file_name.split("/")
-            final_file_name = file_name_split[len(file_name_split) - 1]
-            vector_layer_extensions = [".kml", ".mid", ".mif", ".shp"]
-            raster_layer_extensions = [".asc", ".jpg", ".png", ".tif"]
-            if file_extension in vector_layer_extensions:
-                vlayer = QgsVectorLayer(custom_file, final_file_name, "ogr")
-                QgsProject.instance().addMapLayer(vlayer)
-            elif file_extension in raster_layer_extensions:
-                self.iface.addRasterLayer(custom_file, final_file_name)
-
     def about_plugin(self):
-        webbrowser.open(ABOUT_FILE_URL)
+        webbrowser.open(USER_MANUAL)
+
+    def show_help(self):
+        QDesktopServices.openUrl(QUrl(USER_MANUAL))
 
     def unload(self):
         self.iface.unregisterOptionsWidgetFactory(self.options_factory)
         self.iface.deregisterLocatorFilter(self.layer_locator_filter)
+        self.iface.pluginHelpMenu().removeAction(self.help_action)
+        del self.help_action
         self.options_factory = None
         self.layer_locator_filter = None
         self.clear_menu()
