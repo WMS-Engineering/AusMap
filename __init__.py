@@ -1,12 +1,9 @@
-"""
-This script initializes the plugin, making it known to QGIS.
-"""
-
 from .ausmap import AusMap
 
 
 def classFactory(iface):
     """
+    Initialize the plugin
     :param iface: A QGIS interface instance.
     :type iface: QgsInterface
     """
