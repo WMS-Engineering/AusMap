@@ -1,3 +1,4 @@
+[general]
 name=AusMap
 qgisMinimumVersion=3.0
 description=AusMap is a plugin for visualising publicly available Australian geographic data. 
@@ -15,7 +16,7 @@ changelog=- Updated links to Geoscience Australia web services
 	- User manual included
 	- Fixed issue with AusMap settings dialog overwriting QGIS > Preferences on Mac
 
-homepage=
+homepage=https://wmseng.com.au/
 repository=https://github.com/WMS-Engineering/AusMap
 tracker=https://github.com/WMS-Engineering/AusMap/issues
 
