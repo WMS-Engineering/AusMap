@@ -116,21 +116,6 @@ class AusMap:
         else:
             return None
 
-    def custom_layer_dialog(self):
-        custom_file = self.settings.value("custom_qlr_file")
-
-        file_name, file_extension = os.path.splitext(custom_file)
-        if ".qlr" not in file_extension:
-            file_name_split = file_name.split("/")
-            final_file_name = file_name_split[len(file_name_split) - 1]
-            vector_layer_extensions = [".kml", ".mid", ".mif", ".shp"]
-            raster_layer_extensions = [".asc", ".jpg", ".png", ".tif"]
-            if file_extension in vector_layer_extensions:
-                vlayer = QgsVectorLayer(custom_file, final_file_name, "ogr")
-                QgsProject.instance().addMapLayer(vlayer)
-            elif file_extension in raster_layer_extensions:
-                self.iface.addRasterLayer(custom_file, final_file_name)
-
     def about_plugin(self):
         webbrowser.open(ABOUT_FILE_URL)
 
