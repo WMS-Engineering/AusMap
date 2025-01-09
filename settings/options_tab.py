@@ -42,6 +42,9 @@ class ConfigOptionsPage(QgsOptionsPageWidget, DESIGNER):
 
         self.load_settings()
 
+    def helpKey(self):
+        return "settings"
+
     def load_settings(self):
         """Load the saved settings"""
         settings = QgsSettings()

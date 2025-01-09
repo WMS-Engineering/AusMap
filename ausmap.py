@@ -32,6 +32,13 @@ class AusMap:
 
         self.settings.setValue("cache_path", cache_path)
         self.settings.setValue("ausmap_qlr", QLR_URL)
+        self.settings.setValue(
+            "help/helpSearchPath",
+            [
+                "https://docs.qgis.org/$qgis_short_version/$qgis_locale/docs/user_manual/",
+                "https://wms-engineering.github.io/AusMap/",
+            ],
+        )
 
     def initGui(self):
         self.options_factory = AusMapOptionsFactory(self)
