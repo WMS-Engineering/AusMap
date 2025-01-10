@@ -4,7 +4,7 @@ import webbrowser
 from PyQt5.QtCore import QFileInfo
 from PyQt5.QtGui import QIcon
 from PyQt5.QtWidgets import QAction, QMenu
-from qgis.core import QgsProject, QgsSettings, QgsVectorLayer
+from qgis.core import QgsProject, QgsSettings
 
 from .config import Config
 from .constants import ABOUT_FILE_URL, PLUGIN_NAME, QLR_URL
