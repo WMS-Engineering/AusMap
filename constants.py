@@ -6,8 +6,6 @@ QLR_URL = (
     "https://raw.githubusercontent.com/WMS-Engineering/AusMap/main/ausmap.qlr"
 )
 
-ABOUT_FILE_URL = (
-    "https://wmseng.com.au/"  # TODO: Add tool description on WMS website
-)
+ABOUT_FILE_URL = "https://wms-engineering.github.io/AusMap/"
 
 FILE_MAX_AGE = datetime.timedelta(hours=72)
