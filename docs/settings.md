@@ -32,4 +32,3 @@ The additional map layers will now appear in their respective groups inside the 
 ![Custom layers in menu](/assets/images/new_layers_in_menu.png)
 
 To remove the layers from the menu, go back to the options dialog, delete the file path and save.
-
