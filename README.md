@@ -8,7 +8,7 @@ AusMap is a QGIS plugin for visualising publicly available Australian geographic
 
 - Access to a wide range of Australian geographic data from Geoscience Australia
 - Seamless integration with QGIS, allowing easy search and display of map layers
-- Extend the plugin with a custom layer defiition file (.QLR)
+- Extend the plugin with a custom Layer Definition File (.QLR)
 
 ## Installation
 
