@@ -34,8 +34,8 @@ permalink: /sources/
 
 ### Digital Elevation Models (DEMs)
 
-[LiDAR 5 m](https://gaservices.ga.gov.au/site_9/rest/services/DEM_LiDAR_5m/MapServer)  
-[SRTM 1 Sec Hydrologically Enforced](https://gaservices.ga.gov.au/site_9/rest/services/DEM_SRTM_1Second_Hydro_Enforced/MapServer)  
+[LiDAR 5 m](https://services.ga.gov.au/gis/rest/services/DEM_LiDAR_5m_2025/MapServer)  
+[SRTM 1 Sec Hydrologically Enforced](https://services.ga.gov.au/gis/rest/services/DEM_SRTM_1Second_Hydro_Enforced_2024/MapServer)  
 
 ### Emergency and Health Services
 
@@ -44,7 +44,7 @@ permalink: /sources/
 
 ### Infrastructure Networks and Utilities
 
-[Foundation Electricity Infrastructure](https://services.ga.gov.au/gis/rest/services/Foundation_Electricity_Infrastructure/MapServer)  
+[National Electricity Infrastructure](https://services.ga.gov.au/gis/rest/services/National_Electricity_Infrastructure/MapServer)  
 [Dynamic National Map Culture and Infrastructure](https://services.ga.gov.au/gis/rest/services/NM_Culture_and_Infrastructure/MapServer)  
 [Telephone Exchanges](https://services.ga.gov.au/gis/rest/services/Telephone_Exchanges/MapServer)  
 [Waste Management Facilities](https://services.ga.gov.au/gis/rest/services/Waste_Management_Facilities/MapServer)  
