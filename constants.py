@@ -7,5 +7,3 @@ QLR_URL = (
 )
 
 ABOUT_FILE_URL = "https://wms-engineering.github.io/AusMap/"
-
-FILE_MAX_AGE = datetime.timedelta(hours=72)
