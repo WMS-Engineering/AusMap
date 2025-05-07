@@ -1,12 +1,11 @@
 import codecs
 import os.path
-from datetime import datetime
+from datetime import datetime, timezone
 from urllib.request import urlopen
 
 from PyQt5.QtCore import QFile, QIODevice, QObject
 from qgis.core import Qgis, QgsMessageLog
 
-from .constants import FILE_MAX_AGE
 from .qlr_file import QlrFile
 
 
@@ -52,15 +51,25 @@ class AusMapConfig(QObject):
 
     def _get_qlr_file(self):
 
-        if os.path.exists(self.cached_ausmap_qlr_file):
-            # Check if the cached file is recent enough to use
-            local_file_time = datetime.fromtimestamp(
-                os.path.getmtime(self.cached_ausmap_qlr_file)
+        # Check the last modified date of the remote QLR file
+        with open(
+            os.path.join(os.path.dirname(__file__), "qlr_last_modified.txt"),
+            "r",
+        ) as last_modified_file:
+            last_modified_timestamp = last_modified_file.readline().rstrip()
+            last_modified_remote_qlr = datetime.strptime(
+                last_modified_timestamp, "%Y-%m-%d %H:%M:%S%z"
             )
-            if local_file_time > datetime.now() - FILE_MAX_AGE:
+
+        # Check if the local QLR file is up to date
+        if os.path.exists(self.cached_ausmap_qlr_file):
+            local_file_time = datetime.fromtimestamp(
+                os.path.getmtime(self.cached_ausmap_qlr_file), tz=timezone.utc
+            )
+            if local_file_time > last_modified_remote_qlr:
                 return self._read_cached_qlr()
 
-        # Fetch remote QLR and cache it
+        # Fetch remote QLR and save it locally
         try:
             remote_qlr_content = self._get_remote_qlr()
             self._write_local_qlr(remote_qlr_content)
