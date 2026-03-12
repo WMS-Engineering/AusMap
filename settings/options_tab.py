@@ -1,7 +1,7 @@
 import os
 
-from PyQt5 import uic
-from PyQt5.QtGui import QIcon
+from qgis.PyQt import uic
+from qgis.PyQt.QtGui import QIcon
 from qgis.core import QgsSettings
 from qgis.gui import (
     QgsFileWidget,

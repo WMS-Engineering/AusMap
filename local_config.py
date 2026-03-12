@@ -1,6 +1,6 @@
 import os
 
-from PyQt5.QtCore import QFile, QIODevice
+from qgis.PyQt.QtCore import QFile, QIODevice
 
 from .qlr_file import QlrFile
 

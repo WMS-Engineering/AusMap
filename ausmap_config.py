@@ -3,7 +3,7 @@ import os.path
 from datetime import datetime, timezone
 from urllib.request import urlopen
 
-from PyQt5.QtCore import QFile, QIODevice, QObject
+from qgis.PyQt.QtCore import QFile, QIODevice, QObject
 from qgis.core import Qgis, QgsMessageLog
 
 from .qlr_file import QlrFile
@@ -81,7 +81,7 @@ class AusMapConfig(QObject):
                     "An unexpected error occurred while"
                     f"fetching QLR file: {str(error)}"
                 ),
-                level=Qgis.Critical,
+                level=Qgis.MessageLevel.Critical,
             )
 
     def _read_cached_qlr(self):
