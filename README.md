@@ -14,7 +14,7 @@ AusMap is a QGIS plugin for visualising publicly available Australian geographic
 
 ### Requirements
 
-- QGIS version 3.18 or higher
+- QGIS version 3.18 or higher, including QGIS 4.x
 - Internet access for fetching online map layer web services
 
 ### Installation through QGIS

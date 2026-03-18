@@ -1,4 +1,4 @@
-from PyQt5 import QtCore
+from qgis.PyQt import QtCore
 
 from .ausmap_config import AusMapConfig
 from .local_config import LocalConfig

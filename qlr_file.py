@@ -1,6 +1,6 @@
 import urllib.parse as urlparse
 
-from PyQt5 import QtXml
+from qgis.PyQt import QtXml
 
 
 class QlrFile:

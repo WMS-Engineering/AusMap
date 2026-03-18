@@ -3,7 +3,7 @@ import os.path
 from datetime import datetime, timezone
 from urllib.request import urlopen
 
-from PyQt5.QtCore import QFile, QIODevice, QObject
+from qgis.PyQt.QtCore import QFile, QIODevice, QObject
 from qgis.core import Qgis, QgsMessageLog
 
 from .qlr_file import QlrFile
@@ -81,12 +81,12 @@ class AusMapConfig(QObject):
                     "An unexpected error occurred while"
                     f"fetching QLR file: {str(error)}"
                 ),
-                level=Qgis.Critical,
+                level=Qgis.MessageLevel.Critical,
             )
 
     def _read_cached_qlr(self):
         f = QFile(self.cached_ausmap_qlr_file)
-        f.open(QIODevice.ReadOnly)
+        f.open(self._read_only_mode())
         content = f.readAll()
         return QlrFile(content)
 
@@ -99,3 +99,7 @@ class AusMapConfig(QObject):
             os.remove(self.cached_ausmap_qlr_file)
         with codecs.open(self.cached_ausmap_qlr_file, "w", "utf-8") as f:
             f.write(content)
+
+    @staticmethod
+    def _read_only_mode():
+        return getattr(QIODevice, "ReadOnly", QIODevice.OpenModeFlag.ReadOnly)

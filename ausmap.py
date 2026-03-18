@@ -1,9 +1,9 @@
 import os.path
 import webbrowser
 
-from PyQt5.QtCore import QFileInfo
-from PyQt5.QtGui import QIcon
-from PyQt5.QtWidgets import QAction, QMenu
+from qgis.PyQt.QtCore import QFileInfo
+from qgis.PyQt.QtGui import QIcon
+from qgis.PyQt.QtWidgets import QAction, QMenu
 from qgis.core import QgsProject, QgsSettings
 
 from .config import Config

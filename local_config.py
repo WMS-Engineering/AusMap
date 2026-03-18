@@ -1,6 +1,6 @@
 import os
 
-from PyQt5.QtCore import QFile, QIODevice
+from qgis.PyQt.QtCore import QFile, QIODevice
 
 from .qlr_file import QlrFile
 
@@ -30,7 +30,7 @@ class LocalConfig:
     def _load_qlr_file(self):
         """Read and load the QLR file from the local path."""
         f = QFile(self.local_qlr_file_path)
-        f.open(QIODevice.ReadOnly)
+        f.open(self._read_only_mode())
         return QlrFile(f.readAll())
 
     def _parse_local_categories(self):
@@ -56,3 +56,7 @@ class LocalConfig:
 
     def get_maplayer_node(self, layer_id):
         return self.qlr_file.get_maplayer_node(layer_id)
+
+    @staticmethod
+    def _read_only_mode():
+        return getattr(QIODevice, "ReadOnly", QIODevice.OpenModeFlag.ReadOnly)
